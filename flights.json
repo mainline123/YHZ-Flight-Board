@@ -1,13 +1,26 @@
 {
   "arrivals": [
-    { "time": "02:17", "flight": "AC 1178", "origin": "Sydney (YQY)", "status": "Landed" },
-    { "time": "02:30", "flight": "AC 2016", "origin": "Toronto (YYZ)", "status": "On Time" },
-    { "time": "10:52", "flight": "WS 70", "origin": "Amsterdam (AMS)", "status": "On Time" }
+    { "time": "04:25", "flight": "WEN 8955", "origin": "Toronto (YYZ)", "status": "Landed" },
+    { "time": "04:46", "flight": "FLE 654", "origin": "Toronto (YYZ)", "status": "Landed" },
+    { "time": "05:07", "flight": "POE 473", "origin": "Hamilton (YHM)", "status": "Landed" },
+    { "time": "05:25", "flight": "ROU 2060", "origin": "Toronto (YYZ)", "status": "On Time" },
+    { "time": "05:30", "flight": "WJA 668", "origin": "Calgary (YYC)", "status": "On Time" },
+    { "time": "05:51", "flight": "TBS 801", "origin": "Bermuda (BDA)", "status": "On Time" },
+    { "time": "06:17", "flight": "OCN 74", "origin": "Frankfurt (FRA)", "status": "On Time" },
+    { "time": "06:24", "flight": "WJA 592", "origin": "Winnipeg (YWG)", "status": "On Time" },
+    { "time": "07:01", "flight": "WJA 670", "origin": "Calgary (YYC)", "status": "On Time" },
+    { "time": "07:08", "flight": "WJA 808", "origin": "Toronto (YYZ)", "status": "On Time" }
   ],
   "departures": [
-    { "time": "02:09", "flight": "WS 42", "destination": "Dublin (DUB)", "status": "Delayed" },
-    { "time": "05:15", "flight": "AC 2057", "destination": "Toronto (YYZ)", "status": "On Time" },
-    { "time": "06:00", "flight": "AC 2067", "destination": "Toronto (YYZ)", "status": "On Time" },
-    { "time": "06:20", "flight": "PD 200", "destination": "Toronto (YYZ)", "status": "On Time" }
+    { "time": "04:30", "flight": "PVL 7704", "destination": "Deer Lake (YDF)", "status": "On Time" },
+    { "time": "04:42", "flight": "POE 206", "destination": "Toronto (YYZ)", "status": "On Time" },
+    { "time": "04:50", "flight": "WJA 1050", "destination": "Detroit (DTW)", "status": "On Time" },
+    { "time": "05:10", "flight": "WJA 581", "destination": "Edmonton (YEG)", "status": "On Time" },
+    { "time": "05:10", "flight": "ROU 2043", "destination": "Toronto (YYZ)", "status": "On Time" },
+    { "time": "05:10", "flight": "WJA 809", "destination": "Toronto (YYZ)", "status": "On Time" },
+    { "time": "05:25", "flight": "POE 244", "destination": "Ottawa (YOW)", "status": "Boarding" },
+    { "time": "05:35", "flight": "POE 494", "destination": "Montreal (YHU)", "status": "Boarding" },
+    { "time": "05:40", "flight": "ACA 667", "destination": "Montreal (YUL)", "status": "On Time" },
+    { "time": "06:00", "flight": "WJA 793", "destination": "Vancouver (YVR)", "status": "On Time" }
   ]
 }
