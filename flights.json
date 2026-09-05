@@ -1,26 +1,192 @@
-{
-  "arrivals": [
-    { "time": "04:25", "flight": "WEN 8955", "origin": "Toronto (YYZ)", "status": "Landed" },
-    { "time": "04:46", "flight": "FLE 654", "origin": "Toronto (YYZ)", "status": "Landed" },
-    { "time": "05:07", "flight": "POE 473", "origin": "Hamilton (YHM)", "status": "Landed" },
-    { "time": "05:25", "flight": "ROU 2060", "origin": "Toronto (YYZ)", "status": "On Time" },
-    { "time": "05:30", "flight": "WJA 668", "origin": "Calgary (YYC)", "status": "On Time" },
-    { "time": "05:51", "flight": "TBS 801", "origin": "Bermuda (BDA)", "status": "On Time" },
-    { "time": "06:17", "flight": "OCN 74", "origin": "Frankfurt (FRA)", "status": "On Time" },
-    { "time": "06:24", "flight": "WJA 592", "origin": "Winnipeg (YWG)", "status": "On Time" },
-    { "time": "07:01", "flight": "WJA 670", "origin": "Calgary (YYC)", "status": "On Time" },
-    { "time": "07:08", "flight": "WJA 808", "origin": "Toronto (YYZ)", "status": "On Time" }
-  ],
-  "departures": [
-    { "time": "04:30", "flight": "PVL 7704", "destination": "Deer Lake (YDF)", "status": "On Time" },
-    { "time": "04:42", "flight": "POE 206", "destination": "Toronto (YYZ)", "status": "On Time" },
-    { "time": "04:50", "flight": "WJA 1050", "destination": "Detroit (DTW)", "status": "On Time" },
-    { "time": "05:10", "flight": "WJA 581", "destination": "Edmonton (YEG)", "status": "On Time" },
-    { "time": "05:10", "flight": "ROU 2043", "destination": "Toronto (YYZ)", "status": "On Time" },
-    { "time": "05:10", "flight": "WJA 809", "destination": "Toronto (YYZ)", "status": "On Time" },
-    { "time": "05:25", "flight": "POE 244", "destination": "Ottawa (YOW)", "status": "Boarding" },
-    { "time": "05:35", "flight": "POE 494", "destination": "Montreal (YHU)", "status": "Boarding" },
-    { "time": "05:40", "flight": "ACA 667", "destination": "Montreal (YUL)", "status": "On Time" },
-    { "time": "06:00", "flight": "WJA 793", "destination": "Vancouver (YVR)", "status": "On Time" }
-  ]
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HALIFAX STANFIELD (YHZ) FLIGHT BOARD</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            background-color: #0b0f19;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        header {
+            background: #111827;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 3px solid #1f2937;
+        }
+        header h1 { font-size: 2.2rem; letter-spacing: 2px; color: #38bdf8; }
+        .clock { font-size: 1.8rem; font-weight: bold; color: #fbbf24; }
+        .container {
+            display: flex;
+            flex: 1;
+            gap: 20px;
+            padding: 20px;
+            height: calc(100vh - 90px);
+        }
+        .board-column {
+            flex: 1;
+            background: #111827;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            border: 2px solid #1f2937;
+            overflow: hidden;
+        }
+        .board-title {
+            background: #1f2937;
+            padding: 15px 20px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        .table-wrapper {
+            flex: 1;
+            overflow-y: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+        th {
+            background: #1a2234;
+            color: #94a3b8;
+            padding: 14px 15px;
+            font-size: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        td {
+            padding: 14px 15px;
+            border-bottom: 1px solid #1f2937;
+            font-size: 1.1rem;
+        }
+        tr:nth-child(even) { background: rgba(255, 255, 255, 0.02); }
+        .status-on-time { color: #4ade80; font-weight: bold; }
+        .status-delayed { color: #f87171; font-weight: bold; }
+        .status-landed { color: #38bdf8; font-weight: bold; }
+        .status-boarding { color: #38bdf8; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>HALIFAX STANFIELD (YHZ) FLIGHT BOARD</h1>
+        <div class="clock" id="clock">00:00:00 AM</div>
+    </header>
+
+    <div class="container">
+        <!-- ARRIVALS -->
+        <div class="board-column">
+            <div class="board-title" style="color: #4ade80;">YHZ Arrivals</div>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Flight</th>
+                            <th>Origin</th>
+                            <th>Gate</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="arrivals-body">
+                        <tr><td>--:--</td><td>Loading...</td><td>---</td><td>---</td><td><span class="status-on-time">Syncing</span></td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- DEPARTURES -->
+        <div class="board-column">
+            <div class="board-title" style="color: #38bdf8;">YHZ Departures</div>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Flight</th>
+                            <th>Destination</th>
+                            <th>Gate</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="departures-body">
+                        <tr><td>--:--</td><td>Loading...</td><td>---</td><td>---</td><td><span class="status-on-time">Syncing</span></td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function updateClock() {
+            document.getElementById('clock').innerText = new Date().toLocaleTimeString();
+        }
+        setInterval(updateClock, 1000);
+        updateClock();
+
+        async function loadFlightData() {
+            try {
+                const response = await fetch('https://raw.githubusercontent.com/mainline123/YHZ-Flight-Board/main/flights.json?t=' + Date.now());
+                const data = await response.json();
+                
+                const arrivalsBody = document.getElementById('arrivals-body');
+                arrivalsBody.innerHTML = '';
+                data.arrivals.forEach(f => {
+                    let statusClass = 'status-on-time';
+                    const statusLower = (f.status || '').toLowerCase();
+                    if (statusLower.includes('delayed')) statusClass = 'status-delayed';
+                    if (statusLower.includes('landed')) statusClass = 'status-landed';
+
+                    arrivalsBody.innerHTML += `
+                        <tr>
+                            <td>${f.time}</td>
+                            <td>${f.flight}</td>
+                            <td>${f.origin}</td>
+                            <td>${f.gate || '—'}</td>
+                            <td><span class="${statusClass}">${f.status}</span></td>
+                        </tr>
+                    `;
+                });
+
+                const departuresBody = document.getElementById('departures-body');
+                departuresBody.innerHTML = '';
+                data.departures.forEach(f => {
+                    let statusClass = 'status-on-time';
+                    const statusLower = (f.status || '').toLowerCase();
+                    if (statusLower.includes('delayed')) statusClass = 'status-delayed';
+                    if (statusLower.includes('boarding')) statusClass = 'status-boarding';
+
+                    departuresBody.innerHTML += `
+                        <tr>
+                            <td>${f.time}</td>
+                            <td>${f.flight}</td>
+                            <td>${f.destination}</td>
+                            <td>${f.gate || '—'}</td>
+                            <td><span class="${statusClass}">${f.status}</span></td>
+                        </tr>
+                    `;
+                });
+            } catch (err) {
+                console.error("Error loading flight data", err);
+            }
+        }
+
+        loadFlightData();
+        setInterval(loadFlightData, 15000);
+    </script>
+</body>
+</html>
