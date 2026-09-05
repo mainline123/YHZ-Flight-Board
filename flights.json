@@ -1,76 +1,83 @@
 {
   "arrivals": [
     {
-      "time": "05:25",
-      "flight": "ROU 2060",
-      "origin": "Toronto (YYZ)",
-      "gate": "14",
-      "status": "On Time"
+      "time": "16:23",
+      "flight": "ACA 664",
+      "origin": "Montreal (YUL)",
+      "gate": "20",
+      "status": "Landed"
     },
     {
-      "time": "05:30",
-      "flight": "WJA 668",
-      "origin": "Calgary (YYC)",
+      "time": "16:29",
+      "flight": "PD 245",
+      "origin": "Ottawa (YOW)",
+      "gate": "12",
+      "status": "Landed"
+    },
+    {
+      "time": "16:36",
+      "flight": "WJA 8955",
+      "origin": "Toronto (YYZ)",
+      "gate": "14",
+      "status": "Landed"
+    },
+    {
+      "origin": "Montreal (YUL)",
+      "time": "16:46",
+      "flight": "ROU 2048",
       "gate": "18",
       "status": "On Time"
     },
     {
-      "time": "05:51",
-      "flight": "TBS 801",
-      "origin": "Bermuda (BDA)",
-      "gate": "12",
+      "time": "17:01",
+      "flight": "WJA 670",
+      "origin": "Calgary (YYC)",
+      "gate": "16",
       "status": "On Time"
     },
     {
-      "time": "06:17",
-      "flight": "OCN 74",
-      "origin": "Frankfurt (FRA)",
-      "gate": "08",
-      "status": "On Time"
-    },
-    {
-      "time": "06:24",
-      "flight": "WJA 592",
-      "origin": "Winnipeg (YWG)",
+      "time": "17:08",
+      "flight": "WJA 808",
+      "origin": "Toronto (YYZ)",
       "gate": "15",
       "status": "On Time"
     }
   ],
   "departures": [
     {
-      "time": "04:30",
-      "flight": "PVL 7704",
-      "destination": "Deer Lake (YDF)",
+      "time": "16:35",
+      "flight": "WJA 591",
+      "destination": "Winnipeg (YWG)",
+      "gate": "18",
+      "status": "Boarding"
+    },
+    {
+      "time": "16:40",
+      "flight": "ROU 2063",
+      "destination": "Toronto (YYZ)",
+      "gate": "20",
+      "status": "Boarding"
+    },
+    {
+      "time": "17:04",
+      "flight": "MAL 7054",
+      "destination": "Montreal (YMX)",
       "gate": "22",
       "status": "On Time"
     },
     {
-      "time": "04:42",
-      "flight": "POE 206",
-      "destination": "Toronto (YYZ)",
-      "gate": "11",
+      "time": "17:10",
+      "flight": "TBS 802",
+      "destination": "Bermuda (BDA)",
+      "gate": "12",
       "status": "On Time"
     },
     {
-      "time": "04:50",
-      "flight": "WJA 1050",
-      "destination": "Detroit (DTW)",
+      "time": "17:35",
+      "flight": "ACA 2067",
+      "destination": "Toronto (YYZ)",
       "gate": "19",
       "status": "On Time"
-    },
-    {
-      "time": "05:10",
-      "flight": "WJA 581",
-      "destination": "Edmonton (YEG)",
-      "gate": "17",
-      "status": "On Time"
-    },
-    {
-      "time": "05:25",
-      "flight": "POE 244",
-      "destination": "Ottawa (YOW)",
-      "gate": "09",
-      "status": "Boarding"
     }
   ]
 }
