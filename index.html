@@ -62,21 +62,23 @@
         th {
             background: #1a2234;
             color: #94a3b8;
-            padding: 14px 15px;
-            font-size: 1rem;
+            padding: 14px 12px;
+            font-size: 0.95rem;
             position: sticky;
             top: 0;
             z-index: 10;
         }
         td {
-            padding: 14px 15px;
+            padding: 14px 12px;
             border-bottom: 1px solid #1f2937;
-            font-size: 1.1rem;
+            font-size: 1.0rem;
         }
         tr:nth-child(even) { background: rgba(255, 255, 255, 0.02); }
         .status-on-time { color: #4ade80; font-weight: bold; }
+        .status-early { color: #38bdf8; font-weight: bold; }
         .status-delayed { color: #f87171; font-weight: bold; }
-        .status-landed { color: #38bdf8; font-weight: bold; }
+        .status-cancelled { color: #f87171; font-weight: bold; }
+        .status-arrived { color: #4ade80; font-weight: bold; }
         .status-boarding { color: #38bdf8; font-weight: bold; }
     </style>
 </head>
@@ -95,15 +97,17 @@
                 <table>
                     <thead>
                         <tr>
-                            <th>Time</th>
-                            <th>Flight</th>
-                            <th>Origin</th>
+                            <th>Carrier</th>
+                            <th>Flight #</th>
+                            <th>From</th>
+                            <th>Expected</th>
+                            <th>Actual</th>
                             <th>Gate</th>
                             <th>Status</th>
                         </tr>
                     </thead>
                     <tbody id="arrivals-body">
-                        <tr><td>--:--</td><td>Loading...</td><td>---</td><td>---</td><td><span class="status-on-time">Syncing</span></td></tr>
+                        <tr><td colspan="7" style="text-align: center;">Syncing...</td></tr>
                     </tbody>
                 </table>
             </div>
@@ -116,15 +120,17 @@
                 <table>
                     <thead>
                         <tr>
-                            <th>Time</th>
-                            <th>Flight</th>
+                            <th>Carrier</th>
+                            <th>Flight #</th>
                             <th>Destination</th>
+                            <th>Expected</th>
+                            <th>Actual</th>
                             <th>Gate</th>
                             <th>Status</th>
                         </tr>
                     </thead>
                     <tbody id="departures-body">
-                        <tr><td>--:--</td><td>Loading...</td><td>---</td><td>---</td><td><span class="status-on-time">Syncing</span></td></tr>
+                        <tr><td colspan="7" style="text-align: center;">Syncing...</td></tr>
                     </tbody>
                 </table>
             </div>
@@ -148,15 +154,18 @@
                 data.arrivals.forEach(f => {
                     let statusClass = 'status-on-time';
                     const statusLower = (f.status || '').toLowerCase();
-                    if (statusLower.includes('delayed')) statusClass = 'status-delayed';
-                    if (statusLower.includes('landed')) statusClass = 'status-landed';
+                    if (statusLower.includes('delay') || statusLower.includes('cancel')) statusClass = 'status-delayed';
+                    if (statusLower.includes('early')) statusClass = 'status-early';
+                    if (statusLower.includes('arrive') || statusLower.includes('land')) statusClass = 'status-arrived';
 
                     arrivalsBody.innerHTML += `
                         <tr>
-                            <td>${f.time}</td>
+                            <td>${f.carrier}</td>
                             <td>${f.flight}</td>
-                            <td>${f.origin}</td>
-                            <td>${f.gate || '—'}</td>
+                            <td>${f.from}</td>
+                            <td>${f.expected}</td>
+                            <td>${f.actual}</td>
+                            <td>${f.gate}</td>
                             <td><span class="${statusClass}">${f.status}</span></td>
                         </tr>
                     `;
@@ -167,15 +176,17 @@
                 data.departures.forEach(f => {
                     let statusClass = 'status-on-time';
                     const statusLower = (f.status || '').toLowerCase();
-                    if (statusLower.includes('delayed')) statusClass = 'status-delayed';
+                    if (statusLower.includes('delay') || statusLower.includes('cancel')) statusClass = 'status-delayed';
                     if (statusLower.includes('boarding')) statusClass = 'status-boarding';
 
                     departuresBody.innerHTML += `
                         <tr>
-                            <td>${f.time}</td>
+                            <td>${f.carrier}</td>
                             <td>${f.flight}</td>
                             <td>${f.destination}</td>
-                            <td>${f.gate || '—'}</td>
+                            <td>${f.expected}</td>
+                            <td>${f.actual}</td>
+                            <td>${f.gate}</td>
                             <td><span class="${statusClass}">${f.status}</span></td>
                         </tr>
                     `;
