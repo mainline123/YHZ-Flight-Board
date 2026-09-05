@@ -1,12 +1,13 @@
 {
   "arrivals": [
-    { "time": "14:35", "flight": "AC 604", "origin": "Toronto (YYZ)", "status": "On Time" },
-    { "time": "15:10", "flight": "WS 246", "origin": "Calgary (YYC)", "status": "Delayed" },
-    { "time": "16:00", "flight": "PD 312", "origin": "Ottawa (YOW)", "status": "Landed" }
+    { "time": "02:17", "flight": "AC 1178", "origin": "Sydney (YQY)", "status": "Landed" },
+    { "time": "02:30", "flight": "AC 2016", "origin": "Toronto (YYZ)", "status": "On Time" },
+    { "time": "10:52", "flight": "WS 70", "origin": "Amsterdam (AMS)", "status": "On Time" }
   ],
   "departures": [
-    { "time": "14:50", "flight": "AC 605", "destination": "Montreal (YUL)", "status": "Boarding" },
-    { "time": "15:25", "flight": "WS 321", "destination": "Toronto (YYZ)", "status": "On Time" },
-    { "time": "16:15", "flight": "TS 452", "destination": "London (LGW)", "status": "Delayed" }
+    { "time": "02:09", "flight": "WS 42", "destination": "Dublin (DUB)", "status": "Delayed" },
+    { "time": "05:15", "flight": "AC 2057", "destination": "Toronto (YYZ)", "status": "On Time" },
+    { "time": "06:00", "flight": "AC 2067", "destination": "Toronto (YYZ)", "status": "On Time" },
+    { "time": "06:20", "flight": "PD 200", "destination": "Toronto (YYZ)", "status": "On Time" }
   ]
 }
