@@ -12,14 +12,7 @@
     { "carrier": "WestJet", "flight": "592", "from": "Winnipeg", "expected": "18:45", "actual": "18:29", "gate": "16", "status": "Early" },
     { "carrier": "Air Canada", "flight": "668", "from": "Montreal (YUL)", "expected": "19:05", "actual": "19:05", "gate": "20", "status": "On Time" },
     { "carrier": "WestJet", "flight": "670", "from": "Calgary", "expected": "19:10", "actual": "19:00", "gate": "14", "status": "On Time" },
-    { "carrier": "Flair Airlines", "flight": "404", "from": "Kitchener-Waterloo", "expected": "19:15", "actual": "19:30", "gate": "18", "status": "Delayed" },
-    { "carrier": "WestJet", "flight": "808", "from": "Toronto (YYZ)", "expected": "19:25", "actual": "19:14", "gate": "15", "status": "On Time" },
-    { "carrier": "Air Canada", "flight": "7705", "from": "Deer Lake", "expected": "20:05", "actual": "20:05", "gate": "2A", "status": "On Time" },
-    { "carrier": "Air Canada", "flight": "7692", "from": "Ottawa", "expected": "20:30", "actual": "20:30", "gate": "2C", "status": "On Time" },
-    { "carrier": "Porter", "flight": "207", "from": "Toronto (YYZ)", "expected": "20:47", "actual": "20:47", "gate": "10", "status": "On Time" },
-    { "carrier": "WestJet", "flight": "872", "from": "Saskatoon", "expected": "20:55", "actual": "20:47", "gate": "12", "status": "On Time" },
-    { "carrier": "Air Canada", "flight": "604", "from": "Ottawa", "expected": "21:15", "actual": "21:15", "gate": "16", "status": "On Time" },
-    { "carrier": "WestJet", "flight": "342", "from": "Calgary", "expected": "21:40", "actual": "21:40", "gate": "19", "status": "On Time" }
+    { "carrier": "Flair Airlines", "flight": "404", "from": "Kitchener-Waterloo", "expected": "19:15", "actual": "19:30", "gate": "18", "status": "Delayed" }
   ],
   "departures": [
     { "carrier": "WestJet", "flight": "591", "destination": "Winnipeg (YWG)", "expected": "16:35", "actual": "16:35", "gate": "18", "status": "Boarding" },
@@ -34,13 +27,6 @@
     { "carrier": "WestJet", "flight": "593", "destination": "Toronto (YYZ)", "expected": "19:10", "actual": "19:10", "gate": "15", "status": "On Time" },
     { "carrier": "Air Canada", "flight": "606", "destination": "Toronto (YYZ)", "expected": "19:30", "actual": "19:30", "gate": "22", "status": "On Time" },
     { "carrier": "Flair Airlines", "flight": "405", "destination": "Kitchener-Waterloo", "expected": "20:00", "actual": "20:20", "gate": "18", "status": "Delayed" },
-    { "carrier": "Porter", "flight": "492", "destination": "Montreal (YHU)", "expected": "20:15", "actual": "20:15", "gate": "10", "status": "On Time" },
-    { "carrier": "Air Canada", "flight": "610", "destination": "Heathrow (LHR)", "expected": "20:45", "actual": "20:45", "gate": "26", "status": "On Time" },
-    { "carrier": "WestJet", "flight": "244", "destination": "Edmonton", "expected": "21:05", "actual": "21:05", "gate": "17", "status": "On Time" },
-    { "carrier": "Air Canada", "flight": "7706", "destination": "Deer Lake", "expected": "21:20", "actual": "21:20", "gate": "2A", "status": "On Time" },
-    { "carrier": "Porter", "flight": "208", "destination": "Toronto (YYZ)", "expected": "21:45", "actual": "21:45", "gate": "10", "status": "On Time" },
-    { "carrier": "Air Canada", "flight": "669", "destination": "Calgary", "expected": "22:00", "actual": "22:00", "gate": "24", "status": "On Time" },
-    { "carrier": "WestJet", "flight": "873", "destination": "Vancouver", "expected": "22:20", "actual": "22:20", "gate": "14", "status": "On Time" },
-    { "carrier": "Air Canada", "flight": "2071", "destination": "Ottawa", "expected": "22:50", "actual": "22:50", "gate": "20", "status": "On Time" }
+    { "carrier": "Porter", "flight": "492", "destination": "Montreal (YHU)", "expected": "20:15", "actual": "20:15", "gate": "10", "status": "On Time" }
   ]
 }
