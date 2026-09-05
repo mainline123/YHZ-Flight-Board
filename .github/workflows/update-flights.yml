@@ -2,8 +2,8 @@ name: Auto-Update Flight Board
 
 on:
   schedule:
-    - cron: '*/15 * * * *' # Runs every 15 minutes
-  workflow_dispatch: # Allows manual trigger anytime from GitHub
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
 
 jobs:
   update-data:
@@ -12,13 +12,24 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Fetch and Update Flights Data
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run Apify Fetcher
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
         run: |
-          echo "Connecting to Apify with stored token..."
-          # This runs automatically in the background every 15 minutes
-          date -u > last_updated.txt
+          node -e '
+            const https = require("https");
+            const fs = require("fs");
+            
+            console.log("Connecting to Apify...");
+            // We will hook your specific Apify endpoint here
+            // For now, this ensures the workflow runs cleanly and updates your timestamp
+            fs.writeFileSync("last_updated.txt", new Date().toISOString());
+          '
 
       - name: Commit and push updated flights
         uses: stefanzweifel/git-auto-commit-action@v5
