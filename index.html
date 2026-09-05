@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YHZ Flight Board - Arrivals & Departures</title>
-    <meta http-equiv="refresh" content="300"> <!-- Auto-refreshes the page every 5 minutes -->
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
@@ -79,6 +78,7 @@
         .status-on-time { color: #4ade80; font-weight: bold; }
         .status-delayed { color: #f87171; font-weight: bold; }
         .status-landed { color: #38bdf8; font-weight: bold; }
+        .status-boarding { color: #38bdf8; font-weight: bold; }
     </style>
 </head>
 <body>
@@ -141,13 +141,61 @@
     </div>
 
     <script>
-        // Live Clock Updater
+        // Live Clock
         function updateClock() {
             const now = new Date();
             document.getElementById('clock').innerText = now.toLocaleTimeString();
         }
         setInterval(updateClock, 1000);
         updateClock();
+
+        // Fetch Flights Data from flights.json
+        function loadFlights() {
+            fetch('flights.json?' + new Date().getTime()) // Prevent caching
+                .then(response => response.json())
+                .then(data => {
+                    // Populate Arrivals
+                    const arrivalsBody = document.getElementById('arrivals-body');
+                    arrivalsBody.innerHTML = '';
+                    data.arrivals.forEach(flight => {
+                        let statusClass = 'status-on-time';
+                        if (flight.status.toLowerCase() === 'delayed') statusClass = 'status-delayed';
+                        if (flight.status.toLowerCase() === 'landed') statusClass = 'status-landed';
+                        
+                        arrivalsBody.innerHTML += `
+                            <tr>
+                                <td>${flight.time}</td>
+                                <td>${flight.flight}</td>
+                                <td>${flight.origin}</td>
+                                <td><span class="${statusClass}">${flight.status}</span></td>
+                            </tr>
+                        `;
+                    });
+
+                    // Populate Departures
+                    const departuresBody = document.getElementById('departures-body');
+                    departuresBody.innerHTML = '';
+                    data.departures.forEach(flight => {
+                        let statusClass = 'status-on-time';
+                        if (flight.status.toLowerCase() === 'delayed') statusClass = 'status-delayed';
+                        if (flight.status.toLowerCase() === 'boarding') statusClass = 'status-boarding';
+                        
+                        departuresBody.innerHTML += `
+                            <tr>
+                                <td>${flight.time}</td>
+                                <td>${flight.flight}</td>
+                                <td>${flight.destination}</td>
+                                <td><span class="${statusClass}">${flight.status}</span></td>
+                            </tr>
+                        `;
+                    });
+                })
+                .catch(err => console.error('Error loading flights:', err));
+        }
+
+        // Load immediately and refresh every 30 seconds
+        loadFlights();
+        setInterval(loadFlights, 30000);
     </script>
 </body>
 </html>
