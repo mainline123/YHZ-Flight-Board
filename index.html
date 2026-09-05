@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YHZ Flight Board - Live Arrivals & Departures</title>
+    <title>YHZ Flight Board - Live</title>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
@@ -39,6 +39,7 @@
             display: flex;
             flex-direction: column;
             border: 2px solid #1f2937;
+            overflow: hidden;
         }
         .board-title {
             background: #1f2937;
@@ -77,6 +78,7 @@
         .status-on-time { color: #4ade80; font-weight: bold; }
         .status-delayed { color: #f87171; font-weight: bold; }
         .status-landed { color: #38bdf8; font-weight: bold; }
+        .status-boarding { color: #38bdf8; font-weight: bold; }
     </style>
 </head>
 <body>
@@ -89,7 +91,7 @@
     <div class="container">
         <!-- ARRIVALS -->
         <div class="board-column">
-            <div class="board-title" style="color: #4ade80;">Arrivals (YHZ)</div>
+            <div class="board-title" style="color: #4ade80;">Arrivals</div>
             <div class="table-wrapper">
                 <table>
                     <thead>
@@ -101,7 +103,7 @@
                         </tr>
                     </thead>
                     <tbody id="arrivals-body">
-                        <tr><td>--:--</td><td>Connecting to Live Feed...</td><td>---</td><td><span class="status-on-time">Syncing</span></td></tr>
+                        <tr><td>--:--</td><td>Loading...</td><td>---</td><td><span class="status-on-time">Syncing</span></td></tr>
                     </tbody>
                 </table>
             </div>
@@ -109,7 +111,7 @@
 
         <!-- DEPARTURES -->
         <div class="board-column">
-            <div class="board-title" style="color: #38bdf8;">Departures (YHZ)</div>
+            <div class="board-title" style="color: #38bdf8;">Departures</div>
             <div class="table-wrapper">
                 <table>
                     <thead>
@@ -121,7 +123,7 @@
                         </tr>
                     </thead>
                     <tbody id="departures-body">
-                        <tr><td>--:--</td><td>Connecting to Live Feed...</td><td>---</td><td><span class="status-on-time">Syncing</span></td></tr>
+                        <tr><td>--:--</td><td>Loading...</td><td>---</td><td><span class="status-on-time">Syncing</span></td></tr>
                     </tbody>
                 </table>
             </div>
@@ -135,36 +137,30 @@
         setInterval(updateClock, 1000);
         updateClock();
 
-        async function fetchYHZData() {
+        async function loadFlightData() {
             try {
-                // Fetching live schedule representation from public CORS-friendly aviation proxy/endpoint
-                const response = await fetch('https://airlabs.co/api/v9/schedules?api_key=free&dep_iata=YHZ');
-                // Fallback to local json if network blocks trial limits, ensuring zero downtime
-                const fallback = await fetch('flights.json?' + new Date().getTime());
-                const data = await fallback.json();
+                // Fetching directly from the raw GitHub file path to bypass all caching layers
+                const response = await fetch('https://raw.githubusercontent.com/mainline123/YHZ-Flight-Board/main/flights.json?t=' + Date.now());
+                const data = await response.json();
                 
-                renderBoards(data);
-            } catch (e) {
-                console.log("Using local JSON fallback");
+                const arrivalsBody = document.getElementById('arrivals-body');
+                arrivalsBody.innerHTML = '';
+                data.arrivals.forEach(f => {
+                    arrivalsBody.innerHTML += `<tr><td>${f.time}</td><td>${f.flight}</td><td>${f.origin}</td><td><span class="status-on-time">${f.status}</span></td></tr>`;
+                });
+
+                const departuresBody = document.getElementById('departures-body');
+                departuresBody.innerHTML = '';
+                data.departures.forEach(f => {
+                    departuresBody.innerHTML += `<tr><td>${f.time}</td><td>${f.flight}</td><td>${f.destination}</td><td><span class="status-on-time">${f.status}</span></td></tr>`;
+                });
+            } catch (err) {
+                console.error("Error loading data", err);
             }
         }
 
-        function renderBoards(data) {
-            const arrivalsBody = document.getElementById('arrivals-body');
-            arrivalsBody.innerHTML = '';
-            data.arrivals.forEach(f => {
-                arrivalsBody.innerHTML += `<tr><td>${f.time}</td><td>${f.flight}</td><td>${f.origin}</td><td><span class="status-on-time">${f.status}</span></td></tr>`;
-            });
-
-            const departuresBody = document.getElementById('departures-body');
-            departuresBody.innerHTML = '';
-            data.departures.forEach(f => {
-                departuresBody.innerHTML += `<tr><td>${f.time}</td><td>${f.flight}</td><td>${f.destination}</td><td><span class="status-on-time">${f.status}</span></td></tr>`;
-            });
-        }
-
-        fetchYHZData();
-        setInterval(fetchYHZData, 60000);
+        loadFlightData();
+        setInterval(loadFlightData, 15000);
     </script>
 </body>
 </html>
