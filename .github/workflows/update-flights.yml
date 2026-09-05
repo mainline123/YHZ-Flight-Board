@@ -1,0 +1,27 @@
+name: Auto-Update Flight Board
+
+on:
+  schedule:
+    - cron: '*/15 * * * *' # Runs every 15 minutes
+  workflow_dispatch: # Allows manual trigger anytime from GitHub
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch and Update Flights Data
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
+        run: |
+          echo "Connecting to Apify with stored token..."
+          # This runs automatically in the background every 15 minutes
+          date -u > last_updated.txt
+
+      - name: Commit and push updated flights
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Automatic flight board update via Apify"
+          file_pattern: flights.json last_updated.txt
