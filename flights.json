@@ -1,83 +1,204 @@
 {
   "arrivals": [
     {
-      "time": "16:23",
-      "flight": "ACA 664",
-      "origin": "Montreal (YUL)",
-      "gate": "20",
-      "status": "Landed"
+      "carrier": "Porter",
+      "flight": "253",
+      "from": "Montreal (YUL)",
+      "expected": "16:39",
+      "actual": "16:39",
+      "gate": "Gate 14",
+      "status": "EARLY"
     },
     {
-      "time": "16:29",
-      "flight": "PD 245",
-      "origin": "Ottawa (YOW)",
-      "gate": "12",
-      "status": "Landed"
+      "carrier": "Porter",
+      "flight": "2196",
+      "from": "Deer Lake",
+      "expected": "16:45",
+      "actual": "16:45",
+      "gate": "Gate 3",
+      "status": "CANCELLED"
     },
     {
-      "time": "16:36",
-      "flight": "WJA 8955",
-      "origin": "Toronto (YYZ)",
-      "gate": "14",
-      "status": "Landed"
+      "carrier": "Porter",
+      "flight": "473",
+      "from": "Hamilton",
+      "expected": "17:04",
+      "actual": "18:12",
+      "gate": "Gate 12",
+      "status": "DELAYED"
     },
     {
-      "time": "16:46",
-      "flight": "ROU 2048",
-      "origin": "Montreal (YUL)",
-      "gate": "18",
-      "status": "On Time"
+      "carrier": "Air Canada",
+      "flight": "2060",
+      "from": "Toronto (YYZ)",
+      "expected": "17:14",
+      "actual": "17:14",
+      "gate": "Gate 24",
+      "status": "ARRIVED"
     },
     {
-      "time": "17:01",
-      "flight": "WJA 670",
-      "origin": "Calgary (YYC)",
-      "gate": "16",
-      "status": "On Time"
+      "carrier": "WestJet",
+      "flight": "668",
+      "from": "Calgary",
+      "expected": "17:15",
+      "actual": "17:16",
+      "gate": "Gate 18",
+      "status": "ARRIVED"
     },
     {
-      "time": "17:08",
-      "flight": "WJA 808",
-      "origin": "Toronto (YYZ)",
-      "gate": "15",
-      "status": "On Time"
+      "carrier": "Porter",
+      "flight": "466",
+      "from": "St. John's",
+      "expected": "17:17",
+      "actual": "17:17",
+      "gate": "Gate 15",
+      "status": "ARRIVED"
+    },
+    {
+      "carrier": "Discover",
+      "flight": "74",
+      "from": "Frankfurt",
+      "expected": "18:00",
+      "actual": "18:00",
+      "gate": "Gate 28",
+      "status": "ON TIME"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "662",
+      "from": "Montreal (YUL)",
+      "expected": "18:16",
+      "actual": "18:00",
+      "gate": "Gate 26",
+      "status": "EARLY"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "491",
+      "from": "Montreal (YHU)",
+      "expected": "18:33",
+      "actual": "18:33",
+      "gate": "Gate 10",
+      "status": "ON TIME"
+    },
+    {
+      "carrier": "WestJet",
+      "flight": "592",
+      "from": "Winnipeg",
+      "expected": "18:45",
+      "actual": "18:29",
+      "gate": "Gate 16",
+      "status": "EARLY"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "668",
+      "from": "Montreal (YUL)",
+      "expected": "19:05",
+      "actual": "19:05",
+      "gate": "Gate 20",
+      "status": "ON TIME"
+    },
+    {
+      "carrier": "WestJet",
+      "flight": "670",
+      "from": "Calgary",
+      "expected": "19:10",
+      "actual": "19:00",
+      "gate": "Gate 14",
+      "status": "ON TIME"
+    },
+    {
+      "carrier": "Flair Airlines",
+      "flight": "404",
+      "from": "Kitchener-Waterloo",
+      "expected": "19:15",
+      "actual": "19:30",
+      "gate": "Gate 18",
+      "status": "DELAYED"
+    },
+    {
+      "carrier": "WestJet",
+      "flight": "808",
+      "from": "Toronto (YYZ)",
+      "expected": "19:25",
+      "actual": "19:14",
+      "gate": "Gate 15",
+      "status": "ON TIME"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "7705",
+      "from": "Deer Lake",
+      "expected": "20:05",
+      "actual": "20:05",
+      "gate": "Gate 2A",
+      "status": "ON TIME"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "7692",
+      "from": "Ottawa",
+      "expected": "20:30",
+      "actual": "20:30",
+      "gate": "Gate 2C",
+      "status": "ON TIME"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "207",
+      "from": "Toronto (YYZ)",
+      "expected": "20:47",
+      "actual": "20:47",
+      "gate": "Gate 10",
+      "status": "ON TIME"
+    },
+    {
+      "carrier": "WestJet",
+      "flight": "872",
+      "from": "Saskatoon",
+      "expected": "20:55",
+      "actual": "20:47",
+      "gate": "Gate 12",
+      "status": "ON TIME"
     }
   ],
   "departures": [
     {
-      "time": "16:35",
-      "flight": "WJA 591",
+      "carrier": "WestJet",
+      "flight": "591",
       "destination": "Winnipeg (YWG)",
-      "gate": "18",
-      "status": "Boarding"
+      "expected": "16:35",
+      "actual": "16:35",
+      "gate": "Gate 18",
+      "status": "BOARDING"
     },
     {
-      "time": "16:40",
-      "flight": "ROU 2063",
+      "carrier": "Air Canada",
+      "flight": "2063",
       "destination": "Toronto (YYZ)",
-      "gate": "20",
-      "status": "Boarding"
+      "expected": "16:40",
+      "actual": "16:40",
+      "gate": "Gate 20",
+      "status": "BOARDING"
     },
     {
-      "time": "17:04",
-      "flight": "MAL 7054",
+      "carrier": "Porter",
+      "flight": "7054",
       "destination": "Montreal (YMX)",
-      "gate": "22",
-      "status": "On Time"
+      "expected": "17:04",
+      "actual": "17:04",
+      "gate": "Gate 22",
+      "status": "ON TIME"
     },
     {
-      "time": "17:10",
-      "flight": "TBS 802",
+      "carrier": "Air Canada",
+      "flight": "802",
       "destination": "Bermuda (BDA)",
-      "gate": "12",
-      "status": "On Time"
-    },
-    {
-      "time": "17:35",
-      "flight": "ACA 2067",
-      "destination": "Toronto (YYZ)",
-      "gate": "19",
-      "status": "On Time"
+      "expected": "17:10",
+      "actual": "17:10",
+      "gate": "Gate 12",
+      "status": "ON TIME"
     }
   ]
 }
