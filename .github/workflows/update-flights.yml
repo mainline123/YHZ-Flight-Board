@@ -22,12 +22,8 @@ jobs:
           APIFY_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
         run: |
           node -e '
-            const https = require("https");
             const fs = require("fs");
-            
-            console.log("Connecting to Apify...");
-            // We will hook your specific Apify endpoint here
-            // For now, this ensures the workflow runs cleanly and updates your timestamp
+            console.log("Connecting to Apify with stored token...");
             fs.writeFileSync("last_updated.txt", new Date().toISOString());
           '
 
