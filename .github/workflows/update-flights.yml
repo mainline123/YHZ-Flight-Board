@@ -17,18 +17,45 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Run Apify Fetcher
+      - name: Install dependencies
+        run: npm install apify-client
+
+      - name: Run Apify Fetcher & Update Flights
         env:
-          APIFY_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
+          APIFY_API_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
         run: |
           node -e '
             const fs = require("fs");
-            console.log("Connecting to Apify with stored token...");
-            fs.writeFileSync("last_updated.txt", new Date().toISOString());
+            const { ApifyClient } = require("apify-client");
+
+            async function run() {
+                const client = new ApifyClient({ token: process.env.APIFY_API_TOKEN });
+                console.log("Connecting to Apify...");
+                
+                // NOTE: Replace "YOUR_ACTOR_ID" with your actual Apify Actor ID or Task ID
+                const run = await client.actor("YOUR_ACTOR_ID").call();
+                
+                console.log("Fetching dataset items...");
+                const { items } = await client.dataset(run.defaultDatasetId).listItems();
+                
+                if (items && items.length > 0) {
+                    // Saves the scraped flight data directly into flights.json
+                    fs.writeFileSync("flights.json", JSON.stringify(items[0], null, 2));
+                    fs.writeFileSync("last_updated.txt", new Date().toISOString());
+                    console.log("Successfully updated flights.json with live data!");
+                } else {
+                    console.log("Actor ran, but returned no items.");
+                    process.exit(1);
+                }
+            }
+            run().catch(err => {
+                console.error("Error fetching from Apify:", err);
+                process.exit(1);
+            });
           '
 
       - name: Commit and push updated flights
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Automatic flight board update via Apify"
+          commit_message: "Automatic live flight board update via Apify"
           file_pattern: flights.json last_updated.txt
