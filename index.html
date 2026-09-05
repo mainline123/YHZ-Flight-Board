@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YHZ Flight Board - Arrivals & Departures</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            background-color: #0b0f19;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        header {
+            background: #111827;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 3px solid #1f2937;
+        }
+        header h1 { font-size: 2.2rem; letter-spacing: 2px; color: #38bdf8; }
+        .clock { font-size: 1.8rem; font-weight: bold; color: #fbbf24; }
+        .container {
+            display: flex;
+            flex: 1;
+            gap: 20px;
+            padding: 20px;
+            height: calc(100vh - 90px);
+        }
+        .board-column {
+            flex: 1;
+            background: #111827;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            border: 2px solid #1f2937;
+            overflow: hidden;
+        }
+        .board-title {
+            background: #1f2937;
+            padding: 15px 20px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            text-align: center;
+            color: #e2e8f0;
+        }
+        .table-wrapper {
+            flex: 1;
+            overflow-y: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+        th {
+            background: #1a2234;
+            color: #94a3b8;
+            padding: 14px 20px;
+            font-size: 1.1rem;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        td {
+            padding: 16px 20px;
+            border-bottom: 1px solid #1f2937;
+            font-size: 1.25rem;
+        }
+        tr:nth-child(even) { background: rgba(255, 255, 255, 0.02); }
+        .status-on-time { color: #4ade80; font-weight: bold; }
+        .status-delayed { color: #f87171; font-weight: bold; }
+        .status-landed { color: #38bdf8; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>HALIFIX STANFIELD (YHZ) FLIGHT BOARD</h1>
+        <div class="clock" id="clock">00:00:00 AM</div>
+    </header>
+
+    <div class="container">
+        <!-- ARRIVALS -->
+        <div class="board-column">
+            <div class="board-title" style="color: #4ade80;">Arrivals</div>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Flight</th>
+                            <th>Origin</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="arrivals-body">
+                        <!-- Sample Row -->
+                        <tr>
+                            <td>14:35</td>
+                            <td>AC 604</td>
+                            <td>Toronto (YYZ)</td>
+                            <td><span class="status-on-time">On Time</span></td>
+                        </tr>
+                        <tr>
+                            <td>15:10</td>
+                            <td>WS 246</td>
+                            <td>Calgary (YYC)</td>
+                            <td><span class="status-delayed">Delayed</span></td>
+                        </tr>
+                        <tr>
+                            <td>16:00</td>
+                            <td>PD 312</td>
+                            <td>Ottawa (YOW)</td>
+                            <td><span class="status-landed">Landed</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- DEPARTURES -->
+        <div class="board-column">
+            <div class="board-title" style="color: #38bdf8;">Departures</div>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Flight</th>
+                            <th>Destination</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="departures-body">
+                        <!-- Sample Row -->
+                        <tr>
+                            <td>14:50</td>
+                            <td>AC 605</td>
+                            <td>Montreal (YUL)</td>
+                            <td><span class="status-on-time">Boarding</span></td>
+                        </tr>
+                        <tr>
+                            <td>15:25</td>
+                            <td>WS 321</td>
+                            <td>Toronto (YYZ)</td>
+                            <td><span class="status-on-time">On Time</span></td>
+                        </tr>
+                        <tr>
+                            <td>16:15</td>
+                            <td>TS 452</td>
+                            <td>London (LGW)</td>
+                            <td><span class="status-delayed">Delayed</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Live Clock Updater
+        function updateClock() {
+            const now = new Date();
+            document.getElementById('clock').innerText = now.toLocaleTimeString();
+        }
+        setInterval(updateClock, 1000);
+        updateClock();
+    </script>
+</body>
+</html>
