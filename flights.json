@@ -22,9 +22,9 @@
       "status": "Landed"
     },
     {
-      "origin": "Montreal (YUL)",
       "time": "16:46",
       "flight": "ROU 2048",
+      "origin": "Montreal (YUL)",
       "gate": "18",
       "status": "On Time"
     },
