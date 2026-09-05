@@ -151,7 +151,7 @@
                 
                 const arrivalsBody = document.getElementById('arrivals-body');
                 arrivalsBody.innerHTML = '';
-                data.arrivals.forEach(f => {
+                (data.arrivals || []).forEach(f => {
                     let statusClass = 'status-on-time';
                     const statusLower = (f.status || '').toLowerCase();
                     if (statusLower.includes('delay') || statusLower.includes('cancel')) statusClass = 'status-delayed';
@@ -160,20 +160,20 @@
 
                     arrivalsBody.innerHTML += `
                         <tr>
-                            <td>${f.carrier}</td>
-                            <td>${f.flight}</td>
-                            <td>${f.from}</td>
-                            <td>${f.expected}</td>
-                            <td>${f.actual}</td>
-                            <td>${f.gate}</td>
-                            <td><span class="${statusClass}">${f.status}</span></td>
+                            <td>${f.carrier || '—'}</td>
+                            <td>${f.flight || '—'}</td>
+                            <td>${f.from || f.origin || '—'}</td>
+                            <td>${f.expected || f.time || '—'}</td>
+                            <td>${f.actual || f.time || '—'}</td>
+                            <td>${f.gate || '—'}</td>
+                            <td><span class="${statusClass}">${f.status || 'On Time'}</span></td>
                         </tr>
                     `;
                 });
 
                 const departuresBody = document.getElementById('departures-body');
                 departuresBody.innerHTML = '';
-                data.departures.forEach(f => {
+                (data.departures || []).forEach(f => {
                     let statusClass = 'status-on-time';
                     const statusLower = (f.status || '').toLowerCase();
                     if (statusLower.includes('delay') || statusLower.includes('cancel')) statusClass = 'status-delayed';
@@ -181,13 +181,13 @@
 
                     departuresBody.innerHTML += `
                         <tr>
-                            <td>${f.carrier}</td>
-                            <td>${f.flight}</td>
-                            <td>${f.destination}</td>
-                            <td>${f.expected}</td>
-                            <td>${f.actual}</td>
-                            <td>${f.gate}</td>
-                            <td><span class="${statusClass}">${f.status}</span></td>
+                            <td>${f.carrier || '—'}</td>
+                            <td>${f.flight || '—'}</td>
+                            <td>${f.destination || '—'}</td>
+                            <td>${f.expected || f.time || '—'}</td>
+                            <td>${f.actual || f.time || '—'}</td>
+                            <td>${f.gate || '—'}</td>
+                            <td><span class="${statusClass}">${f.status || 'On Time'}</span></td>
                         </tr>
                     `;
                 });
