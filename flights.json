@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T04:35:52.417Z",
+  "updated": "2026-09-06T04:48:19.419Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -318,7 +318,7 @@
       "destination": "Ottawa (YOW)",
       "expected": "13:35",
       "actual": "13:35",
-      "gate": "—",
+      "gate": "2C",
       "status": "Scheduled",
       "delayMinutes": 0
     },
@@ -1190,7 +1190,7 @@
       "from": "St. John's (YYT)",
       "expected": "15:44",
       "actual": "15:44",
-      "gate": "—",
+      "gate": "2E",
       "status": "Scheduled",
       "delayMinutes": 0
     },
