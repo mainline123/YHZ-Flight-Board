@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T13:21:44.575Z",
+  "updated": "2026-09-06T13:33:56.683Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -158,9 +158,9 @@
       "destination": "Toronto (YYZ)",
       "expected": "08:30",
       "actual": "08:30",
-      "gate": "16",
-      "status": "In Air",
-      "delayMinutes": -2
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "German Air Force",
@@ -310,7 +310,7 @@
       "actual": "13:05",
       "gate": "6",
       "status": "Delayed",
-      "delayMinutes": 90
+      "delayMinutes": 80
     },
     {
       "carrier": "WestJet",
@@ -369,8 +369,8 @@
       "expected": "14:05",
       "actual": "14:05",
       "gate": "20",
-      "status": "Scheduled",
-      "delayMinutes": 10
+      "status": "Delayed",
+      "delayMinutes": 35
     },
     {
       "carrier": "American Airlines",
@@ -912,7 +912,7 @@
       "actual": "10:39",
       "gate": "12",
       "status": "In Air",
-      "delayMinutes": -6
+      "delayMinutes": -5
     },
     {
       "carrier": "WestJet",
@@ -921,8 +921,8 @@
       "expected": "10:45",
       "actual": "10:45",
       "gate": "16",
-      "status": "In Air",
-      "delayMinutes": -13
+      "status": "Landed",
+      "delayMinutes": -15
     },
     {
       "carrier": "Flair Airlines",
@@ -942,7 +942,7 @@
       "actual": "11:19",
       "gate": "15",
       "status": "In Air",
-      "delayMinutes": -7
+      "delayMinutes": -12
     },
     {
       "carrier": "Air Canada",
@@ -982,7 +982,7 @@
       "actual": "11:59",
       "gate": "10",
       "status": "In Air",
-      "delayMinutes": -18
+      "delayMinutes": -11
     },
     {
       "carrier": "Porter Airlines",
@@ -1010,8 +1010,8 @@
       "from": "Montreal (YUL)",
       "expected": "12:19",
       "actual": "12:19",
-      "gate": "12",
-      "status": "Scheduled",
+      "gate": "3",
+      "status": "Out Gate",
       "delayMinutes": 0
     },
     {
@@ -1042,7 +1042,7 @@
       "actual": "12:59",
       "gate": "58",
       "status": "Scheduled",
-      "delayMinutes": -19
+      "delayMinutes": -21
     },
     {
       "carrier": "Air Canada",
