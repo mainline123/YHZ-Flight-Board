@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T13:33:56.683Z",
+  "updated": "2026-09-06T13:47:19.091Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -330,7 +330,7 @@
       "actual": "13:35",
       "gate": "2C",
       "status": "Scheduled",
-      "delayMinutes": 10
+      "delayMinutes": 20
     },
     {
       "carrier": "Porter Airlines",
@@ -860,9 +860,9 @@
       "from": "Lisbon (LIS)",
       "expected": "08:50",
       "actual": "08:50",
-      "gate": "22",
-      "status": "In Gate",
-      "delayMinutes": -16
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "Air Canada",
@@ -911,8 +911,8 @@
       "expected": "10:39",
       "actual": "10:39",
       "gate": "12",
-      "status": "In Air",
-      "delayMinutes": -5
+      "status": "Landed",
+      "delayMinutes": -4
     },
     {
       "carrier": "WestJet",
@@ -921,7 +921,7 @@
       "expected": "10:45",
       "actual": "10:45",
       "gate": "16",
-      "status": "Landed",
+      "status": "In Gate",
       "delayMinutes": -15
     },
     {
@@ -992,7 +992,7 @@
       "actual": "12:05",
       "gate": "14",
       "status": "In Air",
-      "delayMinutes": 13
+      "delayMinutes": -4
     },
     {
       "carrier": "Air Canada",
@@ -1011,8 +1011,8 @@
       "expected": "12:19",
       "actual": "12:19",
       "gate": "3",
-      "status": "Out Gate",
-      "delayMinutes": 0
+      "status": "In Air",
+      "delayMinutes": -13
     },
     {
       "carrier": "Porter Airlines",
@@ -1031,8 +1031,8 @@
       "expected": "12:44",
       "actual": "12:44",
       "gate": "2C",
-      "status": "Scheduled",
-      "delayMinutes": -3
+      "status": "Delayed",
+      "delayMinutes": 22
     },
     {
       "carrier": "Delta Air Lines",
@@ -1042,7 +1042,7 @@
       "actual": "12:59",
       "gate": "58",
       "status": "Scheduled",
-      "delayMinutes": -21
+      "delayMinutes": -39
     },
     {
       "carrier": "Air Canada",
@@ -1222,7 +1222,7 @@
       "actual": "16:07",
       "gate": "12",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": -15
     },
     {
       "carrier": "Flair Airlines",
@@ -1562,7 +1562,7 @@
       "actual": "22:19",
       "gate": "2C",
       "status": "Scheduled",
-      "delayMinutes": -10
+      "delayMinutes": -5
     },
     {
       "carrier": "Porter Airlines",
