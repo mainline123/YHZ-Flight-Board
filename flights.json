@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T03:22:57.153Z",
+  "updated": "2026-09-06T03:35:42.160Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -20,7 +20,7 @@
       "actual": "06:00",
       "gate": "18",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": 10
     },
     {
       "carrier": "Porter Airlines",
@@ -73,22 +73,22 @@
       "delayMinutes": 0
     },
     {
-      "carrier": "United Airlines",
-      "flight": "UA3630",
-      "destination": "Newark (EWR)",
-      "expected": "07:00",
-      "actual": "07:00",
-      "gate": "54",
-      "status": "Scheduled",
-      "delayMinutes": 0
-    },
-    {
       "carrier": "Air Canada",
       "flight": "AC607",
       "destination": "Toronto (YYZ)",
       "expected": "07:00",
       "actual": "07:00",
       "gate": "20",
+      "status": "Scheduled",
+      "delayMinutes": 0
+    },
+    {
+      "carrier": "United Airlines",
+      "flight": "UA3630",
+      "destination": "Newark (EWR)",
+      "expected": "07:00",
+      "actual": "07:00",
+      "gate": "54",
       "status": "Scheduled",
       "delayMinutes": 0
     },
@@ -114,21 +114,21 @@
     },
     {
       "carrier": "Porter Airlines",
-      "flight": "PD2324",
-      "destination": "Montreal (YUL)",
-      "expected": "08:00",
-      "actual": "08:00",
-      "gate": "6",
-      "status": "Scheduled",
-      "delayMinutes": 0
-    },
-    {
-      "carrier": "Porter Airlines",
       "flight": "PD2280",
       "destination": "Toronto (YTZ)",
       "expected": "08:00",
       "actual": "08:00",
       "gate": "2E",
+      "status": "Scheduled",
+      "delayMinutes": 0
+    },
+    {
+      "carrier": "Porter Airlines",
+      "flight": "PD2324",
+      "destination": "Montreal (YUL)",
+      "expected": "08:00",
+      "actual": "08:00",
+      "gate": "6",
       "status": "Scheduled",
       "delayMinutes": 0
     },
@@ -193,22 +193,22 @@
       "delayMinutes": 0
     },
     {
-      "carrier": "Air Canada",
-      "flight": "AC2080",
-      "destination": "London (LHR)",
-      "expected": "11:05",
-      "actual": "11:05",
-      "gate": "20",
-      "status": "Scheduled",
-      "delayMinutes": 0
-    },
-    {
       "carrier": "Porter Airlines",
       "flight": "PD202",
       "destination": "Toronto (YYZ)",
       "expected": "11:05",
       "actual": "11:05",
       "gate": "10",
+      "status": "Scheduled",
+      "delayMinutes": 0
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC2080",
+      "destination": "London (LHR)",
+      "expected": "11:05",
+      "actual": "11:05",
+      "gate": "20",
       "status": "Scheduled",
       "delayMinutes": 0
     },
@@ -744,21 +744,21 @@
     },
     {
       "carrier": "WestJet",
-      "flight": "WS66",
-      "destination": "Barcelona (BCN)",
-      "expected": "22:35",
-      "actual": "22:35",
-      "gate": "—",
-      "status": "Scheduled",
-      "delayMinutes": 0
-    },
-    {
-      "carrier": "WestJet",
       "flight": "WS44",
       "destination": "Copenhagen (CPH)",
       "expected": "22:35",
       "actual": "22:35",
       "gate": "16",
+      "status": "Scheduled",
+      "delayMinutes": 0
+    },
+    {
+      "carrier": "WestJet",
+      "flight": "WS66",
+      "destination": "Barcelona (BCN)",
+      "expected": "22:35",
+      "actual": "22:35",
+      "gate": "—",
       "status": "Scheduled",
       "delayMinutes": 0
     },
@@ -811,8 +811,8 @@
       "expected": "00:49",
       "actual": "00:49",
       "gate": "22",
-      "status": "Out Gate",
-      "delayMinutes": 82
+      "status": "In Air",
+      "delayMinutes": 79
     },
     {
       "carrier": "Air Canada",
