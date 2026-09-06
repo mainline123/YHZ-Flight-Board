@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T03:03:41.231Z",
+  "updated": "2026-09-06T03:22:57.153Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -811,8 +811,8 @@
       "expected": "00:49",
       "actual": "00:49",
       "gate": "22",
-      "status": "Delayed",
-      "delayMinutes": 77
+      "status": "Out Gate",
+      "delayMinutes": 82
     },
     {
       "carrier": "Air Canada",
