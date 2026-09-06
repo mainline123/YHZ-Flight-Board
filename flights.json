@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T03:35:42.160Z",
+  "updated": "2026-09-06T03:49:07.693Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -268,7 +268,7 @@
       "destination": "Gander (YQX)",
       "expected": "12:40",
       "actual": "12:40",
-      "gate": "—",
+      "gate": "2A",
       "status": "Scheduled",
       "delayMinutes": 0
     },
