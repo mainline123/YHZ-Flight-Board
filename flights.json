@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T11:03:28.286Z",
+  "updated": "2026-09-06T11:21:37.127Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -39,7 +39,7 @@
       "expected": "06:25",
       "actual": "06:25",
       "gate": "15",
-      "status": "In Air",
+      "status": "In Gate",
       "delayMinutes": 17
     },
     {
@@ -109,7 +109,7 @@
       "expected": "07:45",
       "actual": "07:45",
       "gate": "18",
-      "status": "Out Gate",
+      "status": "In Air",
       "delayMinutes": 12
     },
     {
@@ -119,8 +119,8 @@
       "expected": "08:00",
       "actual": "08:00",
       "gate": "2E",
-      "status": "Scheduled",
-      "delayMinutes": 0
+      "status": "In Air",
+      "delayMinutes": 4
     },
     {
       "carrier": "Porter Airlines",
@@ -129,8 +129,8 @@
       "expected": "08:00",
       "actual": "08:00",
       "gate": "6",
-      "status": "Scheduled",
-      "delayMinutes": 0
+      "status": "In Air",
+      "delayMinutes": -1
     },
     {
       "carrier": "Air Canada",
@@ -179,7 +179,7 @@
       "expected": "10:25",
       "actual": "10:25",
       "gate": "57",
-      "status": "Scheduled",
+      "status": "Cancelled",
       "delayMinutes": 10
     },
     {
@@ -841,7 +841,7 @@
       "expected": "08:10",
       "actual": "08:10",
       "gate": "14",
-      "status": "Landed",
+      "status": "In Gate",
       "delayMinutes": -20
     },
     {
@@ -1041,8 +1041,8 @@
       "expected": "13:09",
       "actual": "13:09",
       "gate": "20",
-      "status": "Scheduled",
-      "delayMinutes": -10
+      "status": "Delayed",
+      "delayMinutes": 34
     },
     {
       "carrier": "Flair Airlines",
@@ -1072,7 +1072,7 @@
       "actual": "13:36",
       "gate": "—",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": -7
     },
     {
       "carrier": "WestJet",
@@ -1201,7 +1201,7 @@
       "expected": "16:01",
       "actual": "16:01",
       "gate": "57",
-      "status": "Scheduled",
+      "status": "Cancelled",
       "delayMinutes": 0
     },
     {
@@ -1550,7 +1550,7 @@
       "from": "St. John's (YYT)",
       "expected": "22:19",
       "actual": "22:19",
-      "gate": "—",
+      "gate": "2C",
       "status": "Scheduled",
       "delayMinutes": 0
     },
