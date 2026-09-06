@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T08:03:46.658Z",
+  "updated": "2026-09-06T08:23:57.577Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -9,8 +9,8 @@
       "expected": "05:15",
       "actual": "05:15",
       "gate": "22",
-      "status": "Scheduled",
-      "delayMinutes": 10
+      "status": "Out Gate",
+      "delayMinutes": 16
     },
     {
       "carrier": "Air Canada",
@@ -63,6 +63,16 @@
       "delayMinutes": 0
     },
     {
+      "carrier": "Porter Airlines",
+      "flight": "PD240",
+      "destination": "Ottawa (YOW)",
+      "expected": "07:00",
+      "actual": "07:00",
+      "gate": "10",
+      "status": "Scheduled",
+      "delayMinutes": 0
+    },
+    {
       "carrier": "Air Canada",
       "flight": "AC607",
       "destination": "Toronto (YYZ)",
@@ -81,16 +91,6 @@
       "gate": "54",
       "status": "Delayed",
       "delayMinutes": 30
-    },
-    {
-      "carrier": "Porter Airlines",
-      "flight": "PD240",
-      "destination": "Ottawa (YOW)",
-      "expected": "07:00",
-      "actual": "07:00",
-      "gate": "10",
-      "status": "Scheduled",
-      "delayMinutes": 0
     },
     {
       "carrier": "Air Canada",
@@ -160,7 +160,7 @@
       "actual": "08:30",
       "gate": "16",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": 10
     },
     {
       "carrier": "WestJet",
@@ -663,22 +663,22 @@
       "delayMinutes": 0
     },
     {
-      "carrier": "Flair Airlines",
-      "flight": "F8*657",
-      "destination": "Toronto (YYZ)",
-      "expected": "20:00",
-      "actual": "20:00",
-      "gate": "—",
-      "status": "Scheduled",
-      "delayMinutes": 0
-    },
-    {
       "carrier": "WestJet",
       "flight": "WS675",
       "destination": "Calgary (YYC)",
       "expected": "20:00",
       "actual": "20:00",
       "gate": "16",
+      "status": "Scheduled",
+      "delayMinutes": 0
+    },
+    {
+      "carrier": "Flair Airlines",
+      "flight": "F8*657",
+      "destination": "Toronto (YYZ)",
+      "expected": "20:00",
+      "actual": "20:00",
+      "gate": "—",
       "status": "Scheduled",
       "delayMinutes": 0
     },
@@ -744,21 +744,21 @@
     },
     {
       "carrier": "WestJet",
-      "flight": "WS44",
-      "destination": "Copenhagen (CPH)",
-      "expected": "22:35",
-      "actual": "22:35",
-      "gate": "16",
-      "status": "Scheduled",
-      "delayMinutes": 0
-    },
-    {
-      "carrier": "WestJet",
       "flight": "WS66",
       "destination": "Barcelona (BCN)",
       "expected": "22:35",
       "actual": "22:35",
       "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
+    },
+    {
+      "carrier": "WestJet",
+      "flight": "WS44",
+      "destination": "Copenhagen (CPH)",
+      "expected": "22:35",
+      "actual": "22:35",
+      "gate": "16",
       "status": "Scheduled",
       "delayMinutes": 0
     },
@@ -912,7 +912,7 @@
       "actual": "10:45",
       "gate": "16",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": -10
     },
     {
       "carrier": "Flair Airlines",
@@ -991,8 +991,8 @@
       "expected": "12:10",
       "actual": "12:10",
       "gate": "53",
-      "status": "Out Gate",
-      "delayMinutes": -30
+      "status": "In Air",
+      "delayMinutes": -32
     },
     {
       "carrier": "Porter Airlines",
@@ -1012,7 +1012,7 @@
       "actual": "12:20",
       "gate": "6",
       "status": "Delayed",
-      "delayMinutes": 42
+      "delayMinutes": 81
     },
     {
       "carrier": "Air Canada",
@@ -1172,7 +1172,7 @@
       "actual": "15:30",
       "gate": "56",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": -5
     },
     {
       "carrier": "Porter Airlines",
