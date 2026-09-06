@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T01:20:23.382Z",
+  "updated": "2026-09-06T01:34:07.141Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -83,9 +83,9 @@
       "delayMinutes": 0
     },
     {
-      "carrier": "Porter Airlines",
-      "flight": "PD240",
-      "destination": "Ottawa (YOW)",
+      "carrier": "Air Canada",
+      "flight": "AC2059",
+      "destination": "Toronto (YYZ)",
       "expected": "07:00",
       "actual": "07:00",
       "gate": "—",
@@ -103,9 +103,9 @@
       "delayMinutes": 0
     },
     {
-      "carrier": "Air Canada",
-      "flight": "AC2059",
-      "destination": "Toronto (YYZ)",
+      "carrier": "Porter Airlines",
+      "flight": "PD240",
+      "destination": "Ottawa (YOW)",
       "expected": "07:00",
       "actual": "07:00",
       "gate": "—",
@@ -164,16 +164,6 @@
     },
     {
       "carrier": "Air Canada",
-      "flight": "AC7656",
-      "destination": "St. John's (YYT)",
-      "expected": "08:05",
-      "actual": "08:05",
-      "gate": "—",
-      "status": "Scheduled",
-      "delayMinutes": 0
-    },
-    {
-      "carrier": "Air Canada",
       "flight": "AC7672",
       "destination": "St. John's (YYT)",
       "expected": "08:05",
@@ -186,6 +176,16 @@
       "carrier": "Air Canada",
       "flight": "AC361",
       "destination": "Vancouver (YVR)",
+      "expected": "08:05",
+      "actual": "08:05",
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7656",
+      "destination": "St. John's (YYT)",
       "expected": "08:05",
       "actual": "08:05",
       "gate": "—",
@@ -693,9 +693,9 @@
       "delayMinutes": 0
     },
     {
-      "carrier": "WestJet",
-      "flight": "WS673",
-      "destination": "Calgary (YYC)",
+      "carrier": "Porter Airlines",
+      "flight": "PD472",
+      "destination": "Hamilton (YHM)",
       "expected": "18:15",
       "actual": "18:15",
       "gate": "—",
@@ -703,9 +703,9 @@
       "delayMinutes": 0
     },
     {
-      "carrier": "Porter Airlines",
-      "flight": "PD472",
-      "destination": "Hamilton (YHM)",
+      "carrier": "WestJet",
+      "flight": "WS673",
+      "destination": "Calgary (YYC)",
       "expected": "18:15",
       "actual": "18:15",
       "gate": "—",
@@ -723,9 +723,9 @@
       "delayMinutes": 0
     },
     {
-      "carrier": "Discover Airlines",
-      "flight": "4Y*75",
-      "destination": "Frankfurt (FRA)",
+      "carrier": "Porter Airlines",
+      "flight": "PD467",
+      "destination": "St. John's (YYT)",
       "expected": "19:30",
       "actual": "19:30",
       "gate": "—",
@@ -733,9 +733,9 @@
       "delayMinutes": 0
     },
     {
-      "carrier": "Porter Airlines",
-      "flight": "PD467",
-      "destination": "St. John's (YYT)",
+      "carrier": "Discover Airlines",
+      "flight": "4Y*75",
+      "destination": "Frankfurt (FRA)",
       "expected": "19:30",
       "actual": "19:30",
       "gate": "—",
@@ -758,9 +758,19 @@
       "destination": "Montreal (YUL)",
       "expected": "19:55",
       "actual": "19:55",
-      "gate": "20",
-      "status": "In Gate",
-      "delayMinutes": 32
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
+    },
+    {
+      "carrier": "WestJet",
+      "flight": "WS675",
+      "destination": "Calgary (YYC)",
+      "expected": "20:00",
+      "actual": "20:00",
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "Flair Airlines",
@@ -776,16 +786,6 @@
       "carrier": "AirSprint",
       "flight": "ASP503",
       "destination": "Teterboro (TEB)",
-      "expected": "20:00",
-      "actual": "20:00",
-      "gate": "—",
-      "status": "Scheduled",
-      "delayMinutes": 0
-    },
-    {
-      "carrier": "WestJet",
-      "flight": "WS675",
-      "destination": "Calgary (YYC)",
       "expected": "20:00",
       "actual": "20:00",
       "gate": "—",
@@ -809,7 +809,7 @@
       "expected": "20:15",
       "actual": "20:15",
       "gate": "16",
-      "status": "In Air",
+      "status": "Landed",
       "delayMinutes": 19
     },
     {
@@ -864,21 +864,21 @@
     },
     {
       "carrier": "WestJet",
-      "flight": "WS44",
-      "destination": "Copenhagen (CPH)",
-      "expected": "22:35",
-      "actual": "22:35",
-      "gate": "15",
-      "status": "Scheduled",
-      "delayMinutes": 10
-    },
-    {
-      "carrier": "WestJet",
       "flight": "WS72",
       "destination": "Edinburgh (EDI)",
       "expected": "22:35",
       "actual": "22:35",
       "gate": "23",
+      "status": "Scheduled",
+      "delayMinutes": 10
+    },
+    {
+      "carrier": "WestJet",
+      "flight": "WS44",
+      "destination": "Copenhagen (CPH)",
+      "expected": "22:35",
+      "actual": "22:35",
+      "gate": "15",
       "status": "Scheduled",
       "delayMinutes": 10
     },
@@ -1661,7 +1661,7 @@
       "expected": "21:54",
       "actual": "21:54",
       "gate": "20",
-      "status": "In Air",
+      "status": "In Gate",
       "delayMinutes": 28
     },
     {
@@ -1681,8 +1681,8 @@
       "expected": "22:19",
       "actual": "22:19",
       "gate": "2A",
-      "status": "In Air",
-      "delayMinutes": -3
+      "status": "Landed",
+      "delayMinutes": -2
     },
     {
       "carrier": "Porter Airlines",
@@ -1692,7 +1692,7 @@
       "actual": "23:12",
       "gate": "—",
       "status": "In Air",
-      "delayMinutes": 14
+      "delayMinutes": 13
     },
     {
       "carrier": "Delta Air Lines",
@@ -1701,8 +1701,8 @@
       "expected": "23:13",
       "actual": "23:13",
       "gate": "46",
-      "status": "In Air",
-      "delayMinutes": -48
+      "status": "Landed",
+      "delayMinutes": -46
     },
     {
       "carrier": "Porter Airlines",
@@ -1722,7 +1722,7 @@
       "actual": "23:44",
       "gate": "—",
       "status": "In Air",
-      "delayMinutes": 2
+      "delayMinutes": -3
     },
     {
       "carrier": "United Airlines",
@@ -1731,8 +1731,8 @@
       "expected": "23:55",
       "actual": "23:55",
       "gate": "24",
-      "status": "Out Gate",
-      "delayMinutes": -24
+      "status": "In Air",
+      "delayMinutes": -9
     }
   ]
 }
