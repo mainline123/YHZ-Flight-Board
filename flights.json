@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T10:34:51.880Z",
+  "updated": "2026-09-06T10:47:50.065Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -99,8 +99,8 @@
       "expected": "07:15",
       "actual": "07:15",
       "gate": "2C",
-      "status": "Delayed",
-      "delayMinutes": 30
+      "status": "In Air",
+      "delayMinutes": 16
     },
     {
       "carrier": "WestJet",
@@ -200,7 +200,7 @@
       "actual": "11:05",
       "gate": "10",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": 10
     },
     {
       "carrier": "Air Canada",
@@ -210,7 +210,7 @@
       "actual": "11:05",
       "gate": "20",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": 10
     },
     {
       "carrier": "Porter Airlines",
@@ -881,7 +881,7 @@
       "expected": "09:49",
       "actual": "09:49",
       "gate": "20",
-      "status": "Scheduled",
+      "status": "Out Gate",
       "delayMinutes": -12
     },
     {
@@ -1042,7 +1042,7 @@
       "actual": "13:09",
       "gate": "20",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": -10
     },
     {
       "carrier": "Flair Airlines",
@@ -1061,8 +1061,8 @@
       "expected": "13:15",
       "actual": "13:15",
       "gate": "28",
-      "status": "Out Gate",
-      "delayMinutes": 31
+      "status": "In Air",
+      "delayMinutes": 54
     },
     {
       "carrier": "American Airlines",
