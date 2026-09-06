@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T06:26:55.280Z",
+  "updated": "2026-09-06T06:40:20.284Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -79,8 +79,8 @@
       "expected": "07:00",
       "actual": "07:00",
       "gate": "54",
-      "status": "Scheduled",
-      "delayMinutes": 0
+      "status": "Delayed",
+      "delayMinutes": 30
     },
     {
       "carrier": "Air Canada",
@@ -90,7 +90,7 @@
       "actual": "07:00",
       "gate": "20",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": 10
     },
     {
       "carrier": "Air Canada",
@@ -872,7 +872,7 @@
       "actual": "09:14",
       "gate": "2A",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": -10
     },
     {
       "carrier": "Air Canada",
@@ -1032,7 +1032,7 @@
       "actual": "12:59",
       "gate": "58",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": -22
     },
     {
       "carrier": "Air Canada",
