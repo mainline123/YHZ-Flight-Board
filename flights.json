@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T09:35:06.416Z",
+  "updated": "2026-09-06T09:47:48.892Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -29,8 +29,8 @@
       "expected": "06:20",
       "actual": "06:20",
       "gate": "12",
-      "status": "Out Gate",
-      "delayMinutes": 2
+      "status": "In Air",
+      "delayMinutes": 8
     },
     {
       "carrier": "Air Canada",
@@ -39,8 +39,8 @@
       "expected": "06:25",
       "actual": "06:25",
       "gate": "15",
-      "status": "Scheduled",
-      "delayMinutes": 10
+      "status": "Out Gate",
+      "delayMinutes": 16
     },
     {
       "carrier": "Delta Air Lines",
@@ -831,7 +831,7 @@
       "expected": "06:55",
       "actual": "06:55",
       "gate": "18",
-      "status": "Landed",
+      "status": "In Gate",
       "delayMinutes": -30
     },
     {
@@ -942,7 +942,7 @@
       "actual": "11:35",
       "gate": "20",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": -10
     },
     {
       "carrier": "WestJet",
@@ -1410,7 +1410,7 @@
       "from": "Deer Lake (YDF)",
       "expected": "20:05",
       "actual": "20:05",
-      "gate": "—",
+      "gate": "2C",
       "status": "Scheduled",
       "delayMinutes": 0
     },
@@ -1430,7 +1430,7 @@
       "from": "Ottawa (YOW)",
       "expected": "20:30",
       "actual": "20:30",
-      "gate": "—",
+      "gate": "2A",
       "status": "Scheduled",
       "delayMinutes": 0
     },
