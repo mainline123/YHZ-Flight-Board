@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T01:48:55.454Z",
+  "updated": "2026-09-06T02:03:34.260Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -818,9 +818,9 @@
       "destination": "Brussels (BRU)",
       "expected": "20:30",
       "actual": "20:30",
-      "gate": "26",
-      "status": "In Air",
-      "delayMinutes": 25
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "Air Canada",
@@ -869,8 +869,8 @@
       "expected": "22:35",
       "actual": "22:35",
       "gate": "23",
-      "status": "Scheduled",
-      "delayMinutes": 10
+      "status": "In Air",
+      "delayMinutes": 21
     },
     {
       "carrier": "WestJet",
@@ -1560,9 +1560,9 @@
       "from": "Toronto (YYZ)",
       "expected": "20:47",
       "actual": "20:47",
-      "gate": "10",
-      "status": "Landed",
-      "delayMinutes": 6
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "WestJet",
@@ -1570,9 +1570,9 @@
       "from": "Saskatoon (YXE)",
       "expected": "20:55",
       "actual": "20:55",
-      "gate": "24",
-      "status": "In Gate",
-      "delayMinutes": -6
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "WestJet",
@@ -1711,8 +1711,8 @@
       "expected": "23:33",
       "actual": "23:33",
       "gate": "—",
-      "status": "In Air",
-      "delayMinutes": -47
+      "status": "Landed",
+      "delayMinutes": -43
     },
     {
       "carrier": "Porter Airlines",
@@ -1722,7 +1722,7 @@
       "actual": "23:44",
       "gate": "—",
       "status": "In Air",
-      "delayMinutes": -1
+      "delayMinutes": 0
     },
     {
       "carrier": "United Airlines",
@@ -1732,7 +1732,7 @@
       "actual": "23:55",
       "gate": "24",
       "status": "In Air",
-      "delayMinutes": -9
+      "delayMinutes": -10
     }
   ]
 }
