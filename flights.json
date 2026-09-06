@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T11:33:44.492Z",
+  "updated": "2026-09-06T11:47:43.527Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -38,9 +38,9 @@
       "destination": "Montreal (YUL)",
       "expected": "06:25",
       "actual": "06:25",
-      "gate": "15",
-      "status": "In Gate",
-      "delayMinutes": 17
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "Delta Air Lines",
@@ -48,9 +48,9 @@
       "destination": "New York (LGA)",
       "expected": "06:30",
       "actual": "06:30",
-      "gate": "46",
-      "status": "Landed",
-      "delayMinutes": 14
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "Porter Airlines",
@@ -159,8 +159,8 @@
       "expected": "08:30",
       "actual": "08:30",
       "gate": "16",
-      "status": "Scheduled",
-      "delayMinutes": 10
+      "status": "In Air",
+      "delayMinutes": -2
     },
     {
       "carrier": "WestJet",
@@ -240,7 +240,7 @@
       "actual": "12:00",
       "gate": "22",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": 10
     },
     {
       "carrier": "Air Canada",
@@ -851,8 +851,8 @@
       "expected": "08:50",
       "actual": "08:50",
       "gate": "22",
-      "status": "In Air",
-      "delayMinutes": -9
+      "status": "Landed",
+      "delayMinutes": -16
     },
     {
       "carrier": "Air Canada",
@@ -892,7 +892,7 @@
       "actual": "10:02",
       "gate": "10",
       "status": "In Air",
-      "delayMinutes": -10
+      "delayMinutes": -16
     },
     {
       "carrier": "Porter Airlines",
@@ -1092,7 +1092,7 @@
       "actual": "14:03",
       "gate": "26",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": -8
     },
     {
       "carrier": "WestJet",
@@ -1112,7 +1112,7 @@
       "actual": "14:10",
       "gate": "16",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": -10
     },
     {
       "carrier": "American Airlines",
@@ -1171,7 +1171,7 @@
       "expected": "15:30",
       "actual": "15:30",
       "gate": "56",
-      "status": "Scheduled",
+      "status": "Out Gate",
       "delayMinutes": -28
     },
     {
