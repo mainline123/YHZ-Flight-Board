@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T09:03:21.527Z",
+  "updated": "2026-09-06T09:22:32.804Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -19,8 +19,8 @@
       "expected": "06:00",
       "actual": "06:00",
       "gate": "18",
-      "status": "Out Gate",
-      "delayMinutes": 16
+      "status": "In Air",
+      "delayMinutes": 2
     },
     {
       "carrier": "Porter Airlines",
@@ -63,16 +63,6 @@
       "delayMinutes": 0
     },
     {
-      "carrier": "Porter Airlines",
-      "flight": "PD240",
-      "destination": "Ottawa (YOW)",
-      "expected": "07:00",
-      "actual": "07:00",
-      "gate": "10",
-      "status": "Scheduled",
-      "delayMinutes": 0
-    },
-    {
       "carrier": "Air Canada",
       "flight": "AC607",
       "destination": "Toronto (YYZ)",
@@ -81,6 +71,16 @@
       "gate": "20",
       "status": "Scheduled",
       "delayMinutes": 10
+    },
+    {
+      "carrier": "Porter Airlines",
+      "flight": "PD240",
+      "destination": "Ottawa (YOW)",
+      "expected": "07:00",
+      "actual": "07:00",
+      "gate": "10",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "United Airlines",
@@ -554,21 +554,21 @@
     },
     {
       "carrier": "Air Canada",
-      "flight": "AC7678",
-      "destination": "St. John's (YYT)",
-      "expected": "17:40",
-      "actual": "17:40",
-      "gate": "2A",
-      "status": "Scheduled",
-      "delayMinutes": 0
-    },
-    {
-      "carrier": "Air Canada",
       "flight": "AC7691",
       "destination": "Ottawa (YOW)",
       "expected": "17:40",
       "actual": "17:40",
       "gate": "2C",
+      "status": "Scheduled",
+      "delayMinutes": 0
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7678",
+      "destination": "St. John's (YYT)",
+      "expected": "17:40",
+      "actual": "17:40",
+      "gate": "2A",
       "status": "Scheduled",
       "delayMinutes": 0
     },
@@ -603,22 +603,22 @@
       "delayMinutes": 0
     },
     {
-      "carrier": "WestJet",
-      "flight": "WS673",
-      "destination": "Calgary (YYC)",
-      "expected": "18:15",
-      "actual": "18:15",
-      "gate": "18",
-      "status": "Scheduled",
-      "delayMinutes": 0
-    },
-    {
       "carrier": "Porter Airlines",
       "flight": "PD472",
       "destination": "Hamilton (YHM)",
       "expected": "18:15",
       "actual": "18:15",
       "gate": "22",
+      "status": "Scheduled",
+      "delayMinutes": 0
+    },
+    {
+      "carrier": "WestJet",
+      "flight": "WS673",
+      "destination": "Calgary (YYC)",
+      "expected": "18:15",
+      "actual": "18:15",
+      "gate": "18",
       "status": "Scheduled",
       "delayMinutes": 0
     },
@@ -820,9 +820,9 @@
       "from": "Toronto (YYZ)",
       "expected": "01:54",
       "actual": "01:54",
-      "gate": "18",
-      "status": "In Gate",
-      "delayMinutes": 133
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "WestJet",
