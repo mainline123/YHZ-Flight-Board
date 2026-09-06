@@ -1,8 +1,6 @@
 name: Auto-Update Flight Board
 
 on:
-  schedule:
-    - cron: '17 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -32,5 +30,5 @@ jobs:
       - name: Commit and push updated flights
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Automatic live YHZ flight update"
+          commit_message: "Manual live YHZ flight update"
           file_pattern: flights.json last_updated.txt
