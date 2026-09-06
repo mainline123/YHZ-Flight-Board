@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T14:34:07.522Z",
+  "updated": "2026-09-06T14:47:25.177Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -219,8 +219,8 @@
       "expected": "11:05",
       "actual": "11:05",
       "gate": "20",
-      "status": "Out Gate",
-      "delayMinutes": 14
+      "status": "In Air",
+      "delayMinutes": 28
     },
     {
       "carrier": "Porter Airlines",
@@ -239,8 +239,8 @@
       "expected": "11:35",
       "actual": "11:35",
       "gate": "12",
-      "status": "Scheduled",
-      "delayMinutes": 0
+      "status": "In Air",
+      "delayMinutes": 6
     },
     {
       "carrier": "Flair Airlines",
@@ -420,7 +420,7 @@
       "actual": "15:06",
       "gate": "46",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": 18
     },
     {
       "carrier": "WestJet",
@@ -910,9 +910,9 @@
       "from": "St. John's (YYT)",
       "expected": "10:02",
       "actual": "10:02",
-      "gate": "10",
-      "status": "In Gate",
-      "delayMinutes": -17
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "Porter Airlines",
@@ -971,7 +971,7 @@
       "expected": "11:50",
       "actual": "11:50",
       "gate": "24",
-      "status": "Landed",
+      "status": "In Gate",
       "delayMinutes": -20
     },
     {
@@ -1011,8 +1011,8 @@
       "expected": "12:10",
       "actual": "12:10",
       "gate": "53",
-      "status": "In Air",
-      "delayMinutes": -36
+      "status": "In Gate",
+      "delayMinutes": -35
     },
     {
       "carrier": "Porter Airlines",
@@ -1022,7 +1022,7 @@
       "actual": "12:19",
       "gate": "3",
       "status": "In Air",
-      "delayMinutes": -11
+      "delayMinutes": -13
     },
     {
       "carrier": "Porter Airlines",
@@ -1031,7 +1031,7 @@
       "expected": "12:20",
       "actual": "12:20",
       "gate": "6",
-      "status": "Delayed",
+      "status": "In Air",
       "delayMinutes": 81
     },
     {
@@ -1052,7 +1052,7 @@
       "actual": "12:59",
       "gate": "58",
       "status": "In Air",
-      "delayMinutes": -21
+      "delayMinutes": -22
     },
     {
       "carrier": "Air Canada",
@@ -1061,8 +1061,8 @@
       "expected": "13:09",
       "actual": "13:09",
       "gate": "20",
-      "status": "Out Gate",
-      "delayMinutes": 14
+      "status": "In Air",
+      "delayMinutes": 13
     },
     {
       "carrier": "Flair Airlines",
@@ -1091,7 +1091,7 @@
       "expected": "13:36",
       "actual": "13:36",
       "gate": "57",
-      "status": "Scheduled",
+      "status": "Out Gate",
       "delayMinutes": -30
     },
     {
@@ -1302,7 +1302,7 @@
       "actual": "17:14",
       "gate": "20",
       "status": "Scheduled",
-      "delayMinutes": -15
+      "delayMinutes": -5
     },
     {
       "carrier": "WestJet",
@@ -1352,7 +1352,7 @@
       "actual": "18:45",
       "gate": "12",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": -10
     },
     {
       "carrier": "Edelweiss Air",
@@ -1442,7 +1442,7 @@
       "actual": "20:25",
       "gate": "—",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": -19
     },
     {
       "carrier": "Air Canada",
