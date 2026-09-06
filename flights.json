@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T02:22:31.139Z",
+  "updated": "2026-09-06T02:35:05.605Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -839,7 +839,7 @@
       "expected": "21:10",
       "actual": "21:10",
       "gate": "2E",
-      "status": "Landed",
+      "status": "In Gate",
       "delayMinutes": 25
     },
     {
@@ -859,8 +859,8 @@
       "expected": "22:30",
       "actual": "22:30",
       "gate": "14",
-      "status": "Delayed",
-      "delayMinutes": 30
+      "status": "In Air",
+      "delayMinutes": 60
     },
     {
       "carrier": "WestJet",
@@ -1600,9 +1600,9 @@
       "from": "Ottawa (YOW)",
       "expected": "21:14",
       "actual": "21:14",
-      "gate": "3",
-      "status": "In Gate",
-      "delayMinutes": 15
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "Air Canada",
@@ -1650,9 +1650,9 @@
       "from": "Vancouver (YVR)",
       "expected": "21:45",
       "actual": "21:45",
-      "gate": "16",
-      "status": "In Gate",
-      "delayMinutes": -20
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "Air Canada",
@@ -1692,7 +1692,7 @@
       "actual": "23:12",
       "gate": "—",
       "status": "In Air",
-      "delayMinutes": 13
+      "delayMinutes": 15
     },
     {
       "carrier": "Delta Air Lines",
@@ -1722,7 +1722,7 @@
       "actual": "23:44",
       "gate": "—",
       "status": "In Air",
-      "delayMinutes": -2
+      "delayMinutes": -1
     },
     {
       "carrier": "United Airlines",
