@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T04:48:19.419Z",
+  "updated": "2026-09-06T05:03:33.951Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -10,7 +10,7 @@
       "actual": "05:15",
       "gate": "22",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": 10
     },
     {
       "carrier": "Air Canada",
@@ -73,22 +73,22 @@
       "delayMinutes": 0
     },
     {
-      "carrier": "United Airlines",
-      "flight": "UA3630",
-      "destination": "Newark (EWR)",
-      "expected": "07:00",
-      "actual": "07:00",
-      "gate": "54",
-      "status": "Scheduled",
-      "delayMinutes": 0
-    },
-    {
       "carrier": "Porter Airlines",
       "flight": "PD240",
       "destination": "Ottawa (YOW)",
       "expected": "07:00",
       "actual": "07:00",
       "gate": "10",
+      "status": "Scheduled",
+      "delayMinutes": 0
+    },
+    {
+      "carrier": "United Airlines",
+      "flight": "UA3630",
+      "destination": "Newark (EWR)",
+      "expected": "07:00",
+      "actual": "07:00",
+      "gate": "54",
       "status": "Scheduled",
       "delayMinutes": 0
     },
@@ -554,8 +554,8 @@
     },
     {
       "carrier": "Air Canada",
-      "flight": "AC7691",
-      "destination": "Ottawa (YOW)",
+      "flight": "AC7678",
+      "destination": "St. John's (YYT)",
       "expected": "17:40",
       "actual": "17:40",
       "gate": "—",
@@ -564,8 +564,8 @@
     },
     {
       "carrier": "Air Canada",
-      "flight": "AC7678",
-      "destination": "St. John's (YYT)",
+      "flight": "AC7691",
+      "destination": "Ottawa (YOW)",
       "expected": "17:40",
       "actual": "17:40",
       "gate": "—",
@@ -603,16 +603,6 @@
       "delayMinutes": 0
     },
     {
-      "carrier": "Porter Airlines",
-      "flight": "PD472",
-      "destination": "Hamilton (YHM)",
-      "expected": "18:15",
-      "actual": "18:15",
-      "gate": "22",
-      "status": "Scheduled",
-      "delayMinutes": 0
-    },
-    {
       "carrier": "WestJet",
       "flight": "WS673",
       "destination": "Calgary (YYC)",
@@ -623,12 +613,12 @@
       "delayMinutes": 0
     },
     {
-      "carrier": "Discover Airlines",
-      "flight": "4Y*75",
-      "destination": "Frankfurt (FRA)",
-      "expected": "19:30",
-      "actual": "19:30",
-      "gate": "—",
+      "carrier": "Porter Airlines",
+      "flight": "PD472",
+      "destination": "Hamilton (YHM)",
+      "expected": "18:15",
+      "actual": "18:15",
+      "gate": "22",
       "status": "Scheduled",
       "delayMinutes": 0
     },
@@ -639,6 +629,16 @@
       "expected": "19:30",
       "actual": "19:30",
       "gate": "10",
+      "status": "Scheduled",
+      "delayMinutes": 0
+    },
+    {
+      "carrier": "Discover Airlines",
+      "flight": "4Y*75",
+      "destination": "Frankfurt (FRA)",
+      "expected": "19:30",
+      "actual": "19:30",
+      "gate": "—",
       "status": "Scheduled",
       "delayMinutes": 0
     },
@@ -744,21 +744,21 @@
     },
     {
       "carrier": "WestJet",
-      "flight": "WS66",
-      "destination": "Barcelona (BCN)",
-      "expected": "22:35",
-      "actual": "22:35",
-      "gate": "—",
-      "status": "Scheduled",
-      "delayMinutes": 0
-    },
-    {
-      "carrier": "WestJet",
       "flight": "WS44",
       "destination": "Copenhagen (CPH)",
       "expected": "22:35",
       "actual": "22:35",
       "gate": "16",
+      "status": "Scheduled",
+      "delayMinutes": 0
+    },
+    {
+      "carrier": "WestJet",
+      "flight": "WS66",
+      "destination": "Barcelona (BCN)",
+      "expected": "22:35",
+      "actual": "22:35",
+      "gate": "—",
       "status": "Scheduled",
       "delayMinutes": 0
     },
@@ -952,7 +952,7 @@
       "actual": "11:50",
       "gate": "24",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": -27
     },
     {
       "carrier": "Air Canada",
@@ -1200,7 +1200,7 @@
       "from": "Newark (EWR)",
       "expected": "16:01",
       "actual": "16:01",
-      "gate": "—",
+      "gate": "57",
       "status": "Scheduled",
       "delayMinutes": 0
     },
