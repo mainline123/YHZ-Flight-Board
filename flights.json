@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T08:23:57.577Z",
+  "updated": "2026-09-06T08:36:23.533Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -278,7 +278,7 @@
       "destination": "Toronto (YYZ)",
       "expected": "12:55",
       "actual": "12:55",
-      "gate": "10",
+      "gate": "12",
       "status": "Scheduled",
       "delayMinutes": 0
     },
@@ -299,8 +299,8 @@
       "expected": "13:05",
       "actual": "13:05",
       "gate": "6",
-      "status": "Scheduled",
-      "delayMinutes": 0
+      "status": "Delayed",
+      "delayMinutes": 90
     },
     {
       "carrier": "WestJet",
