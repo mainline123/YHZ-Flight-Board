@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T01:09:08.712Z",
+  "updated": "2026-09-06T01:20:23.382Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -1550,9 +1550,9 @@
       "from": "Ottawa (YOW)",
       "expected": "20:30",
       "actual": "20:30",
-      "gate": "2C",
-      "status": "In Gate",
-      "delayMinutes": -18
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "Porter Airlines",
@@ -1692,7 +1692,7 @@
       "actual": "23:12",
       "gate": "—",
       "status": "In Air",
-      "delayMinutes": 15
+      "delayMinutes": 14
     },
     {
       "carrier": "Delta Air Lines",
@@ -1702,7 +1702,7 @@
       "actual": "23:13",
       "gate": "46",
       "status": "In Air",
-      "delayMinutes": -49
+      "delayMinutes": -48
     },
     {
       "carrier": "Porter Airlines",
@@ -1712,7 +1712,7 @@
       "actual": "23:33",
       "gate": "—",
       "status": "In Air",
-      "delayMinutes": -44
+      "delayMinutes": -45
     },
     {
       "carrier": "Porter Airlines",
@@ -1722,7 +1722,7 @@
       "actual": "23:44",
       "gate": "—",
       "status": "In Air",
-      "delayMinutes": 1
+      "delayMinutes": 2
     },
     {
       "carrier": "United Airlines",
@@ -1731,8 +1731,8 @@
       "expected": "23:55",
       "actual": "23:55",
       "gate": "24",
-      "status": "Scheduled",
-      "delayMinutes": -7
+      "status": "Out Gate",
+      "delayMinutes": -24
     }
   ]
 }
