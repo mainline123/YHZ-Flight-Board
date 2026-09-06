@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T06:51:53.410Z",
+  "updated": "2026-09-06T07:03:33.577Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -63,14 +63,14 @@
       "delayMinutes": 0
     },
     {
-      "carrier": "Porter Airlines",
-      "flight": "PD240",
-      "destination": "Ottawa (YOW)",
+      "carrier": "Air Canada",
+      "flight": "AC607",
+      "destination": "Toronto (YYZ)",
       "expected": "07:00",
       "actual": "07:00",
-      "gate": "10",
+      "gate": "20",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": 10
     },
     {
       "carrier": "United Airlines",
@@ -83,14 +83,14 @@
       "delayMinutes": 30
     },
     {
-      "carrier": "Air Canada",
-      "flight": "AC607",
-      "destination": "Toronto (YYZ)",
+      "carrier": "Porter Airlines",
+      "flight": "PD240",
+      "destination": "Ottawa (YOW)",
       "expected": "07:00",
       "actual": "07:00",
-      "gate": "20",
+      "gate": "10",
       "status": "Scheduled",
-      "delayMinutes": 10
+      "delayMinutes": 0
     },
     {
       "carrier": "Air Canada",
@@ -114,21 +114,21 @@
     },
     {
       "carrier": "Porter Airlines",
-      "flight": "PD2324",
-      "destination": "Montreal (YUL)",
-      "expected": "08:00",
-      "actual": "08:00",
-      "gate": "6",
-      "status": "Scheduled",
-      "delayMinutes": 0
-    },
-    {
-      "carrier": "Porter Airlines",
       "flight": "PD2280",
       "destination": "Toronto (YTZ)",
       "expected": "08:00",
       "actual": "08:00",
       "gate": "2E",
+      "status": "Scheduled",
+      "delayMinutes": 0
+    },
+    {
+      "carrier": "Porter Airlines",
+      "flight": "PD2324",
+      "destination": "Montreal (YUL)",
+      "expected": "08:00",
+      "actual": "08:00",
+      "gate": "6",
       "status": "Scheduled",
       "delayMinutes": 0
     },
@@ -150,7 +150,7 @@
       "actual": "08:15",
       "gate": "3",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": 10
     },
     {
       "carrier": "WestJet",
@@ -554,8 +554,8 @@
     },
     {
       "carrier": "Air Canada",
-      "flight": "AC7691",
-      "destination": "Ottawa (YOW)",
+      "flight": "AC7678",
+      "destination": "St. John's (YYT)",
       "expected": "17:40",
       "actual": "17:40",
       "gate": "—",
@@ -564,8 +564,8 @@
     },
     {
       "carrier": "Air Canada",
-      "flight": "AC7678",
-      "destination": "St. John's (YYT)",
+      "flight": "AC7691",
+      "destination": "Ottawa (YOW)",
       "expected": "17:40",
       "actual": "17:40",
       "gate": "—",
