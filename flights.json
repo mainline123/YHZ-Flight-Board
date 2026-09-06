@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T00:58:26.280Z",
+  "updated": "2026-09-06T01:03:20.880Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -759,7 +759,7 @@
       "expected": "19:55",
       "actual": "19:55",
       "gate": "20",
-      "status": "Landed",
+      "status": "In Gate",
       "delayMinutes": 32
     },
     {
