@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T07:47:29.993Z",
+  "updated": "2026-09-06T08:03:46.658Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -498,7 +498,7 @@
       "destination": "Boston (BOS)",
       "expected": "16:45",
       "actual": "16:45",
-      "gate": "—",
+      "gate": "57",
       "status": "Scheduled",
       "delayMinutes": 0
     },
@@ -991,8 +991,8 @@
       "expected": "12:10",
       "actual": "12:10",
       "gate": "53",
-      "status": "Scheduled",
-      "delayMinutes": -10
+      "status": "Out Gate",
+      "delayMinutes": -30
     },
     {
       "carrier": "Porter Airlines",
@@ -1011,8 +1011,8 @@
       "expected": "12:20",
       "actual": "12:20",
       "gate": "6",
-      "status": "Scheduled",
-      "delayMinutes": 0
+      "status": "Delayed",
+      "delayMinutes": 42
     },
     {
       "carrier": "Air Canada",
