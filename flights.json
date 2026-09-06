@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T02:35:05.605Z",
+  "updated": "2026-09-06T02:48:32.541Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -838,9 +838,9 @@
       "destination": "St. John's (YYT)",
       "expected": "21:10",
       "actual": "21:10",
-      "gate": "2E",
-      "status": "In Gate",
-      "delayMinutes": 25
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "WestJet",
@@ -1610,9 +1610,9 @@
       "from": "Boston (BOS)",
       "expected": "21:15",
       "actual": "21:15",
-      "gate": "46",
-      "status": "In Gate",
-      "delayMinutes": 28
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "WestJet",
@@ -1691,7 +1691,7 @@
       "expected": "23:12",
       "actual": "23:12",
       "gate": "—",
-      "status": "In Air",
+      "status": "Landed",
       "delayMinutes": 15
     },
     {
@@ -1721,7 +1721,7 @@
       "expected": "23:44",
       "actual": "23:44",
       "gate": "—",
-      "status": "In Air",
+      "status": "Landed",
       "delayMinutes": -1
     },
     {
@@ -1731,8 +1731,8 @@
       "expected": "23:55",
       "actual": "23:55",
       "gate": "24",
-      "status": "In Air",
-      "delayMinutes": -12
+      "status": "Landed",
+      "delayMinutes": -15
     }
   ]
 }
