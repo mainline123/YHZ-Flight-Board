@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T07:34:43.932Z",
+  "updated": "2026-09-06T07:47:29.993Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -140,7 +140,7 @@
       "actual": "08:05",
       "gate": "2A",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": 10
     },
     {
       "carrier": "Porter Airlines",
@@ -1022,7 +1022,7 @@
       "actual": "12:44",
       "gate": "2C",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": -10
     },
     {
       "carrier": "Delta Air Lines",
@@ -1142,7 +1142,7 @@
       "actual": "15:10",
       "gate": "23",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": -10
     },
     {
       "carrier": "Air Canada",
