@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T10:22:14.577Z",
+  "updated": "2026-09-06T10:34:51.880Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -8,9 +8,9 @@
       "destination": "Toronto (YYZ)",
       "expected": "05:15",
       "actual": "05:15",
-      "gate": "22",
-      "status": "In Air",
-      "delayMinutes": 19
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "Air Canada",
@@ -69,8 +69,8 @@
       "expected": "07:00",
       "actual": "07:00",
       "gate": "20",
-      "status": "Out Gate",
-      "delayMinutes": 19
+      "status": "In Air",
+      "delayMinutes": 25
     },
     {
       "carrier": "United Airlines",
@@ -89,8 +89,8 @@
       "expected": "07:00",
       "actual": "07:00",
       "gate": "10",
-      "status": "Out Gate",
-      "delayMinutes": 11
+      "status": "In Air",
+      "delayMinutes": 14
     },
     {
       "carrier": "Air Canada",
@@ -99,8 +99,8 @@
       "expected": "07:15",
       "actual": "07:15",
       "gate": "2C",
-      "status": "Scheduled",
-      "delayMinutes": 10
+      "status": "Delayed",
+      "delayMinutes": 30
     },
     {
       "carrier": "WestJet",
@@ -190,7 +190,7 @@
       "actual": "10:55",
       "gate": "2A",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": 10
     },
     {
       "carrier": "Porter Airlines",
@@ -1061,7 +1061,7 @@
       "expected": "13:15",
       "actual": "13:15",
       "gate": "28",
-      "status": "Delayed",
+      "status": "Out Gate",
       "delayMinutes": 31
     },
     {
@@ -1081,8 +1081,8 @@
       "expected": "13:40",
       "actual": "13:40",
       "gate": "22",
-      "status": "Out Gate",
-      "delayMinutes": -28
+      "status": "In Air",
+      "delayMinutes": -2
     },
     {
       "carrier": "United Airlines",
@@ -1172,7 +1172,7 @@
       "actual": "15:30",
       "gate": "56",
       "status": "Scheduled",
-      "delayMinutes": -5
+      "delayMinutes": -28
     },
     {
       "carrier": "Porter Airlines",
@@ -1480,7 +1480,7 @@
       "from": "Boston (BOS)",
       "expected": "21:15",
       "actual": "21:15",
-      "gate": "—",
+      "gate": "46",
       "status": "Scheduled",
       "delayMinutes": 0
     },
