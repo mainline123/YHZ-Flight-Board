@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T05:03:33.951Z",
+  "updated": "2026-09-06T05:21:31.143Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -811,7 +811,7 @@
       "expected": "00:49",
       "actual": "00:49",
       "gate": "22",
-      "status": "In Air",
+      "status": "In Gate",
       "delayMinutes": 79
     },
     {
@@ -821,7 +821,7 @@
       "expected": "01:54",
       "actual": "01:54",
       "gate": "18",
-      "status": "Delayed",
+      "status": "Out Gate",
       "delayMinutes": 149
     },
     {
@@ -831,8 +831,8 @@
       "expected": "06:55",
       "actual": "06:55",
       "gate": "18",
-      "status": "Scheduled",
-      "delayMinutes": -10
+      "status": "In Air",
+      "delayMinutes": -18
     },
     {
       "carrier": "WestJet",
@@ -852,7 +852,7 @@
       "actual": "08:50",
       "gate": "22",
       "status": "Scheduled",
-      "delayMinutes": -15
+      "delayMinutes": -36
     },
     {
       "carrier": "Air Canada",
@@ -1062,7 +1062,7 @@
       "actual": "13:15",
       "gate": "28",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": -29
     },
     {
       "carrier": "American Airlines",
