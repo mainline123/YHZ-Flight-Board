@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T13:47:19.091Z",
+  "updated": "2026-09-06T14:03:36.527Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -63,6 +63,16 @@
       "delayMinutes": 0
     },
     {
+      "carrier": "United Airlines",
+      "flight": "UA3630",
+      "destination": "Newark (EWR)",
+      "expected": "07:00",
+      "actual": "07:00",
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
+    },
+    {
       "carrier": "Porter Airlines",
       "flight": "PD240",
       "destination": "Ottawa (YOW)",
@@ -76,16 +86,6 @@
       "carrier": "Air Canada",
       "flight": "AC607",
       "destination": "Toronto (YYZ)",
-      "expected": "07:00",
-      "actual": "07:00",
-      "gate": "—",
-      "status": "Scheduled",
-      "delayMinutes": 0
-    },
-    {
-      "carrier": "United Airlines",
-      "flight": "UA3630",
-      "destination": "Newark (EWR)",
       "expected": "07:00",
       "actual": "07:00",
       "gate": "—",
@@ -380,7 +380,7 @@
       "actual": "14:21",
       "gate": "57",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": 16
     },
     {
       "carrier": "Air Canada",
@@ -390,7 +390,7 @@
       "actual": "14:30",
       "gate": "23",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": 10
     },
     {
       "carrier": "United Airlines",
@@ -754,21 +754,21 @@
     },
     {
       "carrier": "WestJet",
-      "flight": "WS44",
-      "destination": "Copenhagen (CPH)",
-      "expected": "22:35",
-      "actual": "22:35",
-      "gate": "16",
-      "status": "Scheduled",
-      "delayMinutes": 0
-    },
-    {
-      "carrier": "WestJet",
       "flight": "WS66",
       "destination": "Barcelona (BCN)",
       "expected": "22:35",
       "actual": "22:35",
       "gate": "14",
+      "status": "Scheduled",
+      "delayMinutes": 0
+    },
+    {
+      "carrier": "WestJet",
+      "flight": "WS44",
+      "destination": "Copenhagen (CPH)",
+      "expected": "22:35",
+      "actual": "22:35",
+      "gate": "16",
       "status": "Scheduled",
       "delayMinutes": 0
     },
@@ -871,7 +871,7 @@
       "expected": "08:53",
       "actual": "08:53",
       "gate": "—",
-      "status": "Cancelled",
+      "status": "Scheduled",
       "delayMinutes": 0
     },
     {
@@ -880,9 +880,9 @@
       "from": "St. John's (YYT)",
       "expected": "09:14",
       "actual": "09:14",
-      "gate": "2A",
-      "status": "In Gate",
-      "delayMinutes": -22
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "Air Canada",
@@ -912,7 +912,7 @@
       "actual": "10:39",
       "gate": "12",
       "status": "Landed",
-      "delayMinutes": -4
+      "delayMinutes": -6
     },
     {
       "carrier": "WestJet",
@@ -972,7 +972,7 @@
       "actual": "11:50",
       "gate": "2A",
       "status": "In Air",
-      "delayMinutes": 6
+      "delayMinutes": 17
     },
     {
       "carrier": "Porter Airlines",
@@ -982,7 +982,7 @@
       "actual": "11:59",
       "gate": "10",
       "status": "In Air",
-      "delayMinutes": -11
+      "delayMinutes": -9
     },
     {
       "carrier": "Porter Airlines",
@@ -1012,7 +1012,7 @@
       "actual": "12:19",
       "gate": "3",
       "status": "In Air",
-      "delayMinutes": -13
+      "delayMinutes": -15
     },
     {
       "carrier": "Porter Airlines",
@@ -1041,7 +1041,7 @@
       "expected": "12:59",
       "actual": "12:59",
       "gate": "58",
-      "status": "Scheduled",
+      "status": "Out Gate",
       "delayMinutes": -39
     },
     {
@@ -1102,7 +1102,7 @@
       "actual": "14:03",
       "gate": "26",
       "status": "Scheduled",
-      "delayMinutes": -8
+      "delayMinutes": -36
     },
     {
       "carrier": "WestJet",
@@ -1261,8 +1261,8 @@
       "expected": "16:45",
       "actual": "16:45",
       "gate": "3",
-      "status": "Scheduled",
-      "delayMinutes": 0
+      "status": "Delayed",
+      "delayMinutes": 66
     },
     {
       "carrier": "Air Canada",
@@ -1372,7 +1372,7 @@
       "actual": "19:10",
       "gate": "16",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": -10
     },
     {
       "carrier": "Flair Airlines",
