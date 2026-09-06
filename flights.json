@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T09:22:32.804Z",
+  "updated": "2026-09-06T09:35:06.416Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -29,8 +29,8 @@
       "expected": "06:20",
       "actual": "06:20",
       "gate": "12",
-      "status": "Scheduled",
-      "delayMinutes": 0
+      "status": "Out Gate",
+      "delayMinutes": 2
     },
     {
       "carrier": "Air Canada",
@@ -49,8 +49,8 @@
       "expected": "06:30",
       "actual": "06:30",
       "gate": "46",
-      "status": "Scheduled",
-      "delayMinutes": 10
+      "status": "Out Gate",
+      "delayMinutes": 5
     },
     {
       "carrier": "Porter Airlines",
@@ -170,7 +170,7 @@
       "actual": "09:50",
       "gate": "14",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": 10
     },
     {
       "carrier": "Air Canada",
@@ -831,8 +831,8 @@
       "expected": "06:55",
       "actual": "06:55",
       "gate": "18",
-      "status": "In Air",
-      "delayMinutes": -18
+      "status": "Landed",
+      "delayMinutes": -30
     },
     {
       "carrier": "WestJet",
@@ -962,7 +962,7 @@
       "actual": "11:50",
       "gate": "2A",
       "status": "Scheduled",
-      "delayMinutes": -10
+      "delayMinutes": -5
     },
     {
       "carrier": "Porter Airlines",
