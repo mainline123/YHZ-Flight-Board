@@ -1,268 +1,416 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HALIFAX STANFIELD (YHZ) - DEPARTURES</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+<title>Halifax Stanfield YHZ Departures</title>
 
-        body {
-            background-color: #0b0f19;
-            color: #ffffff;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            height: 100vh;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-        }
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-        header {
-            background: #111827;
-            padding: 30px 50px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 4px solid #1f2937;
-        }
+body {
+    background: #0b0f19;
+    color: white;
+    font-family: "Segoe UI", Arial, sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
 
-        header h1 {
-            font-size: 3.5rem;
-            letter-spacing: 3px;
-            color: #38bdf8;
-        }
+header {
+    background: #111827;
+    padding: 28px 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #1f2937;
+}
 
-        .clock {
-            font-size: 3.2rem;
-            font-weight: bold;
-            color: #fbbf24;
-        }
+header h1 {
+    font-size: 3.3rem;
+    letter-spacing: 3px;
+    color: #38bdf8;
+}
 
-        .container {
-            flex: 1;
-            padding: 30px;
-            display: flex;
-            flex-direction: column;
-            overflow: hidden;
-        }
+.clock-area {
+    text-align: right;
+}
 
-        .board-column {
-            flex: 1;
-            background: #111827;
-            border-radius: 16px;
-            display: flex;
-            flex-direction: column;
-            border: 3px solid #1f2937;
-            overflow: hidden;
-        }
+.clock {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fbbf24;
+}
 
-        .table-wrapper {
-            flex: 1;
-            overflow-y: auto;
-        }
+.time-label {
+    font-size: 1rem;
+    color: #94a3b8;
+    margin-top: 4px;
+}
 
-        .table-wrapper::-webkit-scrollbar {
-            width: 12px;
-        }
+.container {
+    flex: 1;
+    padding: 25px;
+    overflow: hidden;
+}
 
-        .table-wrapper::-webkit-scrollbar-thumb {
-            background: #374151;
-            border-radius: 6px;
-        }
+.board {
+    height: 100%;
+    background: #111827;
+    border: 3px solid #1f2937;
+    border-radius: 16px;
+    overflow: hidden;
+}
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            text-align: left;
-        }
+.table-wrapper {
+    height: 100%;
+    overflow-y: auto;
+}
 
-        th {
-            background: #1a2234;
-            color: #94a3b8;
-            padding: 24px 20px;
-            font-size: 1.5rem;
-            position: sticky;
-            top: 0;
-            z-index: 10;
-        }
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
 
-        td {
-            padding: 26px 20px;
-            border-bottom: 1px solid #1f2937;
-            font-size: 1.6rem;
-        }
+th {
+    background: #1a2234;
+    color: #94a3b8;
+    padding: 20px 16px;
+    text-align: left;
+    font-size: 1.35rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
 
-        tr:nth-child(even) {
-            background: rgba(255, 255, 255, 0.02);
-        }
+td {
+    padding: 21px 16px;
+    border-bottom: 1px solid #1f2937;
+    font-size: 1.45rem;
+}
 
-        .status-on-time {
-            color: #4ade80;
-            font-weight: bold;
-        }
+tr:nth-child(even) {
+    background: rgba(255,255,255,0.025);
+}
 
-        .status-delayed {
-            color: #f87171;
-            font-weight: bold;
-        }
+.status-scheduled,
+.status-on-time {
+    color: #4ade80;
+    font-weight: bold;
+}
 
-        .status-cancelled {
-            color: #f87171;
-            font-weight: bold;
-        }
+.status-delayed {
+    color: #fbbf24;
+    font-weight: bold;
+}
 
-        .status-boarding {
-            color: #38bdf8;
-            font-weight: bold;
-        }
-    </style>
+.status-cancelled {
+    color: #f87171;
+    font-weight: bold;
+}
+
+.status-boarding {
+    color: #38bdf8;
+    font-weight: bold;
+}
+
+.status-in-air {
+    color: #38bdf8;
+    font-weight: bold;
+}
+
+.message {
+    text-align: center;
+    padding: 40px;
+    color: #94a3b8;
+}
+</style>
 </head>
 
 <body>
 
-    <header>
-        <h1>YHZ DEPARTURES</h1>
-        <div class="clock" id="clock">00:00:00 AM</div>
-    </header>
+<header>
 
-    <div class="container">
-        <div class="board-column">
+    <h1>YHZ DEPARTURES</h1>
 
-            <div class="table-wrapper">
-
-                <table>
-
-                    <thead>
-                        <tr>
-                            <th>Carrier</th>
-                            <th>Flight #</th>
-                            <th>Destination</th>
-                            <th>Scheduled</th>
-                            <th>Estimated</th>
-                            <th>Gate</th>
-                            <th>Status</th>
-                        </tr>
-                    </thead>
-
-                    <tbody id="departures-body">
-
-                        <tr>
-                            <td colspan="7" style="text-align: center;">
-                                Syncing...
-                            </td>
-                        </tr>
-
-                    </tbody>
-
-                </table>
-
-            </div>
-
-        </div>
+    <div class="clock-area">
+        <div class="clock" id="clock">--:--:--</div>
+        <div class="time-label">HALIFAX LOCAL TIME</div>
     </div>
 
-    <script>
+</header>
 
-        /* =========================================
-           HALIFAX / YHZ LOCAL CLOCK
-           Always uses America/Halifax timezone.
-           Automatically handles AST and ADT.
-        ========================================== */
+<div class="container">
 
-        function updateClock() {
+    <div class="board">
 
-            const halifaxTime =
-                new Date().toLocaleTimeString('en-CA', {
-                    timeZone: 'America/Halifax',
-                    hour: '2-digit',
-                    minute: '2-digit',
-                    second: '2-digit',
-                    hour12: true
-                });
+        <div class="table-wrapper">
 
-            document.getElementById('clock').innerText = halifaxTime;
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Carrier</th>
+                        <th>Flight</th>
+                        <th>Destination</th>
+                        <th>Scheduled</th>
+                        <th>Gate</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody id="departures-body">
+
+                    <tr>
+                        <td colspan="6" class="message">
+                            Loading live YHZ departures...
+                        </td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+/* ==========================================
+   HALIFAX LOCAL CLOCK
+========================================== */
+
+function updateClock() {
+
+    const now = new Date();
+
+    const halifaxTime = now.toLocaleTimeString(
+        "en-CA",
+        {
+            timeZone: "America/Halifax",
+            hour: "2-digit",
+            minute: "2-digit",
+            second: "2-digit",
+            hour12: true
         }
+    );
 
-        setInterval(updateClock, 1000);
-        updateClock();
+    document.getElementById("clock").textContent =
+        halifaxTime;
+}
+
+updateClock();
+setInterval(updateClock, 1000);
 
 
-        /* =========================================
-           LOAD FLIGHT DATA
-        ========================================== */
+/* ==========================================
+   CONVERT HH:MM TO MINUTES
+========================================== */
 
-        async function loadFlightData() {
+function timeToMinutes(time) {
 
-            try {
+    if (!time || !time.includes(":"))
+        return null;
 
-                const response =
-                    await fetch('flights.json?t=' + Date.now());
+    const parts = time.split(":");
 
-                const data =
-                    await response.json();
+    return (
+        parseInt(parts[0], 10) * 60 +
+        parseInt(parts[1], 10)
+    );
+}
 
-                const departuresBody =
-                    document.getElementById('departures-body');
 
-                departuresBody.innerHTML = '';
+/* ==========================================
+   CURRENT HALIFAX TIME IN MINUTES
+========================================== */
 
-                (data.departures || []).forEach(f => {
+function halifaxMinutesNow() {
 
-                    let statusClass = 'status-on-time';
-
-                    const statusLower =
-                        (f.status || '').toLowerCase();
-
-                    if (
-                        statusLower.includes('delay') ||
-                        statusLower.includes('cancel')
-                    ) {
-                        statusClass = 'status-delayed';
-                    }
-
-                    if (statusLower.includes('boarding')) {
-                        statusClass = 'status-boarding';
-                    }
-
-                    departuresBody.innerHTML += `
-                        <tr>
-                            <td>${f.carrier || '—'}</td>
-                            <td>${f.flight || '—'}</td>
-                            <td>${f.destination || '—'}</td>
-                            <td>${f.expected || f.time || '—'}</td>
-                            <td>${f.actual || f.time || '—'}</td>
-                            <td>${f.gate || '—'}</td>
-                            <td>
-                                <span class="${statusClass}">
-                                    ${f.status || 'On Time'}
-                                </span>
-                            </td>
-                        </tr>
-                    `;
-
-                });
-
-            } catch (err) {
-
-                console.error(
-                    "Error loading flight data",
-                    err
-                );
-
+    const parts =
+        new Intl.DateTimeFormat(
+            "en-CA",
+            {
+                timeZone: "America/Halifax",
+                hour: "2-digit",
+                minute: "2-digit",
+                hour12: false
             }
+        ).formatToParts(new Date());
+
+    const hour =
+        parseInt(
+            parts.find(p => p.type === "hour").value,
+            10
+        );
+
+    const minute =
+        parseInt(
+            parts.find(p => p.type === "minute").value,
+            10
+        );
+
+    return hour * 60 + minute;
+}
+
+
+/* ==========================================
+   STATUS CSS CLASS
+========================================== */
+
+function statusClass(status) {
+
+    return "status-" +
+        String(status || "scheduled")
+            .toLowerCase()
+            .replace(/\s+/g, "-");
+}
+
+
+/* ==========================================
+   LOAD LIVE FLIGHT DATA
+========================================== */
+
+async function loadFlights() {
+
+    try {
+
+        const response =
+            await fetch(
+                "flights.json?t=" + Date.now(),
+                { cache: "no-store" }
+            );
+
+        if (!response.ok)
+            throw new Error(
+                "Unable to load flights.json"
+            );
+
+        const data = await response.json();
+
+        const body =
+            document.getElementById(
+                "departures-body"
+            );
+
+        const now =
+            halifaxMinutesNow();
+
+        /*
+          Keep flights from 60 minutes ago onward.
+
+          This removes old morning/afternoon flights
+          while still allowing a recently departed,
+          delayed or cancelled flight to remain visible.
+        */
+
+        let flights =
+            (data.departures || [])
+            .filter(f => {
+
+                const minutes =
+                    timeToMinutes(f.expected);
+
+                if (minutes === null)
+                    return false;
+
+                return minutes >= now - 60;
+            })
+            .sort((a, b) =>
+                timeToMinutes(a.expected) -
+                timeToMinutes(b.expected)
+            );
+
+        /*
+          Limit board to next 15 relevant flights.
+        */
+
+        flights = flights.slice(0, 15);
+
+        body.innerHTML = "";
+
+        if (flights.length === 0) {
+
+            body.innerHTML = `
+                <tr>
+                    <td colspan="6"
+                        class="message">
+                        No upcoming departures available.
+                    </td>
+                </tr>
+            `;
+
+            return;
         }
 
-        loadFlightData();
+        flights.forEach(f => {
 
-        /* Refresh flight data every 15 seconds */
-        setInterval(loadFlightData, 15000);
+            const row =
+                document.createElement("tr");
 
-    </script>
+            row.innerHTML = `
+                <td>${f.carrier || "—"}</td>
+
+                <td>${f.flight || "—"}</td>
+
+                <td>${f.destination || "—"}</td>
+
+                <td>${f.expected || "—"}</td>
+
+                <td>${f.gate || "—"}</td>
+
+                <td class="${statusClass(f.status)}">
+                    ${f.status || "Scheduled"}
+                </td>
+            `;
+
+            body.appendChild(row);
+        });
+
+    }
+    catch (error) {
+
+        console.error(error);
+
+        document.getElementById(
+            "departures-body"
+        ).innerHTML = `
+            <tr>
+                <td colspan="6"
+                    class="message">
+                    Unable to load departure data.
+                </td>
+            </tr>
+        `;
+    }
+}
+
+
+/* Load immediately */
+
+loadFlights();
+
+
+/*
+ Refresh webpage data every 60 seconds.
+
+ GitHub/Apify updates flights.json every
+ 15 minutes. This refresh makes the screen
+ pick up the newest file automatically.
+*/
+
+setInterval(loadFlights, 60000);
+
+</script>
 
 </body>
 </html>
