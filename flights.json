@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T14:47:25.177Z",
+  "updated": "2026-09-06T15:03:30.969Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -178,9 +178,9 @@
       "destination": "Edmonton (YEG)",
       "expected": "09:50",
       "actual": "09:50",
-      "gate": "14",
-      "status": "In Air",
-      "delayMinutes": 4
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "FlyExclusive",
@@ -298,7 +298,7 @@
       "destination": "Toronto (YYZ)",
       "expected": "12:55",
       "actual": "12:55",
-      "gate": "12",
+      "gate": "10",
       "status": "Scheduled",
       "delayMinutes": 0
     },
@@ -320,7 +320,7 @@
       "actual": "13:05",
       "gate": "6",
       "status": "Delayed",
-      "delayMinutes": 80
+      "delayMinutes": 98
     },
     {
       "carrier": "WestJet",
@@ -479,8 +479,8 @@
       "expected": "16:10",
       "actual": "16:10",
       "gate": "20",
-      "status": "Scheduled",
-      "delayMinutes": 10
+      "status": "Delayed",
+      "delayMinutes": 64
     },
     {
       "carrier": "Air Canada",
@@ -981,8 +981,8 @@
       "expected": "11:50",
       "actual": "11:50",
       "gate": "2A",
-      "status": "In Air",
-      "delayMinutes": 17
+      "status": "Landed",
+      "delayMinutes": 10
     },
     {
       "carrier": "Porter Airlines",
@@ -990,8 +990,8 @@
       "from": "Hamilton (YHM)",
       "expected": "11:59",
       "actual": "11:59",
-      "gate": "10",
-      "status": "In Air",
+      "gate": "12",
+      "status": "Landed",
       "delayMinutes": -8
     },
     {
@@ -1022,7 +1022,7 @@
       "actual": "12:19",
       "gate": "3",
       "status": "In Air",
-      "delayMinutes": -13
+      "delayMinutes": -14
     },
     {
       "carrier": "Porter Airlines",
@@ -1041,7 +1041,7 @@
       "expected": "12:44",
       "actual": "12:44",
       "gate": "2C",
-      "status": "Delayed",
+      "status": "In Air",
       "delayMinutes": 22
     },
     {
@@ -1111,8 +1111,8 @@
       "expected": "14:03",
       "actual": "14:03",
       "gate": "26",
-      "status": "Scheduled",
-      "delayMinutes": -36
+      "status": "Out Gate",
+      "delayMinutes": -30
     },
     {
       "carrier": "WestJet",
@@ -1132,7 +1132,7 @@
       "actual": "14:10",
       "gate": "16",
       "status": "Scheduled",
-      "delayMinutes": -10
+      "delayMinutes": -22
     },
     {
       "carrier": "American Airlines",
@@ -1151,8 +1151,8 @@
       "expected": "15:09",
       "actual": "15:09",
       "gate": "20",
-      "status": "Scheduled",
-      "delayMinutes": -15
+      "status": "Delayed",
+      "delayMinutes": 53
     },
     {
       "carrier": "WestJet",
@@ -1182,7 +1182,7 @@
       "actual": "15:21",
       "gate": "—",
       "status": "Scheduled",
-      "delayMinutes": -9
+      "delayMinutes": -33
     },
     {
       "carrier": "Air Canada",
@@ -1272,7 +1272,7 @@
       "actual": "16:45",
       "gate": "3",
       "status": "Delayed",
-      "delayMinutes": 66
+      "delayMinutes": 75
     },
     {
       "carrier": "Air Canada",
@@ -1432,7 +1432,7 @@
       "actual": "20:05",
       "gate": "2C",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": -10
     },
     {
       "carrier": "Icelandair",
