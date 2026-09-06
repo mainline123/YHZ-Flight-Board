@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T02:03:34.260Z",
+  "updated": "2026-09-06T02:22:31.139Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -83,9 +83,9 @@
       "delayMinutes": 0
     },
     {
-      "carrier": "Air Canada",
-      "flight": "AC2059",
-      "destination": "Toronto (YYZ)",
+      "carrier": "United Airlines",
+      "flight": "UA3630",
+      "destination": "Newark (EWR)",
       "expected": "07:00",
       "actual": "07:00",
       "gate": "—",
@@ -93,9 +93,9 @@
       "delayMinutes": 0
     },
     {
-      "carrier": "United Airlines",
-      "flight": "UA3630",
-      "destination": "Newark (EWR)",
+      "carrier": "Air Canada",
+      "flight": "AC2059",
+      "destination": "Toronto (YYZ)",
       "expected": "07:00",
       "actual": "07:00",
       "gate": "—",
@@ -164,16 +164,6 @@
     },
     {
       "carrier": "Air Canada",
-      "flight": "AC7672",
-      "destination": "St. John's (YYT)",
-      "expected": "08:05",
-      "actual": "08:05",
-      "gate": "—",
-      "status": "Scheduled",
-      "delayMinutes": 0
-    },
-    {
-      "carrier": "Air Canada",
       "flight": "AC361",
       "destination": "Vancouver (YVR)",
       "expected": "08:05",
@@ -185,6 +175,16 @@
     {
       "carrier": "Air Canada",
       "flight": "AC7656",
+      "destination": "St. John's (YYT)",
+      "expected": "08:05",
+      "actual": "08:05",
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7672",
       "destination": "St. John's (YYT)",
       "expected": "08:05",
       "actual": "08:05",
@@ -763,9 +763,9 @@
       "delayMinutes": 0
     },
     {
-      "carrier": "WestJet",
-      "flight": "WS675",
-      "destination": "Calgary (YYC)",
+      "carrier": "Flair Airlines",
+      "flight": "F8*657",
+      "destination": "Toronto (YYZ)",
       "expected": "20:00",
       "actual": "20:00",
       "gate": "—",
@@ -773,9 +773,9 @@
       "delayMinutes": 0
     },
     {
-      "carrier": "Flair Airlines",
-      "flight": "F8*657",
-      "destination": "Toronto (YYZ)",
+      "carrier": "WestJet",
+      "flight": "WS675",
+      "destination": "Calgary (YYC)",
       "expected": "20:00",
       "actual": "20:00",
       "gate": "—",
@@ -839,7 +839,7 @@
       "expected": "21:10",
       "actual": "21:10",
       "gate": "2E",
-      "status": "In Air",
+      "status": "Landed",
       "delayMinutes": 25
     },
     {
@@ -879,8 +879,8 @@
       "expected": "22:35",
       "actual": "22:35",
       "gate": "15",
-      "status": "Scheduled",
-      "delayMinutes": 10
+      "status": "In Air",
+      "delayMinutes": 41
     },
     {
       "carrier": "Flair Airlines",
@@ -1620,9 +1620,9 @@
       "from": "Calgary (YYC)",
       "expected": "21:20",
       "actual": "21:20",
-      "gate": "15",
-      "status": "In Gate",
-      "delayMinutes": -9
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "WestJet",
@@ -1630,9 +1630,9 @@
       "from": "Toronto (YYZ)",
       "expected": "21:25",
       "actual": "21:25",
-      "gate": "14",
-      "status": "In Gate",
-      "delayMinutes": -6
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "WestJet",
@@ -1640,9 +1640,9 @@
       "from": "Winnipeg (YWG)",
       "expected": "21:40",
       "actual": "21:40",
-      "gate": "22",
-      "status": "In Gate",
-      "delayMinutes": -18
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "WestJet",
@@ -1711,7 +1711,7 @@
       "expected": "23:33",
       "actual": "23:33",
       "gate": "—",
-      "status": "Landed",
+      "status": "In Gate",
       "delayMinutes": -43
     },
     {
@@ -1722,7 +1722,7 @@
       "actual": "23:44",
       "gate": "—",
       "status": "In Air",
-      "delayMinutes": 0
+      "delayMinutes": -2
     },
     {
       "carrier": "United Airlines",
@@ -1732,7 +1732,7 @@
       "actual": "23:55",
       "gate": "24",
       "status": "In Air",
-      "delayMinutes": -10
+      "delayMinutes": -12
     }
   ]
 }
