@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T15:34:32.857Z",
+  "updated": "2026-09-06T15:47:47.629Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -198,9 +198,9 @@
       "destination": "Newark (EWR)",
       "expected": "10:25",
       "actual": "10:25",
-      "gate": "57",
-      "status": "Cancelled",
-      "delayMinutes": 10
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "Air Canada",
@@ -269,8 +269,8 @@
       "expected": "12:20",
       "actual": "12:20",
       "gate": "15",
-      "status": "Out Gate",
-      "delayMinutes": 15
+      "status": "In Air",
+      "delayMinutes": 16
     },
     {
       "carrier": "Air Canada",
@@ -279,8 +279,8 @@
       "expected": "12:35",
       "actual": "12:35",
       "gate": "20",
-      "status": "Out Gate",
-      "delayMinutes": 14
+      "status": "In Air",
+      "delayMinutes": 10
     },
     {
       "carrier": "Air Canada",
@@ -470,7 +470,7 @@
       "actual": "16:05",
       "gate": "22",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": 10
     },
     {
       "carrier": "Air Canada",
@@ -1021,7 +1021,7 @@
       "expected": "12:19",
       "actual": "12:19",
       "gate": "3",
-      "status": "Landed",
+      "status": "In Gate",
       "delayMinutes": -13
     },
     {
@@ -1051,8 +1051,8 @@
       "expected": "12:59",
       "actual": "12:59",
       "gate": "58",
-      "status": "In Air",
-      "delayMinutes": -19
+      "status": "Landed",
+      "delayMinutes": -20
     },
     {
       "carrier": "Air Canada",
@@ -1141,8 +1141,8 @@
       "expected": "14:26",
       "actual": "14:26",
       "gate": "46",
-      "status": "Out Gate",
-      "delayMinutes": -48
+      "status": "In Air",
+      "delayMinutes": -18
     },
     {
       "carrier": "Air Canada",
@@ -1181,8 +1181,8 @@
       "expected": "15:21",
       "actual": "15:21",
       "gate": "—",
-      "status": "Scheduled",
-      "delayMinutes": -37
+      "status": "Out Gate",
+      "delayMinutes": -57
     },
     {
       "carrier": "Air Canada",
@@ -1382,7 +1382,7 @@
       "actual": "19:10",
       "gate": "16",
       "status": "Scheduled",
-      "delayMinutes": -10
+      "delayMinutes": -9
     },
     {
       "carrier": "Flair Airlines",
@@ -1542,7 +1542,7 @@
       "actual": "21:45",
       "gate": "23",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": -10
     },
     {
       "carrier": "Air Canada",
