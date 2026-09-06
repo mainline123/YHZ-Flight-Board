@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T12:04:16.336Z",
+  "updated": "2026-09-06T12:26:25.856Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -68,9 +68,9 @@
       "destination": "Toronto (YYZ)",
       "expected": "07:00",
       "actual": "07:00",
-      "gate": "20",
-      "status": "In Air",
-      "delayMinutes": 25
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "Porter Airlines",
@@ -78,9 +78,9 @@
       "destination": "Ottawa (YOW)",
       "expected": "07:00",
       "actual": "07:00",
-      "gate": "10",
-      "status": "Landed",
-      "delayMinutes": 14
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "United Airlines",
@@ -99,7 +99,7 @@
       "expected": "07:15",
       "actual": "07:15",
       "gate": "2C",
-      "status": "In Air",
+      "status": "Landed",
       "delayMinutes": 16
     },
     {
@@ -270,7 +270,7 @@
       "actual": "12:40",
       "gate": "2A",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": 10
     },
     {
       "carrier": "Porter Airlines",
@@ -560,7 +560,7 @@
       "actual": "17:40",
       "gate": "2A",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": 10
     },
     {
       "carrier": "Air Canada",
@@ -728,7 +728,7 @@
       "destination": "St. John's (YYT)",
       "expected": "21:10",
       "actual": "21:10",
-      "gate": "—",
+      "gate": "2E",
       "status": "Scheduled",
       "delayMinutes": 0
     },
@@ -871,7 +871,7 @@
       "expected": "09:14",
       "actual": "09:14",
       "gate": "2A",
-      "status": "Landed",
+      "status": "In Gate",
       "delayMinutes": -22
     },
     {
@@ -881,8 +881,8 @@
       "expected": "09:49",
       "actual": "09:49",
       "gate": "20",
-      "status": "In Air",
-      "delayMinutes": -24
+      "status": "Landed",
+      "delayMinutes": -25
     },
     {
       "carrier": "Porter Airlines",
@@ -901,8 +901,8 @@
       "expected": "10:39",
       "actual": "10:39",
       "gate": "12",
-      "status": "Scheduled",
-      "delayMinutes": 0
+      "status": "In Air",
+      "delayMinutes": -9
     },
     {
       "carrier": "WestJet",
@@ -931,8 +931,8 @@
       "expected": "11:19",
       "actual": "11:19",
       "gate": "15",
-      "status": "Scheduled",
-      "delayMinutes": -15
+      "status": "Out Gate",
+      "delayMinutes": -6
     },
     {
       "carrier": "Air Canada",
@@ -962,7 +962,7 @@
       "actual": "11:50",
       "gate": "2A",
       "status": "Scheduled",
-      "delayMinutes": -5
+      "delayMinutes": 6
     },
     {
       "carrier": "Porter Airlines",
@@ -1122,7 +1122,7 @@
       "actual": "14:26",
       "gate": "—",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": -9
     },
     {
       "carrier": "Air Canada",
@@ -1132,7 +1132,7 @@
       "actual": "15:09",
       "gate": "20",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": -15
     },
     {
       "carrier": "WestJet",
@@ -1162,7 +1162,7 @@
       "actual": "15:21",
       "gate": "—",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": -9
     },
     {
       "carrier": "Air Canada",
@@ -1171,8 +1171,8 @@
       "expected": "15:30",
       "actual": "15:30",
       "gate": "56",
-      "status": "Out Gate",
-      "delayMinutes": -28
+      "status": "In Air",
+      "delayMinutes": -24
     },
     {
       "carrier": "Porter Airlines",
@@ -1262,7 +1262,7 @@
       "actual": "16:59",
       "gate": "2A",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": -5
     },
     {
       "carrier": "Porter Airlines",
