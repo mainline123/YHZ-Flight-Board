@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T01:34:07.141Z",
+  "updated": "2026-09-06T01:48:55.454Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -808,9 +808,9 @@
       "destination": "Toronto (YYZ)",
       "expected": "20:15",
       "actual": "20:15",
-      "gate": "16",
-      "status": "Landed",
-      "delayMinutes": 19
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "Air Canada",
@@ -828,8 +828,8 @@
       "destination": "Goose Bay (YYR)",
       "expected": "20:45",
       "actual": "20:45",
-      "gate": "2A",
-      "status": "Cancelled",
+      "gate": "—",
+      "status": "Scheduled",
       "delayMinutes": 0
     },
     {
@@ -1580,9 +1580,9 @@
       "from": "Edmonton (YEG)",
       "expected": "21:05",
       "actual": "21:05",
-      "gate": "23",
-      "status": "In Gate",
-      "delayMinutes": -19
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "WestJet",
@@ -1590,9 +1590,9 @@
       "from": "Detroit (DTW)",
       "expected": "21:10",
       "actual": "21:10",
-      "gate": "27",
-      "status": "In Gate",
-      "delayMinutes": -27
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "Porter Airlines",
@@ -1681,7 +1681,7 @@
       "expected": "22:19",
       "actual": "22:19",
       "gate": "2A",
-      "status": "Landed",
+      "status": "In Gate",
       "delayMinutes": -2
     },
     {
@@ -1701,7 +1701,7 @@
       "expected": "23:13",
       "actual": "23:13",
       "gate": "46",
-      "status": "Landed",
+      "status": "In Gate",
       "delayMinutes": -46
     },
     {
@@ -1712,7 +1712,7 @@
       "actual": "23:33",
       "gate": "—",
       "status": "In Air",
-      "delayMinutes": -45
+      "delayMinutes": -47
     },
     {
       "carrier": "Porter Airlines",
@@ -1722,7 +1722,7 @@
       "actual": "23:44",
       "gate": "—",
       "status": "In Air",
-      "delayMinutes": -3
+      "delayMinutes": -1
     },
     {
       "carrier": "United Airlines",
