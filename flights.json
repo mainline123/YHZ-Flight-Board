@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T12:40:17.478Z",
+  "updated": "2026-09-06T12:51:54.477Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -150,7 +150,7 @@
       "actual": "08:15",
       "gate": "3",
       "status": "In Air",
-      "delayMinutes": 74
+      "delayMinutes": 73
     },
     {
       "carrier": "WestJet",
@@ -840,9 +840,9 @@
       "from": "Calgary (YYC)",
       "expected": "08:10",
       "actual": "08:10",
-      "gate": "14",
-      "status": "In Gate",
-      "delayMinutes": -20
+      "gate": "—",
+      "status": "Scheduled",
+      "delayMinutes": 0
     },
     {
       "carrier": "WestJet",
@@ -892,7 +892,7 @@
       "actual": "10:02",
       "gate": "10",
       "status": "In Air",
-      "delayMinutes": -18
+      "delayMinutes": -15
     },
     {
       "carrier": "Porter Airlines",
@@ -902,7 +902,7 @@
       "actual": "10:39",
       "gate": "12",
       "status": "In Air",
-      "delayMinutes": -12
+      "delayMinutes": -11
     },
     {
       "carrier": "WestJet",
@@ -971,7 +971,7 @@
       "expected": "11:59",
       "actual": "11:59",
       "gate": "10",
-      "status": "Scheduled",
+      "status": "Out Gate",
       "delayMinutes": 0
     },
     {
@@ -992,7 +992,7 @@
       "actual": "12:10",
       "gate": "53",
       "status": "In Air",
-      "delayMinutes": -32
+      "delayMinutes": -36
     },
     {
       "carrier": "Porter Airlines",
@@ -1152,7 +1152,7 @@
       "actual": "15:15",
       "gate": "2A",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": -5
     },
     {
       "carrier": "American Airlines",
