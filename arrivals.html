@@ -1,149 +1,397 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HALIFAX STANFIELD (YHZ) - ARRIVALS</title>
-    <style>
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body {
-            background-color: #0b0f19;
-            color: #ffffff;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            height: 100vh;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-        }
-        header {
-            background: #111827;
-            padding: 30px 50px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 4px solid #1f2937;
-        }
-        header h1 { font-size: 3.5rem; letter-spacing: 3px; color: #4ade80; }
-        .clock { font-size: 3.2rem; font-weight: bold; color: #fbbf24; }
-        .container {
-            flex: 1;
-            padding: 30px;
-            display: flex;
-            flex-direction: column;
-            overflow: hidden;
-        }
-        .board-column {
-            flex: 1;
-            background: #111827;
-            border-radius: 16px;
-            display: flex;
-            flex-direction: column;
-            border: 3px solid #1f2937;
-            overflow: hidden;
-        }
-        .table-wrapper {
-            flex: 1;
-            overflow-y: auto;
-        }
-        .table-wrapper::-webkit-scrollbar { width: 12px; }
-        .table-wrapper::-webkit-scrollbar-thumb { background: #374151; border-radius: 6px; }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            text-align: left;
-        }
-        th {
-            background: #1a2234;
-            color: #94a3b8;
-            padding: 24px 20px;
-            font-size: 1.5rem;
-            position: sticky;
-            top: 0;
-            z-index: 10;
-        }
-        td {
-            padding: 26px 20px;
-            border-bottom: 1px solid #1f2937;
-            font-size: 1.6rem;
-        }
-        tr:nth-child(even) { background: rgba(255, 255, 255, 0.02); }
-        .status-on-time { color: #4ade80; font-weight: bold; }
-        .status-early { color: #38bdf8; font-weight: bold; }
-        .status-delayed { color: #f87171; font-weight: bold; }
-        .status-cancelled { color: #f87171; font-weight: bold; }
-        .status-arrived { color: #4ade80; font-weight: bold; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Halifax Stanfield YHZ Arrivals</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #0b0f19;
+    color: white;
+    font-family: "Segoe UI", Arial, sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #111827;
+    padding: 28px 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #1f2937;
+}
+
+header h1 {
+    font-size: 3.3rem;
+    letter-spacing: 3px;
+    color: #38bdf8;
+}
+
+.clock-area {
+    text-align: right;
+}
+
+.clock {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fbbf24;
+}
+
+.time-label {
+    font-size: 1rem;
+    color: #94a3b8;
+    margin-top: 4px;
+}
+
+.container {
+    flex: 1;
+    padding: 25px;
+    overflow: hidden;
+}
+
+.board {
+    height: 100%;
+    background: #111827;
+    border: 3px solid #1f2937;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.table-wrapper {
+    height: 100%;
+    overflow-y: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #1a2234;
+    color: #94a3b8;
+    padding: 20px 16px;
+    text-align: left;
+    font-size: 1.35rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+td {
+    padding: 21px 16px;
+    border-bottom: 1px solid #1f2937;
+    font-size: 1.45rem;
+}
+
+tr:nth-child(even) {
+    background: rgba(255,255,255,0.025);
+}
+
+.status-scheduled,
+.status-on-time {
+    color: #4ade80;
+    font-weight: bold;
+}
+
+.status-delayed {
+    color: #fbbf24;
+    font-weight: bold;
+}
+
+.status-cancelled {
+    color: #f87171;
+    font-weight: bold;
+}
+
+.status-landed,
+.status-in-gate {
+    color: #4ade80;
+    font-weight: bold;
+}
+
+.status-in-air {
+    color: #38bdf8;
+    font-weight: bold;
+}
+
+.message {
+    text-align: center;
+    padding: 40px;
+    color: #94a3b8;
+}
+</style>
 </head>
+
 <body>
 
-    <header>
-        <h1>YHZ ARRIVALS</h1>
-        <div class="clock" id="clock">00:00:00 AM</div>
-    </header>
+<header>
 
-    <div class="container">
-        <div class="board-column">
-            <div class="table-wrapper">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Carrier</th>
-                            <th>Flight #</th>
-                            <th>From</th>
-                            <th>Expected</th>
-                            <th>Actual</th>
-                            <th>Gate</th>
-                            <th>Status</th>
-                        </tr>
-                    </thead>
-                    <tbody id="arrivals-body">
-                        <tr><td colspan="7" style="text-align: center;">Syncing...</td></tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
+    <h1>YHZ ARRIVALS</h1>
+
+    <div class="clock-area">
+        <div class="clock" id="clock">--:--:--</div>
+        <div class="time-label">HALIFAX LOCAL TIME</div>
     </div>
 
-    <script>
-        function updateClock() {
-            document.getElementById('clock').innerText = new Date().toLocaleTimeString();
-        }
-        setInterval(updateClock, 1000);
-        updateClock();
+</header>
 
-        async function loadFlightData() {
-            try {
-                const response = await fetch('flights.json?t=' + Date.now());
-                const data = await response.json();
-                
-                const arrivalsBody = document.getElementById('arrivals-body');
-                arrivalsBody.innerHTML = '';
-                (data.arrivals || []).forEach(f => {
-                    let statusClass = 'status-on-time';
-                    const statusLower = (f.status || '').toLowerCase();
-                    if (statusLower.includes('delay') || statusLower.includes('cancel')) statusClass = 'status-delayed';
-                    if (statusLower.includes('early')) statusClass = 'status-early';
-                    if (statusLower.includes('arrive') || statusLower.includes('land')) statusClass = 'status-arrived';
+<div class="container">
 
-                    arrivalsBody.innerHTML += `
-                        <tr>
-                            <td>${f.carrier || '—'}</td>
-                            <td>${f.flight || '—'}</td>
-                            <td>${f.from || f.origin || '—'}</td>
-                            <td>${f.expected || f.time || '—'}</td>
-                            <td>${f.actual || f.time || '—'}</td>
-                            <td>${f.gate || '—'}</td>
-                            <td><span class="${statusClass}">${f.status || 'On Time'}</span></td>
-                        </tr>
-                    `;
-                });
-            } catch (err) {
-                console.error("Error loading flight data", err);
+    <div class="board">
+
+        <div class="table-wrapper">
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Carrier</th>
+                        <th>Flight</th>
+                        <th>From</th>
+                        <th>Scheduled</th>
+                        <th>Gate</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody id="arrivals-body">
+
+                    <tr>
+                        <td colspan="6" class="message">
+                            Loading live YHZ arrivals...
+                        </td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+/* HALIFAX LOCAL CLOCK */
+
+function updateClock() {
+
+    const halifaxTime =
+        new Date().toLocaleTimeString(
+            "en-CA",
+            {
+                timeZone: "America/Halifax",
+                hour: "2-digit",
+                minute: "2-digit",
+                second: "2-digit",
+                hour12: true
             }
+        );
+
+    document.getElementById("clock").textContent =
+        halifaxTime;
+}
+
+updateClock();
+setInterval(updateClock, 1000);
+
+
+/* CONVERT HH:MM TO MINUTES */
+
+function timeToMinutes(time) {
+
+    if (!time || !time.includes(":")) {
+        return null;
+    }
+
+    const parts = time.split(":");
+
+    return (
+        parseInt(parts[0], 10) * 60 +
+        parseInt(parts[1], 10)
+    );
+}
+
+
+/* CURRENT HALIFAX TIME */
+
+function halifaxMinutesNow() {
+
+    const parts =
+        new Intl.DateTimeFormat(
+            "en-CA",
+            {
+                timeZone: "America/Halifax",
+                hour: "2-digit",
+                minute: "2-digit",
+                hour12: false
+            }
+        ).formatToParts(new Date());
+
+    const hour =
+        parseInt(
+            parts.find(p => p.type === "hour").value,
+            10
+        );
+
+    const minute =
+        parseInt(
+            parts.find(p => p.type === "minute").value,
+            10
+        );
+
+    return hour * 60 + minute;
+}
+
+
+/* STATUS CLASS */
+
+function statusClass(status) {
+
+    return "status-" +
+        String(status || "scheduled")
+            .toLowerCase()
+            .replace(/\s+/g, "-");
+}
+
+
+/* LOAD ARRIVALS */
+
+async function loadFlights() {
+
+    try {
+
+        const response =
+            await fetch(
+                "flights.json?t=" + Date.now(),
+                { cache: "no-store" }
+            );
+
+        if (!response.ok) {
+            throw new Error(
+                "Unable to load flights.json"
+            );
         }
 
-        loadFlightData();
-        setInterval(loadFlightData, 15000);
-    </script>
+        const data = await response.json();
+
+        const body =
+            document.getElementById(
+                "arrivals-body"
+            );
+
+        const now = halifaxMinutesNow();
+
+        /*
+           Keep arrivals from 60 minutes ago onward.
+           This keeps recently landed flights visible
+           while removing old flights from the board.
+        */
+
+        let flights =
+            (data.arrivals || [])
+            .filter(f => {
+
+                const minutes =
+                    timeToMinutes(f.expected);
+
+                if (minutes === null) {
+                    return false;
+                }
+
+                return minutes >= now - 60;
+            })
+            .sort((a, b) =>
+                timeToMinutes(a.expected) -
+                timeToMinutes(b.expected)
+            );
+
+        /* Show next 15 relevant arrivals */
+
+        flights = flights.slice(0, 15);
+
+        body.innerHTML = "";
+
+        if (flights.length === 0) {
+
+            body.innerHTML = `
+                <tr>
+                    <td colspan="6"
+                        class="message">
+                        No upcoming arrivals available.
+                    </td>
+                </tr>
+            `;
+
+            return;
+        }
+
+        flights.forEach(f => {
+
+            const row =
+                document.createElement("tr");
+
+            row.innerHTML = `
+                <td>${f.carrier || "—"}</td>
+
+                <td>${f.flight || "—"}</td>
+
+                <td>${f.from || "—"}</td>
+
+                <td>${f.expected || "—"}</td>
+
+                <td>${f.gate || "—"}</td>
+
+                <td class="${statusClass(f.status)}">
+                    ${f.status || "Scheduled"}
+                </td>
+            `;
+
+            body.appendChild(row);
+        });
+
+    } catch (error) {
+
+        console.error(error);
+
+        document.getElementById(
+            "arrivals-body"
+        ).innerHTML = `
+            <tr>
+                <td colspan="6"
+                    class="message">
+                    Unable to load arrival data.
+                </td>
+            </tr>
+        `;
+    }
+}
+
+
+/* LOAD IMMEDIATELY */
+
+loadFlights();
+
+
+/* REFRESH SCREEN DATA EVERY 60 SECONDS */
+
+setInterval(loadFlights, 60000);
+
+</script>
+
 </body>
 </html>
