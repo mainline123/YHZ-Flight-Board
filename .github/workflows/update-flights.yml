@@ -2,7 +2,7 @@ name: Auto-Update Flight Board
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '17 * * * *'
   workflow_dispatch:
 
 permissions:
