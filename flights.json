@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T04:23:01.960Z",
+  "updated": "2026-09-06T04:35:52.417Z",
   "airport": "YHZ",
   "departures": [
     {
@@ -992,7 +992,7 @@
       "actual": "12:10",
       "gate": "53",
       "status": "Scheduled",
-      "delayMinutes": 0
+      "delayMinutes": -10
     },
     {
       "carrier": "Porter Airlines",
