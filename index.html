@@ -5,66 +5,292 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Halifax Stanfield | Arrivals & Departures</title>
+
 <style>
-:root{color-scheme:dark;--bg:#07101e;--panel:#111d30;--line:#27364d;--muted:#a9bdd2;--white:#f6f9ff;--green:#5ce6a4;--blue:#67c7ff;--amber:#ffd16e;--red:#ff8585}
-*{box-sizing:border-box}
-html,body{margin:0;width:100%;height:100%;overflow:hidden}
-body{background:var(--bg);color:var(--white);font-family:Arial,Helvetica,sans-serif;display:flex;flex-direction:column}
-header{padding:1.35vh 2vw;display:flex;align-items:center;justify-content:space-between;gap:20px;background:#101c2d;border-bottom:2px solid var(--line)}
-.brand{font-size:clamp(19px,2.1vw,38px);font-weight:800;letter-spacing:.045em}
-.brand small{display:block;color:var(--muted);font-size:.43em;letter-spacing:.13em;margin-top:5px}
-.clock{text-align:right;font-weight:800;font-size:clamp(20px,2.1vw,38px);white-space:nowrap}
-.clock small{display:block;font-size:.38em;font-weight:500;color:var(--muted);margin-top:5px}
-main{display:grid;grid-template-columns:1fr 1fr;gap:1.2vw;padding:1.2vw;flex:1;min-height:0}
-.board{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;min-width:0}
-.board-heading{display:flex;align-items:center;justify-content:space-between;padding:1.2vh 1.25vw;background:#1b2a40}
-.board-heading h2{font-size:clamp(21px,2vw,38px);margin:0;letter-spacing:.05em}
-.arrivals h2{color:var(--green)}
-.departures h2{color:var(--blue)}
-.page{font-size:clamp(12px,1vw,19px);color:var(--muted)}
-.table-head,.flight{display:grid;grid-template-columns:1.05fr 1.55fr .76fr .76fr .65fr 1fr;gap:.45vw;align-items:center;padding:0 1vw}
-.table-head{height:5vh;min-height:35px;color:var(--muted);font-weight:700;font-size:clamp(10px,.82vw,16px);background:#142136}
-.flight{height:8.5vh;min-height:43px;border-top:1px solid var(--line);font-size:clamp(12px,1.1vw,22px)}
-.flight:nth-child(even){background:#17253a}
-.flight strong{font-size:1.12em}
-.flight .place{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.flight .actual{color:#e2ecf8}
-.status{font-size:.82em;font-weight:800;white-space:nowrap}
-.on-time,.arrived,.landed{color:var(--green)}
-.early,.boarding{color:var(--blue)}
-.delayed,.late{color:var(--amber)}
-.cancelled,.canceled{color:var(--red)}
-.other{color:var(--white)}
-.empty{padding:3vh 1vw;color:var(--muted);text-align:center;font-size:1.3vw}
-footer{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:1.05vh 2vw;background:#101c2d;border-top:2px solid var(--line);font-size:clamp(11px,.9vw,18px);color:var(--muted)}
-#health.good{color:var(--green)}
-#health.warning{color:var(--amber)}
-#health.bad{color:var(--red)}
-@media(max-aspect-ratio:1.4){
-header{padding:10px 15px}
-main{gap:8px;padding:8px}
-.table-head,.flight{padding:0 7px;gap:3px}
-.flight{font-size:clamp(9px,1vw,17px)}
+:root {
+  color-scheme: dark;
+  --bg: #07101e;
+  --panel: #111d30;
+  --line: #27364d;
+  --muted: #a9bdd2;
+  --white: #f6f9ff;
+  --green: #5ce6a4;
+  --blue: #67c7ff;
+  --amber: #ffd16e;
+  --red: #ff8585;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: var(--bg);
+  color: var(--white);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 1.2vh 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background: #101c2d;
+  border-bottom: 2px solid var(--line);
+  flex-shrink: 0;
+}
+
+.brand {
+  font-size: clamp(19px, 2.1vw, 38px);
+  font-weight: 800;
+  letter-spacing: .045em;
+}
+
+.brand small {
+  display: block;
+  color: var(--muted);
+  font-size: .43em;
+  letter-spacing: .13em;
+  margin-top: 5px;
+}
+
+.clock {
+  text-align: right;
+  font-weight: 800;
+  font-size: clamp(20px, 2.1vw, 38px);
+  white-space: nowrap;
+}
+
+.clock small {
+  display: block;
+  font-size: .38em;
+  font-weight: 500;
+  color: var(--muted);
+  margin-top: 5px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: minmax(0,1fr) minmax(0,1fr);
+  gap: 1.2vw;
+  padding: 1.2vw;
+  flex: 1;
+  min-height: 0;
+}
+
+.board {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+}
+
+.board-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.1vh 1.25vw;
+  background: #1b2a40;
+  flex-shrink: 0;
+}
+
+.board-heading h2 {
+  font-size: clamp(19px, 2vw, 38px);
+  margin: 0;
+  letter-spacing: .05em;
+}
+
+.arrivals h2 {
+  color: var(--green);
+}
+
+.departures h2 {
+  color: var(--blue);
+}
+
+.page {
+  font-size: clamp(11px, 1vw, 19px);
+  color: var(--muted);
+}
+
+.table-head,
+.flight {
+  display: grid;
+  grid-template-columns:
+    1.05fr 1.65fr .86fr .86fr .55fr 1fr;
+  gap: .4vw;
+  align-items: center;
+  padding: 0 .9vw;
+  min-width: 0;
+}
+
+.table-head {
+  height: 4.5vh;
+  min-height: 27px;
+  color: var(--muted);
+  font-weight: 700;
+  font-size: clamp(9px, .76vw, 16px);
+  background: #142136;
+  flex-shrink: 0;
+}
+
+.flight-list {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-rows: repeat(10, minmax(0, 1fr));
+  overflow: hidden;
+}
+
+.flight {
+  min-height: 0;
+  border-top: 1px solid var(--line);
+  font-size: clamp(10px, .99vw, 21px);
+}
+
+.flight:nth-child(even) {
+  background: #17253a;
+}
+
+.flight strong {
+  font-size: 1.08em;
+}
+
+.flight .place {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.flight .actual {
+  color: #e2ecf8;
+}
+
+.status {
+  font-size: .79em;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.on-time, .arrived, .landed {
+  color: var(--green);
+}
+
+.early, .boarding {
+  color: var(--blue);
+}
+
+.delayed, .late {
+  color: var(--amber);
+}
+
+.cancelled, .canceled {
+  color: var(--red);
+}
+
+.other {
+  color: var(--white);
+}
+
+.empty {
+  grid-row: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2vw;
+  color: var(--muted);
+  text-align: center;
+  font-size: clamp(14px, 1.2vw, 24px);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 1vh 2vw;
+  background: #101c2d;
+  border-top: 2px solid var(--line);
+  font-size: clamp(10px, .85vw, 18px);
+  color: var(--muted);
+  flex-shrink: 0;
+}
+
+#health.good {
+  color: var(--green);
+}
+
+#health.warning {
+  color: var(--amber);
+}
+
+#health.bad {
+  color: var(--red);
+}
+
+@media (max-aspect-ratio: 1.4) {
+  header {
+    padding: 10px 15px;
+  }
+
+  main {
+    gap: 8px;
+    padding: 8px;
+  }
+
+  .table-head,
+  .flight {
+    padding: 0 7px;
+    gap: 3px;
+  }
+
+  .flight {
+    font-size: clamp(9px, 1vw, 17px);
+  }
 }
 </style>
 </head>
+
 <body>
+
 <header>
   <div class="brand">
-    HALIFAX STANFIELD <span style="color:#67c7ff">YHZ</span>
-    <small>FLIGHT INFORMATION • ARRIVALS &amp; DEPARTURES</small>
+    HALIFAX STANFIELD
+    <span style="color:#67c7ff">YHZ</span>
+    <small>
+      FLIGHT INFORMATION • ARRIVALS &amp; DEPARTURES
+    </small>
   </div>
+
   <div class="clock" id="clock">
     --:--:--
     <small>ATLANTIC TIME</small>
   </div>
 </header>
+
 <main>
+
   <section class="board arrivals">
+
     <div class="board-heading">
       <h2>✈ ARRIVALS</h2>
       <span class="page" id="arrivals-page"></span>
     </div>
+
     <div class="table-head">
       <span>FLIGHT</span>
       <span>FROM</span>
@@ -73,15 +299,22 @@ main{gap:8px;padding:8px}
       <span>GATE</span>
       <span>STATUS</span>
     </div>
-    <div id="arrivals-list" aria-label="Arriving flights">
+
+    <div class="flight-list"
+         id="arrivals-list"
+         aria-label="Arriving flights">
       <div class="empty">Loading arrivals...</div>
     </div>
+
   </section>
+
   <section class="board departures">
+
     <div class="board-heading">
       <h2>✈ DEPARTURES</h2>
       <span class="page" id="departures-page"></span>
     </div>
+
     <div class="table-head">
       <span>FLIGHT</span>
       <span>DESTINATION</span>
@@ -90,16 +323,29 @@ main{gap:8px;padding:8px}
       <span>GATE</span>
       <span>STATUS</span>
     </div>
-    <div id="departures-list" aria-label="Departing flights">
+
+    <div class="flight-list"
+         id="departures-list"
+         aria-label="Departing flights">
       <div class="empty">Loading departures...</div>
     </div>
+
   </section>
+
 </main>
+
 <footer>
-  <span id="last-update">Checking flight information...</span>
+  <span id="last-update">
+    Checking flight information...
+  </span>
+
   <span id="health">Connecting...</span>
-  <span>Source: Halifax Stanfield public flight pages</span>
+
+  <span>
+    Source: Halifax Stanfield public flight pages
+  </span>
 </footer>
+
 <script>
 'use strict';
 
@@ -109,6 +355,7 @@ const DATA_URL =
 const REFRESH_MS = 60000;
 const ROTATE_MS = 12000;
 const STALE_MS = 90 * 60 * 1000;
+const FLIGHTS_PER_PAGE = 10;
 
 let flightData = null;
 let pageIndex = 0;
@@ -118,25 +365,34 @@ const $ = id => document.getElementById(id);
 
 function updateClock() {
   const now = new Date();
-  $('clock').innerHTML =
-    now.toLocaleTimeString('en-CA', {
-      timeZone: 'America/Halifax',
-      hour: '2-digit',
-      minute: '2-digit',
-      second: '2-digit',
-      hour12: true
-    }) +
-    '<small>ATLANTIC TIME</small>';
+
+  const time = now.toLocaleTimeString('en-CA', {
+    timeZone: 'America/Halifax',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+    hour12: true
+  });
+
+  $('clock').textContent = time;
+
+  const label = document.createElement('small');
+  label.textContent = 'ATLANTIC TIME';
+
+  $('clock').appendChild(label);
 }
 
 function escapeHTML(value) {
-  return String(value ?? '—').replace(/[&<>"']/g, ch => ({
-    '&': '&amp;',
-    '<': '&lt;',
-    '>': '&gt;',
-    '"': '&quot;',
-    "'": '&#39;'
-  })[ch]);
+  return String(value ?? '—').replace(
+    /[&<>"']/g,
+    ch => ({
+      '&': '&amp;',
+      '<': '&lt;',
+      '>': '&gt;',
+      '"': '&quot;',
+      "'": '&#39;'
+    })[ch]
+  );
 }
 
 function statusClass(status) {
@@ -154,16 +410,10 @@ function statusClass(status) {
   return 'other';
 }
 
-function rowsPerPage() {
-  const list = $('arrivals-list');
-  const available = Math.max(200, list.clientHeight || 400);
-  const rowHeight = Math.max(43, window.innerHeight * .085);
-  return Math.max(3, Math.floor(available / rowHeight));
-}
-
 function renderBoard(type) {
   const list = $(type + '-list');
   const label = $(type + '-page');
+
   const flights = Array.isArray(flightData?.[type])
     ? flightData[type]
     : [];
@@ -175,13 +425,20 @@ function renderBoard(type) {
     return;
   }
 
-  const count = rowsPerPage();
-  const pages = Math.ceil(flights.length / count);
-  const current = pageIndex % pages;
-  const start = current * count;
-  const visible = flights.slice(start, start + count);
+  const pages = Math.ceil(
+    flights.length / FLIGHTS_PER_PAGE
+  );
 
-  label.textContent = 'PAGE ' + (current + 1) + ' / ' + pages;
+  const current = pageIndex % pages;
+  const start = current * FLIGHTS_PER_PAGE;
+
+  const visible = flights.slice(
+    start,
+    start + FLIGHTS_PER_PAGE
+  );
+
+  label.textContent =
+    'PAGE ' + (current + 1) + ' / ' + pages;
 
   list.innerHTML = visible.map(f => {
     const place = type === 'arrivals'
@@ -193,12 +450,20 @@ function renderBoard(type) {
     return `
       <div class="flight">
         <strong>${escapeHTML(f.flight)}</strong>
-        <span class="place" title="${escapeHTML(place)}">
+
+        <span class="place"
+              title="${escapeHTML(place)}">
           ${escapeHTML(place)}
         </span>
+
         <span>${escapeHTML(f.expected)}</span>
-        <span class="actual">${escapeHTML(f.actual)}</span>
+
+        <span class="actual">
+          ${escapeHTML(f.actual)}
+        </span>
+
         <span>${escapeHTML(f.gate)}</span>
+
         <span class="status ${statusClass(status)}">
           ${escapeHTML(status)}
         </span>
@@ -209,6 +474,7 @@ function renderBoard(type) {
 
 function render() {
   if (!flightData) return;
+
   renderBoard('arrivals');
   renderBoard('departures');
   updateHealth();
@@ -216,6 +482,7 @@ function render() {
 
 function updateHealth() {
   const health = $('health');
+
   if (!flightData) {
     health.className = 'bad';
     health.textContent = 'Flight data unavailable';
@@ -240,17 +507,21 @@ function updateHealth() {
       hour: 'numeric',
       minute: '2-digit',
       hour12: true
-    }) + ' Atlantic';
+    }) +
+    ' Atlantic';
 
   if (age > STALE_MS) {
     health.className = 'bad';
-    health.textContent = 'WARNING: FLIGHT DATA IS OUTDATED';
+    health.textContent =
+      'WARNING: FLIGHT DATA IS OUTDATED';
   } else if (lastFetchError) {
     health.className = 'warning';
-    health.textContent = 'Connection issue - showing last update';
+    health.textContent =
+      'Connection issue - showing last update';
   } else {
     health.className = 'good';
-    health.textContent = 'Flight data recently updated';
+    health.textContent =
+      'Flight data recently updated';
   }
 }
 
@@ -277,14 +548,18 @@ async function loadFlightData() {
 
     flightData = data;
     lastFetchError = false;
+
     render();
+
   } catch (error) {
     console.error('Flight data error:', error);
+
     lastFetchError = true;
 
     if (!flightData) {
       $('arrivals-list').innerHTML =
         '<div class="empty">Flight data unavailable</div>';
+
       $('departures-list').innerHTML =
         '<div class="empty">Flight data unavailable</div>';
     }
@@ -305,7 +580,9 @@ setInterval(() => {
 }, ROTATE_MS);
 
 setInterval(updateHealth, 10000);
+
 window.addEventListener('resize', render);
 </script>
+
 </body>
 </html>
