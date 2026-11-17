@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T19:16:56.523703Z",
+  "updated": "2026-11-17T19:22:28.091977Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -16,7 +16,7 @@
       "carrier": "Air Canada",
       "flight": "AC7690",
       "expected": "15:23",
-      "actual": "16:43",
+      "actual": "16:58",
       "gate": "2C",
       "status": "DELAYED",
       "from": "Ottawa"
@@ -50,7 +50,7 @@
     },
     {
       "carrier": "Discover",
-      "flight": "74",
+      "flight": "4Y74",
       "expected": "17:00",
       "actual": "17:00",
       "gate": "27",
@@ -86,7 +86,7 @@
     },
     {
       "carrier": "Bermuda Air",
-      "flight": "801",
+      "flight": "2T801",
       "expected": "18:01",
       "actual": "18:01",
       "gate": "24",
@@ -266,7 +266,7 @@
     },
     {
       "carrier": "Air St. Pierre",
-      "flight": "1121",
+      "flight": "PJ1121",
       "expected": "09:30",
       "actual": "09:30",
       "gate": "-",
@@ -438,15 +438,6 @@
   ],
   "departures": [
     {
-      "carrier": "United Airlines",
-      "flight": "UA3471",
-      "expected": "14:10",
-      "actual": "14:10",
-      "gate": "58",
-      "status": "EARLY",
-      "destination": "Newark"
-    },
-    {
       "carrier": "Porter",
       "flight": "PD2494",
       "expected": "14:40",
@@ -520,7 +511,7 @@
     },
     {
       "carrier": "Discover",
-      "flight": "75",
+      "flight": "4Y75",
       "expected": "18:30",
       "actual": "18:30",
       "gate": "27",
@@ -547,7 +538,7 @@
     },
     {
       "carrier": "Bermuda Air",
-      "flight": "802",
+      "flight": "2T802",
       "expected": "19:00",
       "actual": "19:00",
       "gate": "24",
@@ -799,7 +790,7 @@
     },
     {
       "carrier": "Air St. Pierre",
-      "flight": "1122",
+      "flight": "PJ1122",
       "expected": "12:30",
       "actual": "12:30",
       "gate": "-",
