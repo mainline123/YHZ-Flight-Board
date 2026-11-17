@@ -22,6 +22,7 @@ AIRLINE_PREFIXES = {
     'air transat': 'TS',
     'pal airlines': 'PB',
     'icelandair': 'FI',
+    'discover': '4Y',
     'discover airlines': '4Y',
     'lufthansa': 'LH',
     'british airways': 'BA',
@@ -30,7 +31,11 @@ AIRLINE_PREFIXES = {
     'edelweiss': 'WK',
     'sunwing airlines': 'WG',
     'sunwing': 'WG',
+    'bermuda air': '2T',
+    'bermudair': '2T',
     'air saint-pierre': 'PJ',
+    'air saint pierre': 'PJ',
+    'air st. pierre': 'PJ',
     'air st-pierre': 'PJ',
     'air france': 'AF',
     'klm': 'KL',
@@ -83,11 +88,11 @@ def normalize_flight_number(carrier, flight):
     if not flight:
         return flight
 
-    # Preserve flight numbers already containing letters.
+    # Preserve flight numbers that already contain letters.
     if re.search(r'[A-Z]', flight):
         return flight
 
-    # Only add a prefix to a purely numeric flight number.
+    # Add prefixes only to numeric flight numbers.
     if not flight.isdigit():
         return flight
 
@@ -100,7 +105,7 @@ def normalize_flight_number(carrier, flight):
     if prefix:
         return prefix + flight
 
-    # Unknown airline: do not guess its prefix.
+    # Unknown airlines retain their original numbers.
     return flight
 
 
