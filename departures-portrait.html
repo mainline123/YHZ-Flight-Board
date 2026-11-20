@@ -1,29 +1,608 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>YHZ DEPARTURES | Portrait Flight Board</title>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>YHZ DEPARTURES | Portrait Flight Board</title>
+
 <style>
-:root{color-scheme:dark;--bg:#07101e;--panel:#111d30;--line:#27364d;--muted:#a9bdd2;--green:#5ce6a4;--blue:#67c7ff;--amber:#ffd16e;--red:#ff8585}
-*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden}body{background:var(--bg);color:#f6f9ff;font-family:Arial,Helvetica,sans-serif;display:flex;flex-direction:column}
-header{background:#101c2d;border-bottom:2px solid var(--line);padding:2vh 3vw;display:flex;justify-content:space-between;align-items:center;gap:1vw}.brand{font-weight:800;font-size:clamp(18px,3vw,44px);letter-spacing:.035em}.brand small{display:block;color:var(--muted);font-size:.45em;margin-top:.5vh;letter-spacing:.1em}.clock{font-weight:800;font-size:clamp(17px,2.7vw,40px);white-space:nowrap;text-align:right}.clock small{display:block;font-size:.45em;color:var(--muted);font-weight:400;margin-top:.5vh}
-main{padding:1.6vh 2vw;flex:1;min-height:0;display:flex}.board{flex:1;min-height:0;min-width:0;background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}.heading{display:flex;justify-content:space-between;align-items:center;background:#1b2a40;padding:1.6vh 2.2vw}.heading h1{font-size:clamp(24px,4.1vw,60px);color:#67c7ff;margin:0}.page{font-size:clamp(12px,1.7vw,25px);color:var(--muted)}
-.cols,.flight{display:grid;grid-template-columns:1fr 1.65fr .85fr .85fr .55fr 1fr;gap:.6vw;align-items:center;padding:0 1.5vw}.cols{height:4.6vh;flex-shrink:0;background:#142136;color:var(--muted);font-size:clamp(10px,1.3vw,20px);font-weight:bold}.flights{flex:1;min-height:0;display:grid;grid-template-rows:repeat(10,minmax(0,1fr))}.flight{min-height:0;border-top:1px solid var(--line);font-size:clamp(12px,1.9vw,30px)}.flight:nth-child(even){background:#17253a}.flight strong{font-size:1.05em}.place{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.status{font-size:.83em;font-weight:800;white-space:nowrap}.on-time,.arrived,.landed{color:var(--green)}.early,.boarding{color:var(--blue)}.delayed,.late{color:var(--amber)}.cancelled{color:var(--red)}.empty{grid-row:1/-1;display:flex;justify-content:center;align-items:center;color:var(--muted);font-size:2.5vw}
-footer{flex-shrink:0;padding:1.1vh 2.5vw;display:flex;justify-content:space-between;gap:2vw;align-items:center;border-top:2px solid var(--line);font-size:clamp(11px,1.35vw,22px);color:var(--muted)}.good{color:var(--green)}.warning{color:var(--amber)}.bad{color:var(--red)}
-@media(max-width:650px){.brand{font-size:16px}.clock{font-size:15px}.heading h1{font-size:25px}.cols,.flight{padding:0 5px;gap:2px}.cols{font-size:9px}.flight{font-size:11px}.status{font-size:.8em}footer{font-size:10px}}
-</style></head><body>
-<header><div class="brand">HALIFAX STANFIELD <span style="color:#67c7ff">YHZ</span><small>FLIGHT INFORMATION</small></div><div class="clock"><span id="time">--:--</span><small>ATLANTIC TIME</small></div></header>
-<main><section class="board"><div class="heading"><h1>✈ DEPARTURES</h1><span class="page" id="page"></span></div><div class="cols"><span>FLIGHT</span><span>DESTINATION</span><span>EXPECTED</span><span>ACTUAL</span><span>GATE</span><span>STATUS</span></div><div class="flights" id="flights"><div class="empty">Loading flights...</div></div></section></main>
-<footer><span id="updated">Checking flight information...</span><span id="health">Connecting...</span></footer>
+:root{
+    color-scheme:dark;
+    --bg:#07101e;
+    --panel:#111d30;
+    --line:#27364d;
+    --muted:#a9bdd2;
+    --green:#5ce6a4;
+    --blue:#67c7ff;
+    --amber:#ffd16e;
+    --red:#ff8585;
+}
+
+*{box-sizing:border-box}
+
+html,body{
+    margin:0;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+
+body{
+    background:var(--bg);
+    color:#f6f9ff;
+    font-family:Arial,Helvetica,sans-serif;
+    display:flex;
+    flex-direction:column;
+}
+
+header{
+    background:#101c2d;
+    border-bottom:2px solid var(--line);
+    padding:1.1vh 2.4vw;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:1vw;
+    flex-shrink:0;
+}
+
+.brand{
+    font-weight:800;
+    font-size:clamp(24px,3.5vw,52px);
+    letter-spacing:.035em;
+}
+
+.brand small{
+    display:block;
+    color:var(--muted);
+    font-size:.42em;
+    margin-top:.25vh;
+    letter-spacing:.1em;
+}
+
+.clock{
+    font-weight:800;
+    font-size:clamp(22px,3.2vw,46px);
+    white-space:nowrap;
+    text-align:right;
+}
+
+.clock small{
+    display:block;
+    font-size:.42em;
+    color:var(--muted);
+    font-weight:400;
+    margin-top:.25vh;
+}
+
+main{
+    padding:.8vh 1.3vw;
+    flex:1;
+    min-height:0;
+    display:flex;
+}
+
+.board{
+    flex:1;
+    min-height:0;
+    min-width:0;
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:12px;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+}
+
+.heading{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#1b2a40;
+    padding:.8vh 1.7vw;
+    flex-shrink:0;
+}
+
+.heading h1{
+    font-size:clamp(30px,4.6vw,66px);
+    color:var(--blue);
+    margin:0;
+}
+
+.page{
+    font-size:clamp(16px,2.1vw,30px);
+    color:var(--muted);
+    font-weight:bold;
+}
+
+.cols,
+.flight{
+    display:grid;
+    grid-template-columns:
+        1.05fr
+        1.75fr
+        .95fr
+        .95fr
+        .55fr
+        1.15fr;
+    gap:.45vw;
+    align-items:center;
+    padding:0 1.2vw;
+}
+
+.cols{
+    height:3.6vh;
+    flex-shrink:0;
+    background:#142136;
+    color:var(--muted);
+    font-size:clamp(14px,1.65vw,25px);
+    font-weight:bold;
+}
+
+.flights{
+    flex:1;
+    min-height:0;
+    display:grid;
+    grid-template-rows:repeat(22,minmax(0,1fr));
+}
+
+.flight{
+    min-height:0;
+    border-top:1px solid var(--line);
+    font-size:clamp(17px,2.15vw,32px);
+    line-height:1;
+}
+
+.flight:nth-child(even){
+    background:#17253a;
+}
+
+.flight strong{
+    font-size:1.08em;
+}
+
+.place{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+
+.status{
+    font-size:.88em;
+    font-weight:800;
+    white-space:nowrap;
+}
+
+.on-time,
+.arrived,
+.landed{
+    color:var(--green);
+}
+
+.early,
+.boarding{
+    color:var(--blue);
+}
+
+.delayed,
+.late{
+    color:var(--amber);
+}
+
+.cancelled{
+    color:var(--red);
+}
+
+.empty{
+    grid-row:1/-1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:var(--muted);
+    font-size:3vw;
+}
+
+footer{
+    flex-shrink:0;
+    padding:.65vh 2vw;
+    display:flex;
+    justify-content:space-between;
+    gap:2vw;
+    align-items:center;
+    border-top:2px solid var(--line);
+    font-size:clamp(14px,1.6vw,24px);
+    color:var(--muted);
+}
+
+.good{color:var(--green)}
+.warning{color:var(--amber)}
+.bad{color:var(--red)}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="brand">
+HALIFAX STANFIELD
+<span style="color:#67c7ff">YHZ</span>
+
+<small>
+FLIGHT INFORMATION
+</small>
+</div>
+
+<div class="clock">
+<span id="time">--:--</span>
+<small>ATLANTIC TIME</small>
+</div>
+
+</header>
+
+<main>
+
+<section class="board">
+
+<div class="heading">
+
+<h1>✈ DEPARTURES</h1>
+
+<span class="page" id="page"></span>
+
+</div>
+
+<div class="cols">
+
+<span>FLIGHT</span>
+<span>DESTINATION</span>
+<span>EXPECTED</span>
+<span>ACTUAL</span>
+<span>GATE</span>
+<span>STATUS</span>
+
+</div>
+
+<div class="flights" id="flights">
+
+<div class="empty">
+Loading flights...
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+<footer>
+
+<span id="updated">
+Checking flight information...
+</span>
+
+<span id="health">
+Connecting...
+</span>
+
+</footer>
+
 <script>
+
 'use strict';
+
 const DIRECTION='departures';
-const DATA_URL='https://raw.githubusercontent.com/mainline123/YHZ-Flight-Board/main/flights.json';
-const PER_PAGE=10,ROTATE_MS=12000,REFRESH_MS=60000,STALE_MS=90*60*1000;
-let data=null,page=0,fetchError=false;
-const el=id=>document.getElementById(id);
-function escapeHTML(x){return String(x??'—').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
-function statusClass(x){const s=String(x||'').toLowerCase();if(s.includes('cancel'))return'cancelled';if(s.includes('delay'))return'delayed';if(s.includes('late'))return'late';if(s.includes('early'))return'early';if(s.includes('boarding'))return'boarding';if(s.includes('arriv'))return'arrived';if(s.includes('land'))return'landed';if(s.includes('on time'))return'on-time';return'';}
-function clock(){el('time').textContent=new Date().toLocaleTimeString('en-CA',{timeZone:'America/Halifax',hour:'2-digit',minute:'2-digit',hour12:true});}
-function health(){if(!data){el('health').className='bad';el('health').textContent='Flight data unavailable';return;}const d=new Date(data.updated),age=Date.now()-d.getTime();if(!Number.isFinite(age)||age< -300000){el('health').className='bad';el('health').textContent='Invalid timestamp';return;}el('updated').textContent='Updated '+d.toLocaleString('en-CA',{timeZone:'America/Halifax',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});el('health').className=age>STALE_MS?'bad':fetchError?'warning':'good';el('health').textContent=age>STALE_MS?'WARNING: DATA OUTDATED':fetchError?'Connection issue':'Data recently updated';}
-function render(){if(!data)return;const flights=data[DIRECTION]||[],pages=Math.max(1,Math.ceil(flights.length/PER_PAGE)),p=page%pages;el('page').textContent='PAGE '+(p+1)+' / '+pages;const slice=flights.slice(p*PER_PAGE,(p+1)*PER_PAGE);el('flights').innerHTML=slice.length?slice.map(f=>{const place=DIRECTION==='arrivals'?(f.from||f.origin):f.destination;return `<div class="flight"><strong>${escapeHTML(f.flight)}</strong><span class="place" title="${escapeHTML(place)}">${escapeHTML(place)}</span><span>${escapeHTML(f.expected)}</span><span>${escapeHTML(f.actual)}</span><span>${escapeHTML(f.gate)}</span><span class="status ${statusClass(f.status)}">${escapeHTML(f.status)}</span></div>`;}).join(''):'<div class="empty">No flight information available</div>';health();}
-async function load(){try{const r=await fetch(DATA_URL+'?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);const next=await r.json();if(!next.updated||!Array.isArray(next[DIRECTION]))throw Error('Invalid data');data=next;fetchError=false;render();}catch(e){console.error(e);fetchError=true;if(!data)el('flights').innerHTML='<div class="empty">Flight data unavailable</div>';health();}}
-clock();setInterval(clock,1000);load();setInterval(load,REFRESH_MS);setInterval(()=>{page++;render();},ROTATE_MS);setInterval(health,10000);
-</script></body></html>
+
+const DATA_URL=
+'https://raw.githubusercontent.com/mainline123/YHZ-Flight-Board/main/flights.json';
+
+const PER_PAGE=22;
+
+const ROTATE_MS=12000;
+
+const REFRESH_MS=60000;
+
+/* 3 HOURS */
+const STALE_MS=3*60*60*1000;
+
+let data=null;
+let page=0;
+let fetchError=false;
+
+const el=id=>
+document.getElementById(id);
+
+function escapeHTML(x){
+
+return String(x??'—')
+.replace(
+/[&<>"']/g,
+c=>({
+'&':'&amp;',
+'<':'&lt;',
+'>':'&gt;',
+'"':'&quot;',
+"'":'&#39;'
+}[c])
+);
+
+}
+
+function statusClass(x){
+
+const s=
+String(x||'').toLowerCase();
+
+if(s.includes('cancel'))
+return'cancelled';
+
+if(s.includes('delay'))
+return'delayed';
+
+if(s.includes('late'))
+return'late';
+
+if(s.includes('early'))
+return'early';
+
+if(s.includes('boarding'))
+return'boarding';
+
+if(s.includes('arriv'))
+return'arrived';
+
+if(s.includes('land'))
+return'landed';
+
+if(s.includes('on time'))
+return'on-time';
+
+return'';
+
+}
+
+function clock(){
+
+el('time').textContent=
+new Date().toLocaleTimeString(
+'en-CA',
+{
+timeZone:'America/Halifax',
+hour:'2-digit',
+minute:'2-digit',
+hour12:true
+}
+);
+
+}
+
+function health(){
+
+if(!data){
+
+el('health').className='bad';
+
+el('health').textContent=
+'Flight data unavailable';
+
+return;
+
+}
+
+const d=
+new Date(data.updated);
+
+const age=
+Date.now()-d.getTime();
+
+if(
+!Number.isFinite(age) ||
+age < -300000
+){
+
+el('health').className='bad';
+
+el('health').textContent=
+'Invalid timestamp';
+
+return;
+
+}
+
+el('updated').textContent=
+'Updated '+
+d.toLocaleString(
+'en-CA',
+{
+timeZone:'America/Halifax',
+month:'short',
+day:'numeric',
+hour:'numeric',
+minute:'2-digit'
+}
+);
+
+el('health').className=
+age>STALE_MS
+?'bad'
+:fetchError
+?'warning'
+:'good';
+
+el('health').textContent=
+age>STALE_MS
+?'WARNING: DATA OUTDATED'
+:fetchError
+?'Connection issue'
+:'Data recently updated';
+
+}
+
+function render(){
+
+if(!data)
+return;
+
+const flights=
+data[DIRECTION]||[];
+
+const pages=
+Math.max(
+1,
+Math.ceil(
+flights.length/PER_PAGE
+)
+);
+
+const p=
+page%pages;
+
+el('page').textContent=
+'PAGE '+(p+1)+' / '+pages;
+
+const slice=
+flights.slice(
+p*PER_PAGE,
+(p+1)*PER_PAGE
+);
+
+el('flights').innerHTML=
+slice.length
+
+?slice.map(f=>{
+
+const place=
+f.destination;
+
+return `
+
+<div class="flight">
+
+<strong>
+${escapeHTML(f.flight)}
+</strong>
+
+<span
+class="place"
+title="${escapeHTML(place)}">
+${escapeHTML(place)}
+</span>
+
+<span>
+${escapeHTML(f.expected)}
+</span>
+
+<span>
+${escapeHTML(f.actual)}
+</span>
+
+<span>
+${escapeHTML(f.gate)}
+</span>
+
+<span
+class="status ${statusClass(f.status)}">
+${escapeHTML(f.status)}
+</span>
+
+</div>
+
+`;
+
+}).join('')
+
+:'<div class="empty">No flight information available</div>';
+
+health();
+
+}
+
+async function load(){
+
+try{
+
+const r=
+await fetch(
+DATA_URL+'?t='+Date.now(),
+{
+cache:'no-store'
+}
+);
+
+if(!r.ok)
+throw Error(
+'HTTP '+r.status
+);
+
+const next=
+await r.json();
+
+if(
+!next.updated ||
+!Array.isArray(
+next[DIRECTION]
+)
+)
+throw Error(
+'Invalid data'
+);
+
+data=next;
+fetchError=false;
+
+render();
+
+}
+
+catch(e){
+
+console.error(e);
+
+fetchError=true;
+
+if(!data)
+
+el('flights').innerHTML=
+'<div class="empty">Flight data unavailable</div>';
+
+health();
+
+}
+
+}
+
+clock();
+
+setInterval(
+clock,
+1000
+);
+
+load();
+
+setInterval(
+load,
+REFRESH_MS
+);
+
+setInterval(
+()=>{
+
+page++;
+
+render();
+
+},
+ROTATE_MS
+);
+
+setInterval(
+health,
+10000
+);
+
+</script>
+
+</body>
+</html>
