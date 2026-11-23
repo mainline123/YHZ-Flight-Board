@@ -1,121 +1,49 @@
 {
-  "updated": "2026-11-23T03:51:59.451417Z",
+  "updated": "2026-11-23T13:52:16.298319Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
     {
       "carrier": "Air Canada",
-      "flight": "AC1781",
-      "expected": "22:50",
-      "actual": "23:34",
-      "gate": "27",
-      "status": "LATE",
-      "from": "Punta Cana"
-    },
-    {
-      "carrier": "Porter",
-      "flight": "PD2499",
-      "expected": "23:50",
-      "actual": "23:50",
-      "gate": "6",
-      "status": "ON TIME",
-      "from": "Ottawa"
-    },
-    {
-      "carrier": "Porter",
-      "flight": "PD211",
-      "expected": "23:53",
-      "actual": "23:41",
-      "gate": "16",
-      "status": "ARRIVED",
-      "from": "Toronto (YYZ)"
-    },
-    {
-      "carrier": "Air Canada",
-      "flight": "AC618",
-      "expected": "00:03",
-      "actual": "00:28",
-      "gate": "22",
-      "status": "DELAYED",
-      "from": "Toronto (YYZ)"
-    },
-    {
-      "carrier": "Air Canada",
-      "flight": "AC2050",
-      "expected": "00:15",
-      "actual": "00:13",
-      "gate": "23",
-      "status": "ON TIME",
-      "from": "Montreal (YUL)"
-    },
-    {
-      "carrier": "Air Canada",
-      "flight": "AC2064",
-      "expected": "01:58",
-      "actual": "02:01",
-      "gate": "24",
-      "status": "ON TIME",
-      "from": "Toronto (YYZ)"
-    },
-    {
-      "carrier": "WestJet",
-      "flight": "WS670",
-      "expected": "05:40",
-      "actual": "05:43",
-      "gate": "22",
-      "status": "ON TIME",
-      "from": "Calgary"
-    },
-    {
-      "carrier": "Porter",
-      "flight": "PD2426",
-      "expected": "08:44",
-      "actual": "08:44",
-      "gate": "6",
-      "status": "ON TIME",
-      "from": "St. John's"
-    },
-    {
-      "carrier": "Air Canada",
       "flight": "AC7707",
       "expected": "09:07",
-      "actual": "09:07",
+      "actual": "09:31",
       "gate": "28",
-      "status": "ON TIME",
+      "status": "LATE",
       "from": "Goose Bay"
     },
     {
       "carrier": "Air Canada",
       "flight": "AC7671",
       "expected": "09:26",
-      "actual": "09:26",
+      "actual": "09:23",
       "gate": "2A",
-      "status": "ON TIME",
+      "status": "ARRIVED",
       "from": "St. John's"
     },
     {
       "carrier": "Air St. Pierre",
       "flight": "PJ1121",
       "expected": "09:30",
-      "actual": "09:30",
+      "actual": "09:34",
       "gate": "46",
-      "status": "ON TIME",
+      "status": "ARRIVED",
       "from": "Saint Pierre"
     },
     {
       "carrier": "Air Canada",
       "flight": "AC600",
       "expected": "09:32",
-      "actual": "09:32",
+      "actual": "09:26",
       "gate": "22",
-      "status": "ON TIME",
+      "status": "ARRIVED",
       "from": "Toronto (YYZ)"
     },
     {
       "carrier": "Flair Airlines",
       "flight": "F8650",
       "expected": "10:15",
-      "actual": "10:15",
+      "actual": "10:02",
       "gate": "18",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
@@ -124,16 +52,16 @@
       "carrier": "Air Canada",
       "flight": "AC662",
       "expected": "10:35",
-      "actual": "10:35",
+      "actual": "10:19",
       "gate": "20",
-      "status": "ON TIME",
+      "status": "EARLY",
       "from": "Montreal (YUL)"
     },
     {
       "carrier": "Air Canada",
       "flight": "AC604",
       "expected": "11:10",
-      "actual": "11:10",
+      "actual": "11:22",
       "gate": "16",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
@@ -142,9 +70,9 @@
       "carrier": "Porter",
       "flight": "PD2427",
       "expected": "11:21",
-      "actual": "11:21",
+      "actual": "11:42",
       "gate": "3",
-      "status": "ON TIME",
+      "status": "DELAYED",
       "from": "Hamilton"
     },
     {
@@ -187,9 +115,9 @@
       "carrier": "Air Canada",
       "flight": "AC2081",
       "expected": "12:00",
-      "actual": "12:00",
+      "actual": "11:39",
       "gate": "28",
-      "status": "ON TIME",
+      "status": "EARLY",
       "from": "London (LHR)"
     },
     {
@@ -207,7 +135,7 @@
       "expected": "13:13",
       "actual": "13:13",
       "gate": "-",
-      "status": "CANCELLED",
+      "status": "ON TIME",
       "from": "Toronto (YYZ)"
     },
     {
@@ -378,7 +306,7 @@
       "expected": "20:58",
       "actual": "20:58",
       "gate": "-",
-      "status": "CANCELLED",
+      "status": "ON TIME",
       "from": "Toronto (YYZ)"
     },
     {
@@ -461,115 +389,106 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Montreal (YUL)"
-    }
-  ],
-  "departures": [
-    {
-      "carrier": "Air Canada",
-      "flight": "AC601",
-      "expected": "05:00",
-      "actual": "05:00",
-      "gate": "22",
-      "status": "ON TIME",
-      "destination": "Toronto (YYZ)"
-    },
-    {
-      "carrier": "Air Canada",
-      "flight": "AC661",
-      "expected": "05:10",
-      "actual": "05:10",
-      "gate": "20",
-      "status": "ON TIME",
-      "destination": "Montreal (YUL)"
-    },
-    {
-      "carrier": "Air Canada",
-      "flight": "AC2059",
-      "expected": "06:00",
-      "actual": "06:00",
-      "gate": "26",
-      "status": "ON TIME",
-      "destination": "Toronto (YYZ)"
-    },
-    {
-      "carrier": "Air Canada",
-      "flight": "AC2047",
-      "expected": "06:05",
-      "actual": "06:05",
-      "gate": "27",
-      "status": "ON TIME",
-      "destination": "Montreal (YUL)"
-    },
-    {
-      "carrier": "Porter",
-      "flight": "PD200",
-      "expected": "06:30",
-      "actual": "06:30",
-      "gate": "12",
-      "status": "ON TIME",
-      "destination": "Toronto (YYZ)"
-    },
-    {
-      "carrier": "Porter",
-      "flight": "PD240",
-      "expected": "06:30",
-      "actual": "06:30",
-      "gate": "10",
-      "status": "ON TIME",
-      "destination": "Ottawa"
-    },
-    {
-      "carrier": "Porter",
-      "flight": "PD490",
-      "expected": "06:30",
-      "actual": "06:30",
-      "gate": "18",
-      "status": "ON TIME",
-      "destination": "Montreal (YHU)"
     },
     {
       "carrier": "WestJet",
-      "flight": "WS671",
-      "expected": "06:30",
-      "actual": "06:30",
-      "gate": "22",
+      "flight": "WS800",
+      "expected": "01:55",
+      "actual": "01:55",
+      "gate": "-",
       "status": "ON TIME",
-      "destination": "Calgary"
+      "from": "Toronto (YYZ)"
     },
     {
       "carrier": "Air Canada",
-      "flight": "AC2061",
-      "expected": "07:10",
-      "actual": "07:10",
-      "gate": "23",
+      "flight": "AC620",
+      "expected": "01:58",
+      "actual": "01:58",
+      "gate": "-",
       "status": "ON TIME",
-      "destination": "Toronto (YYZ)"
+      "from": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "WestJet",
+      "flight": "WS576",
+      "expected": "05:05",
+      "actual": "05:05",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Edmonton"
+    },
+    {
+      "carrier": "WestJet",
+      "flight": "WS670",
+      "expected": "05:40",
+      "actual": "05:40",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Calgary"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD2426",
+      "expected": "08:44",
+      "actual": "08:44",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "St. John's"
     },
     {
       "carrier": "Air Canada",
-      "flight": "AC7685",
-      "expected": "07:15",
-      "actual": "07:15",
-      "gate": "2C",
+      "flight": "AC7707",
+      "expected": "09:07",
+      "actual": "09:07",
+      "gate": "-",
       "status": "ON TIME",
-      "destination": "Ottawa"
+      "from": "Goose Bay"
     },
     {
       "carrier": "Air Canada",
-      "flight": "AC7672",
-      "expected": "08:05",
-      "actual": "08:05",
-      "gate": "2C",
+      "flight": "AC7671",
+      "expected": "09:26",
+      "actual": "09:26",
+      "gate": "-",
       "status": "ON TIME",
-      "destination": "St. John's"
+      "from": "St. John's"
     },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC600",
+      "expected": "09:32",
+      "actual": "09:32",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Flair Airlines",
+      "flight": "F8650",
+      "expected": "10:15",
+      "actual": "10:15",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC2044",
+      "expected": "10:35",
+      "actual": "10:35",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Montreal (YUL)"
+    }
+  ],
+  "departures": [
     {
       "carrier": "Porter",
       "flight": "PD2328",
       "expected": "09:25",
       "actual": "09:25",
-      "gate": "6",
-      "status": "ON TIME",
+      "gate": "3",
+      "status": "DEPARTED",
       "destination": "Montreal (YUL)"
     },
     {
@@ -577,17 +496,17 @@
       "flight": "PD2426",
       "expected": "09:30",
       "actual": "09:30",
-      "gate": "3",
-      "status": "ON TIME",
+      "gate": "6",
+      "status": "DEPARTED",
       "destination": "Hamilton"
     },
     {
       "carrier": "Porter",
       "flight": "PD202",
       "expected": "10:00",
-      "actual": "10:00",
+      "actual": "10:30",
       "gate": "16",
-      "status": "ON TIME",
+      "status": "DELAYED",
       "destination": "Toronto (YYZ)"
     },
     {
@@ -740,7 +659,7 @@
       "expected": "15:10",
       "actual": "15:10",
       "gate": "-",
-      "status": "CANCELLED",
+      "status": "ON TIME",
       "destination": "Toronto (YYZ)"
     },
     {
@@ -821,7 +740,7 @@
       "expected": "18:55",
       "actual": "18:55",
       "gate": "-",
-      "status": "CANCELLED",
+      "status": "ON TIME",
       "destination": "Toronto (YYZ)"
     },
     {
@@ -884,7 +803,7 @@
       "expected": "22:00",
       "actual": "22:00",
       "gate": "-",
-      "status": "CANCELLED",
+      "status": "ON TIME",
       "destination": "Toronto (YYZ)"
     },
     {
@@ -895,6 +814,186 @@
       "gate": "18",
       "status": "ON TIME",
       "destination": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC2595",
+      "expected": "03:00",
+      "actual": "03:00",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC601",
+      "expected": "05:00",
+      "actual": "05:00",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC2059",
+      "expected": "06:00",
+      "actual": "06:00",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "WestJet",
+      "flight": "WS801",
+      "expected": "06:00",
+      "actual": "06:00",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC603",
+      "expected": "06:00",
+      "actual": "06:00",
+      "gate": "23",
+      "status": "ON TIME",
+      "destination": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC2047",
+      "expected": "06:05",
+      "actual": "06:05",
+      "gate": "26",
+      "status": "ON TIME",
+      "destination": "Montreal (YUL)"
+    },
+    {
+      "carrier": "WestJet",
+      "flight": "WS577",
+      "expected": "06:15",
+      "actual": "06:15",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Edmonton"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD200",
+      "expected": "06:30",
+      "actual": "06:30",
+      "gate": "16",
+      "status": "ON TIME",
+      "destination": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD240",
+      "expected": "06:30",
+      "actual": "06:30",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Ottawa"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD490",
+      "expected": "06:30",
+      "actual": "06:30",
+      "gate": "10",
+      "status": "ON TIME",
+      "destination": "Montreal (YHU)"
+    },
+    {
+      "carrier": "WestJet",
+      "flight": "WS671",
+      "expected": "06:30",
+      "actual": "06:30",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Calgary"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC2061",
+      "expected": "07:10",
+      "actual": "07:10",
+      "gate": "22",
+      "status": "ON TIME",
+      "destination": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7685",
+      "expected": "07:15",
+      "actual": "07:15",
+      "gate": "2A",
+      "status": "ON TIME",
+      "destination": "Ottawa"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7672",
+      "expected": "08:05",
+      "actual": "08:05",
+      "gate": "2C",
+      "status": "ON TIME",
+      "destination": "St. John's"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD2328",
+      "expected": "09:25",
+      "actual": "09:25",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Montreal (YUL)"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD2426",
+      "expected": "09:30",
+      "actual": "09:30",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Hamilton"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD202",
+      "expected": "10:00",
+      "actual": "10:00",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7665",
+      "expected": "10:15",
+      "actual": "10:15",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Newark"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC607",
+      "expected": "10:25",
+      "actual": "10:25",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7674",
+      "expected": "10:30",
+      "actual": "10:30",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "St. John's"
     }
   ]
 }
