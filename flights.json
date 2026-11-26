@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T23:15:16.253273Z",
+  "updated": "2026-11-26T23:30:18.136675Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -43,7 +43,7 @@
       "carrier": "Air Canada",
       "flight": "AC2062",
       "expected": "20:58",
-      "actual": "20:58",
+      "actual": "21:00",
       "gate": "22",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
@@ -106,7 +106,7 @@
       "carrier": "Air Canada",
       "flight": "AC1781",
       "expected": "22:50",
-      "actual": "22:33",
+      "actual": "22:25",
       "gate": "24",
       "status": "EARLY",
       "from": "Punta Cana"
@@ -443,6 +443,15 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Deer Lake"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD2497",
+      "expected": "20:20",
+      "actual": "20:20",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Ottawa"
     }
   ],
   "departures": [
@@ -452,7 +461,7 @@
       "expected": "18:25",
       "actual": "19:10",
       "gate": "18",
-      "status": "DELAYED",
+      "status": "LATE",
       "destination": "Toronto (YYZ)"
     },
     {
@@ -470,7 +479,7 @@
       "expected": "18:55",
       "actual": "19:10",
       "gate": "24",
-      "status": "DELAYED",
+      "status": "LATE",
       "destination": "Toronto (YYZ)"
     },
     {
