@@ -1,26 +1,8 @@
 {
-  "updated": "2026-11-26T22:00:18.912255Z",
+  "updated": "2026-11-26T22:15:15.812666Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Porter",
-      "flight": "PD2428",
-      "expected": "16:59",
-      "actual": "17:18",
-      "gate": "3",
-      "status": "ARRIVED",
-      "from": "St. John's"
-    },
-    {
-      "carrier": "Air Canada",
-      "flight": "AC7695",
-      "expected": "17:03",
-      "actual": "16:52",
-      "gate": "2A",
-      "status": "ARRIVED",
-      "from": "Gander"
-    },
     {
       "carrier": "Porter",
       "flight": "PD245",
@@ -43,9 +25,9 @@
       "carrier": "Air Canada",
       "flight": "AC612",
       "expected": "17:58",
-      "actual": "18:16",
+      "actual": "18:11",
       "gate": "24",
-      "status": "DELAYED",
+      "status": "ARRIVED",
       "from": "Toronto (YYZ)"
     },
     {
@@ -61,7 +43,7 @@
       "carrier": "Air Canada",
       "flight": "AC7692",
       "expected": "19:48",
-      "actual": "19:43",
+      "actual": "19:39",
       "gate": "2A",
       "status": "ON TIME",
       "from": "Ottawa"
@@ -124,7 +106,7 @@
       "carrier": "Air Canada",
       "flight": "AC1726",
       "expected": "21:44",
-      "actual": "21:44",
+      "actual": "21:40",
       "gate": "56",
       "status": "ON TIME",
       "from": "Orlando"
@@ -465,21 +447,12 @@
   ],
   "departures": [
     {
-      "carrier": "Air Canada",
-      "flight": "AC667",
-      "expected": "17:00",
-      "actual": "17:00",
-      "gate": "20",
-      "status": "DEPARTED",
-      "destination": "Montreal (YUL)"
-    },
-    {
       "carrier": "Porter",
       "flight": "PD2506",
       "expected": "17:40",
       "actual": "17:55",
       "gate": "3",
-      "status": "DELAYED",
+      "status": "LATE",
       "destination": "Montreal (YHU)"
     },
     {
@@ -488,7 +461,7 @@
       "expected": "17:45",
       "actual": "17:45",
       "gate": "2A",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Ottawa"
     },
     {
@@ -904,6 +877,15 @@
       "gate": "-",
       "status": "ON TIME",
       "destination": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Bermuda Air",
+      "flight": "2T802",
+      "expected": "19:00",
+      "actual": "19:00",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Bermuda"
     }
   ]
 }
