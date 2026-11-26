@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T20:36:28.613041Z",
+  "updated": "2026-11-26T20:59:21.065146Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -27,7 +27,7 @@
       "expected": "16:39",
       "actual": "16:11",
       "gate": "-",
-      "status": "EARLY",
+      "status": "ARRIVED",
       "from": "Toronto (YYZ)"
     },
     {
@@ -61,7 +61,7 @@
       "carrier": "Flair Airlines",
       "flight": "F8654",
       "expected": "17:40",
-      "actual": "18:29",
+      "actual": "18:24",
       "gate": "18",
       "status": "DELAYED",
       "from": "Toronto (YYZ)"
@@ -70,9 +70,9 @@
       "carrier": "Air Canada",
       "flight": "AC612",
       "expected": "17:58",
-      "actual": "18:07",
+      "actual": "18:16",
       "gate": "24",
-      "status": "ON TIME",
+      "status": "DELAYED",
       "from": "Toronto (YYZ)"
     },
     {
@@ -434,6 +434,33 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Gander"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD245",
+      "expected": "17:35",
+      "actual": "17:35",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Ottawa"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD2196",
+      "expected": "17:39",
+      "actual": "17:39",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Deer Lake"
+    },
+    {
+      "carrier": "Flair Airlines",
+      "flight": "F8654",
+      "expected": "17:40",
+      "actual": "17:40",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Toronto (YYZ)"
     }
   ],
   "departures": [
@@ -479,7 +506,7 @@
       "expected": "17:00",
       "actual": "17:00",
       "gate": "20",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Montreal (YUL)"
     },
     {
@@ -504,9 +531,9 @@
       "carrier": "Flair Airlines",
       "flight": "F8655",
       "expected": "18:25",
-      "actual": "18:25",
+      "actual": "19:10",
       "gate": "18",
-      "status": "ON TIME",
+      "status": "DELAYED",
       "destination": "Toronto (YYZ)"
     },
     {
@@ -868,6 +895,24 @@
       "gate": "-",
       "status": "ON TIME",
       "destination": "Montreal (YUL)"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD2506",
+      "expected": "17:40",
+      "actual": "17:40",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Montreal (YHU)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7691",
+      "expected": "17:45",
+      "actual": "17:45",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Ottawa"
     }
   ]
 }
