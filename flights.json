@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T20:59:21.065146Z",
+  "updated": "2026-11-26T21:01:21.776869Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -43,9 +43,9 @@
       "carrier": "Air Canada",
       "flight": "AC7695",
       "expected": "17:03",
-      "actual": "16:55",
+      "actual": "16:52",
       "gate": "2A",
-      "status": "ON TIME",
+      "status": "ARRIVED",
       "from": "Gander"
     },
     {
