@@ -1,17 +1,8 @@
 {
-  "updated": "2026-11-26T23:00:23.509365Z",
+  "updated": "2026-11-26T23:15:16.253273Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Air Canada",
-      "flight": "AC612",
-      "expected": "17:58",
-      "actual": "18:11",
-      "gate": "24",
-      "status": "LATE",
-      "from": "Toronto (YYZ)"
-    },
     {
       "carrier": "Porter",
       "flight": "PD209",
@@ -79,7 +70,7 @@
       "carrier": "Air Canada",
       "flight": "AC668",
       "expected": "21:35",
-      "actual": "21:35",
+      "actual": "21:32",
       "gate": "18",
       "status": "ON TIME",
       "from": "Montreal (YUL)"
@@ -268,7 +259,7 @@
       "carrier": "Air Canada",
       "flight": "AC7688",
       "expected": "11:58",
-      "actual": "11:58",
+      "actual": "12:00",
       "gate": "2A",
       "status": "ON TIME",
       "from": "Ottawa"
@@ -422,7 +413,7 @@
       "flight": "PD209",
       "expected": "18:54",
       "actual": "18:54",
-      "gate": "-",
+      "gate": "12",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
     },
@@ -443,6 +434,15 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Ottawa"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7705",
+      "expected": "19:55",
+      "actual": "19:55",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Deer Lake"
     }
   ],
   "departures": [
@@ -856,7 +856,7 @@
       "flight": "AC2065",
       "expected": "18:55",
       "actual": "18:55",
-      "gate": "-",
+      "gate": "22",
       "status": "ON TIME",
       "destination": "Toronto (YYZ)"
     },
