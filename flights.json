@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T21:15:15.610340Z",
+  "updated": "2026-11-26T21:30:22.533167Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -16,9 +16,9 @@
       "carrier": "Porter",
       "flight": "PD2428",
       "expected": "16:59",
-      "actual": "17:22",
+      "actual": "17:18",
       "gate": "3",
-      "status": "DELAYED",
+      "status": "ARRIVED",
       "from": "St. John's"
     },
     {
@@ -34,7 +34,7 @@
       "carrier": "Porter",
       "flight": "PD245",
       "expected": "17:35",
-      "actual": "17:10",
+      "actual": "17:15",
       "gate": "10",
       "status": "EARLY",
       "from": "Ottawa"
@@ -43,7 +43,7 @@
       "carrier": "Flair Airlines",
       "flight": "F8654",
       "expected": "17:40",
-      "actual": "18:25",
+      "actual": "18:32",
       "gate": "18",
       "status": "DELAYED",
       "from": "Toronto (YYZ)"
@@ -98,7 +98,7 @@
       "flight": "AC2062",
       "expected": "20:58",
       "actual": "20:58",
-      "gate": "20",
+      "gate": "22",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
     },
@@ -125,7 +125,7 @@
       "flight": "AC668",
       "expected": "21:35",
       "actual": "21:35",
-      "gate": "22",
+      "gate": "18",
       "status": "ON TIME",
       "from": "Montreal (YUL)"
     },
@@ -188,7 +188,7 @@
       "flight": "AC620",
       "expected": "01:58",
       "actual": "01:58",
-      "gate": "28",
+      "gate": "20",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
     },
@@ -197,7 +197,7 @@
       "flight": "WS670",
       "expected": "05:40",
       "actual": "05:40",
-      "gate": "-",
+      "gate": "18",
       "status": "ON TIME",
       "from": "Calgary"
     },
@@ -206,7 +206,7 @@
       "flight": "PD2426",
       "expected": "08:44",
       "actual": "08:44",
-      "gate": "-",
+      "gate": "6",
       "status": "ON TIME",
       "from": "St. John's"
     },
@@ -215,7 +215,7 @@
       "flight": "AC7707",
       "expected": "09:07",
       "actual": "09:07",
-      "gate": "-",
+      "gate": "2C",
       "status": "ON TIME",
       "from": "Goose Bay"
     },
@@ -224,7 +224,7 @@
       "flight": "AC7671",
       "expected": "09:26",
       "actual": "09:26",
-      "gate": "-",
+      "gate": "2A",
       "status": "ON TIME",
       "from": "St. John's"
     },
@@ -233,7 +233,7 @@
       "flight": "PJ1121",
       "expected": "09:30",
       "actual": "09:30",
-      "gate": "-",
+      "gate": "46",
       "status": "ON TIME",
       "from": "Saint Pierre"
     },
@@ -242,7 +242,7 @@
       "flight": "AC600",
       "expected": "09:32",
       "actual": "09:32",
-      "gate": "-",
+      "gate": "22",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
     },
@@ -251,7 +251,7 @@
       "flight": "F8650",
       "expected": "10:15",
       "actual": "10:15",
-      "gate": "-",
+      "gate": "16",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
     },
@@ -260,7 +260,7 @@
       "flight": "AC662",
       "expected": "10:35",
       "actual": "10:35",
-      "gate": "-",
+      "gate": "20",
       "status": "ON TIME",
       "from": "Montreal (YUL)"
     },
@@ -269,7 +269,7 @@
       "flight": "AC604",
       "expected": "11:13",
       "actual": "11:13",
-      "gate": "-",
+      "gate": "22",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
     },
@@ -278,7 +278,7 @@
       "flight": "PD2427",
       "expected": "11:21",
       "actual": "11:21",
-      "gate": "-",
+      "gate": "3",
       "status": "ON TIME",
       "from": "Hamilton"
     },
@@ -287,7 +287,7 @@
       "flight": "PD2505",
       "expected": "11:22",
       "actual": "11:22",
-      "gate": "-",
+      "gate": "6",
       "status": "ON TIME",
       "from": "Montreal (YHU)"
     },
@@ -296,7 +296,7 @@
       "flight": "PD241",
       "expected": "11:35",
       "actual": "11:35",
-      "gate": "-",
+      "gate": "12",
       "status": "ON TIME",
       "from": "Ottawa"
     },
@@ -305,7 +305,7 @@
       "flight": "PD201",
       "expected": "11:39",
       "actual": "11:39",
-      "gate": "-",
+      "gate": "10",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
     },
@@ -314,7 +314,7 @@
       "flight": "AC7688",
       "expected": "11:58",
       "actual": "11:58",
-      "gate": "-",
+      "gate": "2A",
       "status": "ON TIME",
       "from": "Ottawa"
     },
@@ -323,7 +323,7 @@
       "flight": "AC2081",
       "expected": "12:00",
       "actual": "12:00",
-      "gate": "-",
+      "gate": "23",
       "status": "ON TIME",
       "from": "London (LHR)"
     },
@@ -332,7 +332,7 @@
       "flight": "AC7673",
       "expected": "13:01",
       "actual": "13:01",
-      "gate": "-",
+      "gate": "2C",
       "status": "ON TIME",
       "from": "St. John's"
     },
@@ -341,7 +341,7 @@
       "flight": "AC2058",
       "expected": "13:13",
       "actual": "13:13",
-      "gate": "-",
+      "gate": "22",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
     },
@@ -350,7 +350,7 @@
       "flight": "UA3531",
       "expected": "13:24",
       "actual": "13:24",
-      "gate": "-",
+      "gate": "56",
       "status": "ON TIME",
       "from": "Newark"
     },
@@ -359,7 +359,7 @@
       "flight": "PD2327",
       "expected": "13:58",
       "actual": "13:58",
-      "gate": "-",
+      "gate": "3",
       "status": "ON TIME",
       "from": "Montreal (YUL)"
     },
@@ -368,7 +368,7 @@
       "flight": "AC7677",
       "expected": "15:21",
       "actual": "15:21",
-      "gate": "-",
+      "gate": "2C",
       "status": "ON TIME",
       "from": "St. John's"
     },
@@ -377,7 +377,7 @@
       "flight": "AC7690",
       "expected": "15:23",
       "actual": "15:23",
-      "gate": "-",
+      "gate": "2A",
       "status": "ON TIME",
       "from": "Ottawa"
     },
@@ -386,7 +386,7 @@
       "flight": "AC664",
       "expected": "15:55",
       "actual": "15:55",
-      "gate": "-",
+      "gate": "20",
       "status": "ON TIME",
       "from": "Montreal (YUL)"
     },
@@ -395,7 +395,7 @@
       "flight": "AC7664",
       "expected": "15:58",
       "actual": "15:58",
-      "gate": "-",
+      "gate": "57",
       "status": "ON TIME",
       "from": "Newark"
     },
@@ -404,7 +404,7 @@
       "flight": "PD2428",
       "expected": "16:59",
       "actual": "16:59",
-      "gate": "-",
+      "gate": "3",
       "status": "ON TIME",
       "from": "St. John's"
     },
@@ -413,7 +413,7 @@
       "flight": "AC7695",
       "expected": "17:03",
       "actual": "17:03",
-      "gate": "-",
+      "gate": "2A",
       "status": "ON TIME",
       "from": "Gander"
     },
@@ -470,7 +470,7 @@
       "expected": "16:30",
       "actual": "16:30",
       "gate": "16",
-      "status": "ON TIME",
+      "status": "EARLY",
       "destination": "Toronto (YYZ)"
     },
     {
@@ -586,7 +586,7 @@
       "flight": "AC601",
       "expected": "05:00",
       "actual": "05:00",
-      "gate": "22",
+      "gate": "18",
       "status": "ON TIME",
       "destination": "Toronto (YYZ)"
     },
@@ -595,7 +595,7 @@
       "flight": "AC661",
       "expected": "05:10",
       "actual": "05:10",
-      "gate": "28",
+      "gate": "20",
       "status": "ON TIME",
       "destination": "Montreal (YUL)"
     },
@@ -604,7 +604,7 @@
       "flight": "AC2059",
       "expected": "06:00",
       "actual": "06:00",
-      "gate": "-",
+      "gate": "22",
       "status": "ON TIME",
       "destination": "Toronto (YYZ)"
     },
@@ -649,7 +649,7 @@
       "flight": "WS671",
       "expected": "06:30",
       "actual": "06:30",
-      "gate": "-",
+      "gate": "18",
       "status": "ON TIME",
       "destination": "Calgary"
     },
@@ -676,7 +676,7 @@
       "flight": "AC7672",
       "expected": "08:05",
       "actual": "08:05",
-      "gate": "2E",
+      "gate": "2A",
       "status": "ON TIME",
       "destination": "St. John's"
     },
@@ -694,7 +694,7 @@
       "flight": "PD2426",
       "expected": "09:30",
       "actual": "09:30",
-      "gate": "-",
+      "gate": "6",
       "status": "ON TIME",
       "destination": "Hamilton"
     },
@@ -712,7 +712,7 @@
       "flight": "AC7665",
       "expected": "10:15",
       "actual": "10:15",
-      "gate": "-",
+      "gate": "57",
       "status": "ON TIME",
       "destination": "Newark"
     },
@@ -721,7 +721,7 @@
       "flight": "AC607",
       "expected": "10:25",
       "actual": "10:25",
-      "gate": "-",
+      "gate": "22",
       "status": "ON TIME",
       "destination": "Toronto (YYZ)"
     },
@@ -730,7 +730,7 @@
       "flight": "AC7674",
       "expected": "10:30",
       "actual": "10:30",
-      "gate": "-",
+      "gate": "2A",
       "status": "ON TIME",
       "destination": "St. John's"
     },
@@ -739,7 +739,7 @@
       "flight": "F8651",
       "expected": "11:00",
       "actual": "11:00",
-      "gate": "-",
+      "gate": "16",
       "status": "ON TIME",
       "destination": "Toronto (YYZ)"
     },
@@ -757,7 +757,7 @@
       "flight": "AC663",
       "expected": "11:25",
       "actual": "11:25",
-      "gate": "-",
+      "gate": "20",
       "status": "ON TIME",
       "destination": "Montreal (YUL)"
     },
@@ -766,7 +766,7 @@
       "flight": "PD2427",
       "expected": "12:15",
       "actual": "12:15",
-      "gate": "-",
+      "gate": "3",
       "status": "ON TIME",
       "destination": "St. John's"
     },
@@ -775,7 +775,7 @@
       "flight": "AC609",
       "expected": "12:15",
       "actual": "12:15",
-      "gate": "-",
+      "gate": "22",
       "status": "ON TIME",
       "destination": "Toronto (YYZ)"
     },
@@ -784,7 +784,7 @@
       "flight": "PD242",
       "expected": "12:30",
       "actual": "12:30",
-      "gate": "-",
+      "gate": "12",
       "status": "ON TIME",
       "destination": "Ottawa"
     },
@@ -793,7 +793,7 @@
       "flight": "PJ1122",
       "expected": "12:30",
       "actual": "12:30",
-      "gate": "-",
+      "gate": "7",
       "status": "ON TIME",
       "destination": "Saint Pierre"
     },
@@ -802,7 +802,7 @@
       "flight": "AC7696",
       "expected": "12:35",
       "actual": "12:35",
-      "gate": "-",
+      "gate": "2A",
       "status": "ON TIME",
       "destination": "Gander"
     },
@@ -811,7 +811,7 @@
       "flight": "PD2195",
       "expected": "13:40",
       "actual": "13:40",
-      "gate": "-",
+      "gate": "6",
       "status": "ON TIME",
       "destination": "Deer Lake"
     },
@@ -820,7 +820,7 @@
       "flight": "AC7689",
       "expected": "13:45",
       "actual": "13:45",
-      "gate": "-",
+      "gate": "2C",
       "status": "ON TIME",
       "destination": "Ottawa"
     },
@@ -829,7 +829,7 @@
       "flight": "UA3471",
       "expected": "14:10",
       "actual": "14:10",
-      "gate": "-",
+      "gate": "56",
       "status": "ON TIME",
       "destination": "Newark"
     },
@@ -838,7 +838,7 @@
       "flight": "PD2494",
       "expected": "14:40",
       "actual": "14:40",
-      "gate": "-",
+      "gate": "3",
       "status": "ON TIME",
       "destination": "Ottawa"
     },
@@ -847,7 +847,7 @@
       "flight": "AC2063",
       "expected": "15:10",
       "actual": "15:10",
-      "gate": "-",
+      "gate": "22",
       "status": "ON TIME",
       "destination": "Toronto (YYZ)"
     },
@@ -856,7 +856,7 @@
       "flight": "AC7704",
       "expected": "16:00",
       "actual": "16:00",
-      "gate": "-",
+      "gate": "2A",
       "status": "ON TIME",
       "destination": "Deer Lake"
     },
@@ -865,7 +865,7 @@
       "flight": "AC7669",
       "expected": "16:40",
       "actual": "16:40",
-      "gate": "-",
+      "gate": "57",
       "status": "ON TIME",
       "destination": "Boston"
     },
@@ -874,7 +874,7 @@
       "flight": "AC7678",
       "expected": "16:40",
       "actual": "16:40",
-      "gate": "-",
+      "gate": "2C",
       "status": "ON TIME",
       "destination": "St. John's"
     },
@@ -883,7 +883,7 @@
       "flight": "AC667",
       "expected": "17:00",
       "actual": "17:00",
-      "gate": "-",
+      "gate": "20",
       "status": "ON TIME",
       "destination": "Montreal (YUL)"
     },
@@ -904,6 +904,15 @@
       "gate": "-",
       "status": "ON TIME",
       "destination": "Ottawa"
+    },
+    {
+      "carrier": "Flair Airlines",
+      "flight": "F8655",
+      "expected": "18:25",
+      "actual": "18:25",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Toronto (YYZ)"
     }
   ]
 }
