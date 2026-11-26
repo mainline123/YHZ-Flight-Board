@@ -1,26 +1,8 @@
 {
-  "updated": "2026-11-26T22:45:16.510345Z",
+  "updated": "2026-11-26T23:00:23.509365Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Porter",
-      "flight": "PD245",
-      "expected": "17:35",
-      "actual": "17:15",
-      "gate": "10",
-      "status": "EARLY",
-      "from": "Ottawa"
-    },
-    {
-      "carrier": "Flair Airlines",
-      "flight": "F8654",
-      "expected": "17:40",
-      "actual": "18:24",
-      "gate": "18",
-      "status": "LATE",
-      "from": "Toronto (YYZ)"
-    },
     {
       "carrier": "Air Canada",
       "flight": "AC612",
@@ -34,9 +16,9 @@
       "carrier": "Porter",
       "flight": "PD209",
       "expected": "18:54",
-      "actual": "18:43",
+      "actual": "18:54",
       "gate": "12",
-      "status": "ON TIME",
+      "status": "ARRIVED",
       "from": "Toronto (YYZ)"
     },
     {
@@ -70,7 +52,7 @@
       "carrier": "Air Canada",
       "flight": "AC2062",
       "expected": "20:58",
-      "actual": "20:52",
+      "actual": "20:58",
       "gate": "22",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
@@ -188,7 +170,7 @@
       "flight": "AC7707",
       "expected": "09:07",
       "actual": "09:07",
-      "gate": "2C",
+      "gate": "27",
       "status": "ON TIME",
       "from": "Goose Bay"
     },
@@ -341,7 +323,7 @@
       "flight": "AC7677",
       "expected": "15:21",
       "actual": "15:21",
-      "gate": "2C",
+      "gate": "2E",
       "status": "ON TIME",
       "from": "St. John's"
     },
@@ -386,7 +368,7 @@
       "flight": "AC7695",
       "expected": "17:03",
       "actual": "17:03",
-      "gate": "2A",
+      "gate": "2C",
       "status": "ON TIME",
       "from": "Gander"
     },
@@ -422,7 +404,7 @@
       "flight": "AC2060",
       "expected": "17:58",
       "actual": "17:58",
-      "gate": "-",
+      "gate": "22",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
     },
@@ -431,7 +413,7 @@
       "flight": "2T801",
       "expected": "18:01",
       "actual": "18:01",
-      "gate": "-",
+      "gate": "24",
       "status": "ON TIME",
       "from": "Bermuda"
     },
@@ -443,27 +425,27 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
-    }
-  ],
-  "departures": [
+    },
     {
-      "carrier": "Porter",
-      "flight": "PD2506",
-      "expected": "17:40",
-      "actual": "17:55",
-      "gate": "3",
-      "status": "LATE",
-      "destination": "Montreal (YHU)"
+      "carrier": "Flair Airlines",
+      "flight": "F8408",
+      "expected": "19:40",
+      "actual": "19:40",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Kitchener-Waterloo"
     },
     {
       "carrier": "Air Canada",
-      "flight": "AC7691",
-      "expected": "17:45",
-      "actual": "17:45",
-      "gate": "2A",
-      "status": "DEPARTED",
-      "destination": "Ottawa"
-    },
+      "flight": "AC7692",
+      "expected": "19:48",
+      "actual": "19:48",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Ottawa"
+    }
+  ],
+  "departures": [
     {
       "carrier": "Flair Airlines",
       "flight": "F8655",
@@ -479,7 +461,7 @@
       "expected": "18:40",
       "actual": "18:40",
       "gate": "6",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Ottawa"
     },
     {
@@ -613,7 +595,7 @@
       "flight": "AC7685",
       "expected": "07:15",
       "actual": "07:15",
-      "gate": "2C",
+      "gate": "2A",
       "status": "ON TIME",
       "destination": "Ottawa"
     },
@@ -622,7 +604,7 @@
       "flight": "AC7672",
       "expected": "08:05",
       "actual": "08:05",
-      "gate": "2A",
+      "gate": "2C",
       "status": "ON TIME",
       "destination": "St. John's"
     },
@@ -766,7 +748,7 @@
       "flight": "AC7689",
       "expected": "13:45",
       "actual": "13:45",
-      "gate": "2C",
+      "gate": "2E",
       "status": "ON TIME",
       "destination": "Ottawa"
     },
@@ -847,7 +829,7 @@
       "flight": "AC7691",
       "expected": "17:45",
       "actual": "17:45",
-      "gate": "-",
+      "gate": "2E",
       "status": "ON TIME",
       "destination": "Ottawa"
     },
@@ -856,7 +838,7 @@
       "flight": "F8655",
       "expected": "18:25",
       "actual": "18:25",
-      "gate": "-",
+      "gate": "16",
       "status": "ON TIME",
       "destination": "Toronto (YYZ)"
     },
@@ -865,7 +847,7 @@
       "flight": "PD2496",
       "expected": "18:40",
       "actual": "18:40",
-      "gate": "-",
+      "gate": "6",
       "status": "ON TIME",
       "destination": "Ottawa"
     },
@@ -886,6 +868,15 @@
       "gate": "-",
       "status": "ON TIME",
       "destination": "Bermuda"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD210",
+      "expected": "19:50",
+      "actual": "19:50",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Toronto (YYZ)"
     }
   ]
 }
