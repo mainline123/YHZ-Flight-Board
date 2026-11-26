@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T23:30:18.136675Z",
+  "updated": "2026-11-26T23:45:14.445166Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -16,16 +16,16 @@
       "carrier": "Air Canada",
       "flight": "AC7692",
       "expected": "19:48",
-      "actual": "19:39",
+      "actual": "19:32",
       "gate": "2A",
-      "status": "ON TIME",
+      "status": "ARRIVED",
       "from": "Ottawa"
     },
     {
       "carrier": "Air Canada",
       "flight": "AC7705",
       "expected": "19:55",
-      "actual": "19:33",
+      "actual": "19:28",
       "gate": "2C",
       "status": "EARLY",
       "from": "Deer Lake"
@@ -61,9 +61,9 @@
       "carrier": "Air Canada",
       "flight": "AC7681",
       "expected": "21:31",
-      "actual": "21:31",
+      "actual": "21:13",
       "gate": "2C",
-      "status": "ON TIME",
+      "status": "EARLY",
       "from": "St. John's"
     },
     {
@@ -97,7 +97,7 @@
       "carrier": "Air Canada",
       "flight": "AC2066",
       "expected": "22:38",
-      "actual": "22:38",
+      "actual": "22:33",
       "gate": "23",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
@@ -455,15 +455,6 @@
     }
   ],
   "departures": [
-    {
-      "carrier": "Flair Airlines",
-      "flight": "F8655",
-      "expected": "18:25",
-      "actual": "19:10",
-      "gate": "18",
-      "status": "LATE",
-      "destination": "Toronto (YYZ)"
-    },
     {
       "carrier": "Porter",
       "flight": "PD2496",
@@ -886,6 +877,33 @@
       "gate": "-",
       "status": "ON TIME",
       "destination": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Flair Airlines",
+      "flight": "F8409",
+      "expected": "20:25",
+      "actual": "20:25",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Kitchener-Waterloo"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7682",
+      "expected": "20:30",
+      "actual": "20:30",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "St. John's"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7708",
+      "expected": "20:35",
+      "actual": "20:35",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Goose Bay"
     }
   ]
 }
