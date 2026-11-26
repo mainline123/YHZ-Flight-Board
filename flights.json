@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T22:15:15.812666Z",
+  "updated": "2026-11-26T22:30:17.321885Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -16,9 +16,9 @@
       "carrier": "Flair Airlines",
       "flight": "F8654",
       "expected": "17:40",
-      "actual": "18:28",
+      "actual": "18:24",
       "gate": "18",
-      "status": "DELAYED",
+      "status": "ARRIVED",
       "from": "Toronto (YYZ)"
     },
     {
@@ -27,7 +27,7 @@
       "expected": "17:58",
       "actual": "18:11",
       "gate": "24",
-      "status": "ARRIVED",
+      "status": "LATE",
       "from": "Toronto (YYZ)"
     },
     {
@@ -52,9 +52,9 @@
       "carrier": "Air Canada",
       "flight": "AC7705",
       "expected": "19:55",
-      "actual": "19:55",
+      "actual": "19:33",
       "gate": "2C",
-      "status": "ON TIME",
+      "status": "EARLY",
       "from": "Deer Lake"
     },
     {
@@ -106,9 +106,9 @@
       "carrier": "Air Canada",
       "flight": "AC1726",
       "expected": "21:44",
-      "actual": "21:40",
+      "actual": "21:21",
       "gate": "56",
-      "status": "ON TIME",
+      "status": "EARLY",
       "from": "Orlando"
     },
     {
