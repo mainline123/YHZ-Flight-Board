@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T22:30:17.321885Z",
+  "updated": "2026-11-26T22:45:16.510345Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -18,7 +18,7 @@
       "expected": "17:40",
       "actual": "18:24",
       "gate": "18",
-      "status": "ARRIVED",
+      "status": "LATE",
       "from": "Toronto (YYZ)"
     },
     {
@@ -133,9 +133,9 @@
       "carrier": "Air Canada",
       "flight": "AC1781",
       "expected": "22:50",
-      "actual": "22:45",
+      "actual": "22:33",
       "gate": "24",
-      "status": "ON TIME",
+      "status": "EARLY",
       "from": "Punta Cana"
     },
     {
