@@ -1,26 +1,8 @@
 {
-  "updated": "2026-11-26T21:01:21.776869Z",
+  "updated": "2026-11-26T21:15:15.610340Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Air Canada",
-      "flight": "AC664",
-      "expected": "15:55",
-      "actual": "15:43",
-      "gate": "20",
-      "status": "ARRIVED",
-      "from": "Montreal (YUL)"
-    },
-    {
-      "carrier": "Air Canada",
-      "flight": "AC7664",
-      "expected": "15:58",
-      "actual": "15:58",
-      "gate": "58",
-      "status": "CANCELLED",
-      "from": "Newark"
-    },
     {
       "carrier": "Air Canada",
       "flight": "AC7194",
@@ -61,7 +43,7 @@
       "carrier": "Flair Airlines",
       "flight": "F8654",
       "expected": "17:40",
-      "actual": "18:24",
+      "actual": "18:25",
       "gate": "18",
       "status": "DELAYED",
       "from": "Toronto (YYZ)"
@@ -79,7 +61,7 @@
       "carrier": "Porter",
       "flight": "PD209",
       "expected": "18:54",
-      "actual": "18:54",
+      "actual": "18:43",
       "gate": "12",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
@@ -161,7 +143,7 @@
       "flight": "PD493",
       "expected": "21:50",
       "actual": "21:50",
-      "gate": "12",
+      "gate": "10",
       "status": "ON TIME",
       "from": "Montreal (YHU)"
     },
@@ -197,7 +179,7 @@
       "flight": "PD211",
       "expected": "23:54",
       "actual": "23:54",
-      "gate": "16",
+      "gate": "12",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
     },
@@ -461,18 +443,27 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC2060",
+      "expected": "17:58",
+      "actual": "17:58",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Bermuda Air",
+      "flight": "2T801",
+      "expected": "18:01",
+      "actual": "18:01",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Bermuda"
     }
   ],
   "departures": [
-    {
-      "carrier": "Air Canada",
-      "flight": "AC7704",
-      "expected": "16:00",
-      "actual": "16:00",
-      "gate": "2A",
-      "status": "DEPARTED",
-      "destination": "Deer Lake"
-    },
     {
       "carrier": "Air Canada",
       "flight": "AC7165",
@@ -488,7 +479,7 @@
       "expected": "16:40",
       "actual": "16:40",
       "gate": "58",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Boston"
     },
     {
@@ -497,7 +488,7 @@
       "expected": "16:40",
       "actual": "16:40",
       "gate": "2C",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "St. John's"
     },
     {
@@ -631,7 +622,7 @@
       "flight": "PD200",
       "expected": "06:30",
       "actual": "06:30",
-      "gate": "-",
+      "gate": "10",
       "status": "ON TIME",
       "destination": "Toronto (YYZ)"
     },
@@ -640,7 +631,7 @@
       "flight": "PD240",
       "expected": "06:30",
       "actual": "06:30",
-      "gate": "16",
+      "gate": "12",
       "status": "ON TIME",
       "destination": "Ottawa"
     },
@@ -649,7 +640,7 @@
       "flight": "PD490",
       "expected": "06:30",
       "actual": "06:30",
-      "gate": "12",
+      "gate": "16",
       "status": "ON TIME",
       "destination": "Montreal (YHU)"
     },
