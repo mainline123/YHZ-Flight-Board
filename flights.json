@@ -1,17 +1,8 @@
 {
-  "updated": "2026-11-27T02:15:16.306937Z",
+  "updated": "2026-11-27T02:30:19.743147Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Air Canada",
-      "flight": "AC7668",
-      "expected": "21:09",
-      "actual": "20:59",
-      "gate": "57",
-      "status": "ARRIVED",
-      "from": "Boston"
-    },
     {
       "carrier": "Air Canada",
       "flight": "AC7681",
@@ -25,9 +16,9 @@
       "carrier": "Air Canada",
       "flight": "AC668",
       "expected": "21:35",
-      "actual": "22:25",
+      "actual": "22:23",
       "gate": "18",
-      "status": "DELAYED",
+      "status": "ARRIVED",
       "from": "Montreal (YUL)"
     },
     {
@@ -52,16 +43,16 @@
       "carrier": "Air Canada",
       "flight": "AC2066",
       "expected": "22:38",
-      "actual": "22:25",
+      "actual": "22:29",
       "gate": "23",
-      "status": "ON TIME",
+      "status": "ARRIVED",
       "from": "Toronto (YYZ)"
     },
     {
       "carrier": "Air Canada",
       "flight": "AC1781",
       "expected": "22:50",
-      "actual": "22:25",
+      "actual": "22:19",
       "gate": "24",
       "status": "EARLY",
       "from": "Punta Cana"
@@ -482,15 +473,6 @@
     }
   ],
   "departures": [
-    {
-      "carrier": "Porter",
-      "flight": "PD2429",
-      "expected": "21:05",
-      "actual": "21:05",
-      "gate": "3",
-      "status": "DEPARTED",
-      "destination": "St. John's"
-    },
     {
       "carrier": "Air Canada",
       "flight": "AC601",
