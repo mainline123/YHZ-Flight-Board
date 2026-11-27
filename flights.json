@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T11:45:15.462185Z",
+  "updated": "2026-11-27T12:00:23.593363Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -52,9 +52,9 @@
       "carrier": "Air Canada",
       "flight": "AC600",
       "expected": "09:32",
-      "actual": "09:49",
+      "actual": "09:35",
       "gate": "22",
-      "status": "DELAYED",
+      "status": "ON TIME",
       "from": "Toronto (YYZ)"
     },
     {
@@ -452,6 +452,15 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Calgary"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD2426",
+      "expected": "08:44",
+      "actual": "08:44",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "St. John's"
     }
   ],
   "departures": [
