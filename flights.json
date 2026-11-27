@@ -1,17 +1,8 @@
 {
-  "updated": "2026-11-27T14:00:21.735535Z",
+  "updated": "2026-11-27T14:15:15.798390Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Air Canada",
-      "flight": "AC7707",
-      "expected": "09:07",
-      "actual": "08:40",
-      "gate": "27",
-      "status": "EARLY",
-      "from": "Goose Bay"
-    },
     {
       "carrier": "Air Canada",
       "flight": "AC7201",
@@ -52,9 +43,9 @@
       "carrier": "Flair Airlines",
       "flight": "F8650",
       "expected": "10:15",
-      "actual": "10:13",
+      "actual": "10:12",
       "gate": "16",
-      "status": "ON TIME",
+      "status": "ARRIVED",
       "from": "Toronto (YYZ)"
     },
     {
@@ -515,7 +506,7 @@
       "expected": "09:30",
       "actual": "09:30",
       "gate": "10",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Hamilton"
     },
     {
@@ -994,6 +985,24 @@
       "gate": "-",
       "status": "ON TIME",
       "destination": "St. John's"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC2080",
+      "expected": "11:00",
+      "actual": "11:00",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "London (LHR)"
+    },
+    {
+      "carrier": "Flair Airlines",
+      "flight": "F8651",
+      "expected": "11:00",
+      "actual": "11:00",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Toronto (YYZ)"
     }
   ]
 }
