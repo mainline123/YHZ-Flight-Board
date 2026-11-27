@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T18:35:07.814038Z",
+  "updated": "2026-11-27T18:45:15.345621Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -34,7 +34,7 @@
       "carrier": "Air Canada",
       "flight": "AC664",
       "expected": "15:55",
-      "actual": "15:42",
+      "actual": "15:58",
       "gate": "20",
       "status": "ON TIME",
       "from": "Montreal (YUL)"
@@ -178,7 +178,7 @@
       "carrier": "WestJet",
       "flight": "WS980",
       "expected": "21:10",
-      "actual": "21:10",
+      "actual": "21:08",
       "gate": "18",
       "status": "ON TIME",
       "from": "Calgary"
