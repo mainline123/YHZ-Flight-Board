@@ -1,17 +1,8 @@
 {
-  "updated": "2026-11-27T13:45:15.232292Z",
+  "updated": "2026-11-27T14:00:21.735535Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Porter",
-      "flight": "PD2426",
-      "expected": "08:44",
-      "actual": "08:44",
-      "gate": "10",
-      "status": "ARRIVED",
-      "from": "St. John's"
-    },
     {
       "carrier": "Air Canada",
       "flight": "AC7707",
@@ -43,9 +34,9 @@
       "carrier": "Air St. Pierre",
       "flight": "PJ1121",
       "expected": "09:30",
-      "actual": "09:30",
+      "actual": "09:39",
       "gate": "46",
-      "status": "ON TIME",
+      "status": "ARRIVED",
       "from": "Saint Pierre"
     },
     {
@@ -97,9 +88,9 @@
       "carrier": "Porter",
       "flight": "PD2505",
       "expected": "11:22",
-      "actual": "11:22",
+      "actual": "11:07",
       "gate": "6",
-      "status": "ON TIME",
+      "status": "EARLY",
       "from": "Montreal (YHU)"
     },
     {
@@ -515,7 +506,7 @@
       "expected": "09:25",
       "actual": "09:25",
       "gate": "3",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Montreal (YUL)"
     },
     {
