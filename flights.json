@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T08:00:22.747613Z",
+  "updated": "2026-11-27T08:15:15.590132Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -443,6 +443,15 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "WestJet",
+      "flight": "WS576",
+      "expected": "05:05",
+      "actual": "05:05",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Edmonton"
     }
   ],
   "departures": [
@@ -850,6 +859,24 @@
       "gate": "6",
       "status": "ON TIME",
       "destination": "St. John's"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC2057",
+      "expected": "05:00",
+      "actual": "05:00",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC661",
+      "expected": "05:10",
+      "actual": "05:10",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Montreal (YUL)"
     }
   ]
 }
