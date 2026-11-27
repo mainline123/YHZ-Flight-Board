@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T20:30:18.572278Z",
+  "updated": "2026-11-27T20:45:17.178109Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -25,7 +25,7 @@
       "carrier": "Porter",
       "flight": "PD2428",
       "expected": "16:59",
-      "actual": "17:44",
+      "actual": "18:14",
       "gate": "12",
       "status": "DELAYED",
       "from": "St. John's"
@@ -34,7 +34,7 @@
       "carrier": "Air Canada",
       "flight": "AC7695",
       "expected": "17:03",
-      "actual": "18:01",
+      "actual": "18:00",
       "gate": "2C",
       "status": "DELAYED",
       "from": "Gander"
