@@ -1,26 +1,8 @@
 {
-  "updated": "2026-11-27T17:00:21.705870Z",
+  "updated": "2026-11-27T17:15:14.947912Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Air Canada",
-      "flight": "AC7688",
-      "expected": "11:58",
-      "actual": "12:49",
-      "gate": "2A",
-      "status": "ARRIVED",
-      "from": "Ottawa"
-    },
-    {
-      "carrier": "Air Canada",
-      "flight": "AC2081",
-      "expected": "12:00",
-      "actual": "12:11",
-      "gate": "23",
-      "status": "ARRIVED",
-      "from": "London (LHR)"
-    },
     {
       "carrier": "Air Canada",
       "flight": "AC7673",
@@ -497,6 +479,15 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Newark"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD2327",
+      "expected": "13:58",
+      "actual": "13:58",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Montreal (YUL)"
     }
   ],
   "departures": [
@@ -994,6 +985,15 @@
       "gate": "-",
       "status": "ON TIME",
       "destination": "Ottawa"
+    },
+    {
+      "carrier": "United Airlines",
+      "flight": "UA3471",
+      "expected": "14:10",
+      "actual": "14:10",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Newark"
     }
   ]
 }
