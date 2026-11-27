@@ -1,33 +1,15 @@
 {
-  "updated": "2026-11-27T16:45:20.954875Z",
+  "updated": "2026-11-27T17:00:21.705870Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
     {
-      "carrier": "Porter",
-      "flight": "PD241",
-      "expected": "11:35",
-      "actual": "11:35",
-      "gate": "12",
-      "status": "ARRIVED",
-      "from": "Ottawa"
-    },
-    {
-      "carrier": "Porter",
-      "flight": "PD201",
-      "expected": "11:39",
-      "actual": "11:39",
-      "gate": "10",
-      "status": "ARRIVED",
-      "from": "Toronto (YYZ)"
-    },
-    {
       "carrier": "Air Canada",
       "flight": "AC7688",
       "expected": "11:58",
-      "actual": "12:54",
+      "actual": "12:49",
       "gate": "2A",
-      "status": "DELAYED",
+      "status": "ARRIVED",
       "from": "Ottawa"
     },
     {
@@ -61,7 +43,7 @@
       "carrier": "United Airlines",
       "flight": "UA3531",
       "expected": "13:24",
-      "actual": "12:58",
+      "actual": "13:01",
       "gate": "56",
       "status": "EARLY",
       "from": "Newark"
@@ -542,7 +524,7 @@
       "expected": "12:30",
       "actual": "12:30",
       "gate": "12",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Ottawa"
     },
     {
@@ -576,7 +558,7 @@
       "carrier": "Air Canada",
       "flight": "AC7689",
       "expected": "13:45",
-      "actual": "14:30",
+      "actual": "17:10",
       "gate": "2A",
       "status": "DELAYED",
       "destination": "Ottawa"
@@ -1003,6 +985,15 @@
       "gate": "-",
       "status": "ON TIME",
       "destination": "Cancun"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7689",
+      "expected": "13:45",
+      "actual": "13:45",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Ottawa"
     }
   ]
 }
