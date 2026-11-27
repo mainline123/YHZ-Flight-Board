@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T07:45:13.922418Z",
+  "updated": "2026-11-27T08:00:22.747613Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -142,7 +142,7 @@
       "carrier": "Air Canada",
       "flight": "AC2081",
       "expected": "12:00",
-      "actual": "12:00",
+      "actual": "11:51",
       "gate": "23",
       "status": "ON TIME",
       "from": "London (LHR)"
