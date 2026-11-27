@@ -1,35 +1,8 @@
 {
-  "updated": "2026-11-27T02:45:14.401664Z",
+  "updated": "2026-11-27T03:00:21.119517Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Air Canada",
-      "flight": "AC668",
-      "expected": "21:35",
-      "actual": "22:23",
-      "gate": "18",
-      "status": "LATE",
-      "from": "Montreal (YUL)"
-    },
-    {
-      "carrier": "Air Canada",
-      "flight": "AC1726",
-      "expected": "21:44",
-      "actual": "21:19",
-      "gate": "56",
-      "status": "EARLY",
-      "from": "Orlando"
-    },
-    {
-      "carrier": "Porter",
-      "flight": "PD493",
-      "expected": "21:50",
-      "actual": "21:50",
-      "gate": "10",
-      "status": "ARRIVED",
-      "from": "Montreal (YHU)"
-    },
     {
       "carrier": "Air Canada",
       "flight": "AC2066",
@@ -52,7 +25,7 @@
       "carrier": "Porter",
       "flight": "PD2499",
       "expected": "23:50",
-      "actual": "00:17",
+      "actual": "00:24",
       "gate": "3",
       "status": "DELAYED",
       "from": "Ottawa"
@@ -70,7 +43,7 @@
       "carrier": "Air Canada",
       "flight": "AC620",
       "expected": "01:58",
-      "actual": "01:58",
+      "actual": "01:55",
       "gate": "20",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
@@ -79,7 +52,7 @@
       "carrier": "WestJet",
       "flight": "WS670",
       "expected": "05:40",
-      "actual": "05:40",
+      "actual": "05:33",
       "gate": "18",
       "status": "ON TIME",
       "from": "Calgary"
@@ -404,7 +377,7 @@
       "flight": "AC7668",
       "expected": "21:09",
       "actual": "21:09",
-      "gate": "-",
+      "gate": "56",
       "status": "ON TIME",
       "from": "Boston"
     },
@@ -413,7 +386,7 @@
       "flight": "WS980",
       "expected": "21:10",
       "actual": "21:10",
-      "gate": "-",
+      "gate": "18",
       "status": "ON TIME",
       "from": "Calgary"
     },
@@ -422,7 +395,7 @@
       "flight": "AC7681",
       "expected": "21:31",
       "actual": "21:31",
-      "gate": "-",
+      "gate": "2A",
       "status": "ON TIME",
       "from": "St. John's"
     },
@@ -431,7 +404,7 @@
       "flight": "AC668",
       "expected": "21:35",
       "actual": "21:35",
-      "gate": "-",
+      "gate": "20",
       "status": "ON TIME",
       "from": "Montreal (YUL)"
     },
@@ -440,7 +413,7 @@
       "flight": "PD493",
       "expected": "21:50",
       "actual": "21:50",
-      "gate": "-",
+      "gate": "12",
       "status": "ON TIME",
       "from": "Montreal (YHU)"
     },
@@ -449,7 +422,7 @@
       "flight": "AC2066",
       "expected": "22:38",
       "actual": "22:38",
-      "gate": "-",
+      "gate": "23",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
     },
@@ -458,6 +431,24 @@
       "flight": "AC618",
       "expected": "22:38",
       "actual": "22:38",
+      "gate": "22",
+      "status": "ON TIME",
+      "from": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD2499",
+      "expected": "23:50",
+      "actual": "23:50",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Ottawa"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD211",
+      "expected": "23:54",
+      "actual": "23:54",
       "gate": "-",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
