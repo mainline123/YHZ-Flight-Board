@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T14:45:17.527405Z",
+  "updated": "2026-11-27T15:00:24.645079Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -533,7 +533,7 @@
       "expected": "11:00",
       "actual": "11:00",
       "gate": "16",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Toronto (YYZ)"
     },
     {
