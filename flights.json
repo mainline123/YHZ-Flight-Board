@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T23:15:15.842570Z",
+  "updated": "2026-11-27T23:30:18.967933Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -16,7 +16,7 @@
       "carrier": "Flair Airlines",
       "flight": "F8408",
       "expected": "19:40",
-      "actual": "20:24",
+      "actual": "20:29",
       "gate": "22",
       "status": "DELAYED",
       "from": "Kitchener-Waterloo"
@@ -43,7 +43,7 @@
       "carrier": "Porter",
       "flight": "PD2497",
       "expected": "20:20",
-      "actual": "21:33",
+      "actual": "21:59",
       "gate": "6",
       "status": "DELAYED",
       "from": "Ottawa"
@@ -52,7 +52,7 @@
       "carrier": "Air Canada",
       "flight": "AC2062",
       "expected": "20:58",
-      "actual": "20:55",
+      "actual": "20:53",
       "gate": "16",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
@@ -540,7 +540,7 @@
       "carrier": "Porter",
       "flight": "PD2429",
       "expected": "21:05",
-      "actual": "22:10",
+      "actual": "22:29",
       "gate": "6",
       "status": "DELAYED",
       "destination": "St. John's"
