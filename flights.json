@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T17:30:19.182616Z",
+  "updated": "2026-11-27T17:45:16.999950Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -18,7 +18,7 @@
       "expected": "13:13",
       "actual": "13:32",
       "gate": "22",
-      "status": "DELAYED",
+      "status": "ARRIVED",
       "from": "Toronto (YYZ)"
     },
     {
@@ -61,7 +61,7 @@
       "carrier": "Air Canada",
       "flight": "AC664",
       "expected": "15:55",
-      "actual": "15:55",
+      "actual": "15:42",
       "gate": "20",
       "status": "ON TIME",
       "from": "Montreal (YUL)"
@@ -88,9 +88,9 @@
       "carrier": "Air Canada",
       "flight": "AC7695",
       "expected": "17:03",
-      "actual": "17:03",
+      "actual": "17:24",
       "gate": "2C",
-      "status": "ON TIME",
+      "status": "DELAYED",
       "from": "Gander"
     },
     {
@@ -491,24 +491,6 @@
     }
   ],
   "departures": [
-    {
-      "carrier": "Porter",
-      "flight": "PD242",
-      "expected": "12:30",
-      "actual": "12:30",
-      "gate": "12",
-      "status": "DEPARTED",
-      "destination": "Ottawa"
-    },
-    {
-      "carrier": "Air St. Pierre",
-      "flight": "PJ1122",
-      "expected": "12:30",
-      "actual": "12:16",
-      "gate": "7",
-      "status": "DEPARTED",
-      "destination": "Saint Pierre"
-    },
     {
       "carrier": "Air Canada",
       "flight": "AC7696",
