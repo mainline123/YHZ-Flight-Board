@@ -1,17 +1,8 @@
 {
-  "updated": "2026-11-27T15:30:19.093657Z",
+  "updated": "2026-11-27T15:45:15.469207Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Air Canada",
-      "flight": "AC662",
-      "expected": "10:35",
-      "actual": "10:33",
-      "gate": "20",
-      "status": "ARRIVED",
-      "from": "Montreal (YUL)"
-    },
     {
       "carrier": "Air Canada",
       "flight": "AC604",
@@ -88,16 +79,16 @@
       "carrier": "Air Canada",
       "flight": "AC2058",
       "expected": "13:13",
-      "actual": "13:38",
+      "actual": "13:25",
       "gate": "22",
-      "status": "DELAYED",
+      "status": "ON TIME",
       "from": "Toronto (YYZ)"
     },
     {
       "carrier": "United Airlines",
       "flight": "UA3531",
       "expected": "13:24",
-      "actual": "13:08",
+      "actual": "12:58",
       "gate": "56",
       "status": "EARLY",
       "from": "Newark"
@@ -510,24 +501,6 @@
   ],
   "departures": [
     {
-      "carrier": "Air Canada",
-      "flight": "AC607",
-      "expected": "10:25",
-      "actual": "10:25",
-      "gate": "22",
-      "status": "DEPARTED",
-      "destination": "Toronto (YYZ)"
-    },
-    {
-      "carrier": "Air Canada",
-      "flight": "AC7674",
-      "expected": "10:30",
-      "actual": "11:40",
-      "gate": "2C",
-      "status": "DELAYED",
-      "destination": "St. John's"
-    },
-    {
       "carrier": "Flair Airlines",
       "flight": "F8651",
       "expected": "11:00",
@@ -551,7 +524,7 @@
       "expected": "11:25",
       "actual": "11:25",
       "gate": "20",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Montreal (YUL)"
     },
     {
@@ -1012,6 +985,24 @@
       "gate": "-",
       "status": "ON TIME",
       "destination": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD242",
+      "expected": "12:30",
+      "actual": "12:30",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Ottawa"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7696",
+      "expected": "12:35",
+      "actual": "12:35",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Gander"
     }
   ]
 }
