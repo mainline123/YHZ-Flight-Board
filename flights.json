@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T06:00:24.386602Z",
+  "updated": "2026-11-27T06:15:16.412872Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -576,9 +576,9 @@
       "carrier": "Porter",
       "flight": "PD202",
       "expected": "10:00",
-      "actual": "10:00",
+      "actual": "12:30",
       "gate": "10",
-      "status": "ON TIME",
+      "status": "DELAYED",
       "destination": "Toronto (YYZ)"
     },
     {
