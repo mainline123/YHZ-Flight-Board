@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T19:15:16.860028Z",
+  "updated": "2026-11-27T19:30:19.537816Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -7,7 +7,7 @@
       "carrier": "Air Canada",
       "flight": "AC7677",
       "expected": "15:21",
-      "actual": "17:16",
+      "actual": "17:26",
       "gate": "2E",
       "status": "DELAYED",
       "from": "St. John's"
@@ -18,7 +18,7 @@
       "expected": "15:23",
       "actual": "17:38",
       "gate": "2A",
-      "status": "DELAYED",
+      "status": "CANCELLED",
       "from": "Ottawa"
     },
     {
@@ -196,7 +196,7 @@
       "carrier": "Porter",
       "flight": "PD493",
       "expected": "21:50",
-      "actual": "21:50",
+      "actual": "21:54",
       "gate": "12",
       "status": "ON TIME",
       "from": "Montreal (YHU)"
@@ -491,15 +491,6 @@
     }
   ],
   "departures": [
-    {
-      "carrier": "United Airlines",
-      "flight": "UA3471",
-      "expected": "14:10",
-      "actual": "14:10",
-      "gate": "56",
-      "status": "DEPARTED",
-      "destination": "Newark"
-    },
     {
       "carrier": "Porter",
       "flight": "PD2494",
