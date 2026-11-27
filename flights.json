@@ -1,17 +1,8 @@
 {
-  "updated": "2026-11-27T18:30:21.003267Z",
+  "updated": "2026-11-27T18:35:07.814038Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "United Airlines",
-      "flight": "UA3531",
-      "expected": "13:24",
-      "actual": "13:01",
-      "gate": "56",
-      "status": "EARLY",
-      "from": "Newark"
-    },
     {
       "carrier": "Porter",
       "flight": "PD2327",
@@ -470,6 +461,24 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Montreal (YUL)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7677",
+      "expected": "15:21",
+      "actual": "15:21",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "St. John's"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7690",
+      "expected": "15:23",
+      "actual": "15:23",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Ottawa"
     }
   ],
   "departures": [
@@ -513,9 +522,9 @@
       "carrier": "Air Canada",
       "flight": "AC2063",
       "expected": "15:10",
-      "actual": "15:10",
+      "actual": "15:40",
       "gate": "22",
-      "status": "ON TIME",
+      "status": "DELAYED",
       "destination": "Toronto (YYZ)"
     },
     {
