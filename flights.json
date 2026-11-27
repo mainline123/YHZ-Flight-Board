@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T15:45:15.469207Z",
+  "updated": "2026-11-27T16:00:24.296567Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -36,7 +36,7 @@
       "expected": "11:35",
       "actual": "11:35",
       "gate": "12",
-      "status": "ON TIME",
+      "status": "ARRIVED",
       "from": "Ottawa"
     },
     {
@@ -45,7 +45,7 @@
       "expected": "11:39",
       "actual": "11:39",
       "gate": "10",
-      "status": "ON TIME",
+      "status": "ARRIVED",
       "from": "Toronto (YYZ)"
     },
     {
@@ -79,9 +79,9 @@
       "carrier": "Air Canada",
       "flight": "AC2058",
       "expected": "13:13",
-      "actual": "13:25",
+      "actual": "13:35",
       "gate": "22",
-      "status": "ON TIME",
+      "status": "DELAYED",
       "from": "Toronto (YYZ)"
     },
     {
@@ -1003,6 +1003,15 @@
       "gate": "-",
       "status": "ON TIME",
       "destination": "Gander"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC1896",
+      "expected": "12:55",
+      "actual": "12:55",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Cancun"
     }
   ]
 }
