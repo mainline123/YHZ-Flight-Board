@@ -1,17 +1,8 @@
 {
-  "updated": "2026-11-27T19:00:22.375465Z",
+  "updated": "2026-11-27T19:15:16.860028Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Porter",
-      "flight": "PD2327",
-      "expected": "13:58",
-      "actual": "13:58",
-      "gate": "10",
-      "status": "ARRIVED",
-      "from": "Montreal (YUL)"
-    },
     {
       "carrier": "Air Canada",
       "flight": "AC7677",
@@ -178,7 +169,7 @@
       "carrier": "WestJet",
       "flight": "WS980",
       "expected": "21:10",
-      "actual": "21:08",
+      "actual": "21:07",
       "gate": "18",
       "status": "ON TIME",
       "from": "Calgary"
@@ -187,9 +178,9 @@
       "carrier": "Air Canada",
       "flight": "AC7681",
       "expected": "21:31",
-      "actual": "21:31",
+      "actual": "23:16",
       "gate": "2A",
-      "status": "ON TIME",
+      "status": "DELAYED",
       "from": "St. John's"
     },
     {
@@ -488,6 +479,15 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Montreal (YUL)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7664",
+      "expected": "15:58",
+      "actual": "15:58",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Newark"
     }
   ],
   "departures": [
@@ -506,7 +506,7 @@
       "expected": "14:40",
       "actual": "14:40",
       "gate": "10",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Ottawa"
     },
     {
@@ -540,9 +540,9 @@
       "carrier": "Air Canada",
       "flight": "AC7678",
       "expected": "16:40",
-      "actual": "16:40",
+      "actual": "18:15",
       "gate": "6",
-      "status": "ON TIME",
+      "status": "DELAYED",
       "destination": "St. John's"
     },
     {
@@ -783,7 +783,7 @@
       "carrier": "Air Canada",
       "flight": "AC7672",
       "expected": "08:05",
-      "actual": "08:05",
+      "actual": "08:04",
       "gate": "-",
       "status": "ON TIME",
       "destination": "St. John's"
@@ -967,6 +967,15 @@
       "gate": "-",
       "status": "ON TIME",
       "destination": "Ottawa"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7704",
+      "expected": "16:00",
+      "actual": "16:00",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Deer Lake"
     }
   ]
 }
