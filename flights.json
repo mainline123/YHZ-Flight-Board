@@ -1,44 +1,8 @@
 {
-  "updated": "2026-11-27T14:30:21.130820Z",
+  "updated": "2026-11-27T14:45:17.527405Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Air Canada",
-      "flight": "AC7201",
-      "expected": "09:20",
-      "actual": "09:11",
-      "gate": "2A",
-      "status": "ARRIVED",
-      "from": "St. John's"
-    },
-    {
-      "carrier": "Air Canada",
-      "flight": "AC7671",
-      "expected": "09:26",
-      "actual": "10:11",
-      "gate": "2C",
-      "status": "DELAYED",
-      "from": "St. John's"
-    },
-    {
-      "carrier": "Air St. Pierre",
-      "flight": "PJ1121",
-      "expected": "09:30",
-      "actual": "09:39",
-      "gate": "46",
-      "status": "ARRIVED",
-      "from": "Saint Pierre"
-    },
-    {
-      "carrier": "Air Canada",
-      "flight": "AC600",
-      "expected": "09:32",
-      "actual": "09:34",
-      "gate": "22",
-      "status": "ARRIVED",
-      "from": "Toronto (YYZ)"
-    },
     {
       "carrier": "Flair Airlines",
       "flight": "F8650",
@@ -52,9 +16,9 @@
       "carrier": "Air Canada",
       "flight": "AC662",
       "expected": "10:35",
-      "actual": "10:31",
+      "actual": "10:33",
       "gate": "20",
-      "status": "ON TIME",
+      "status": "ARRIVED",
       "from": "Montreal (YUL)"
     },
     {
@@ -70,7 +34,7 @@
       "carrier": "Porter",
       "flight": "PD2427",
       "expected": "11:21",
-      "actual": "12:08",
+      "actual": "12:41",
       "gate": "3",
       "status": "DELAYED",
       "from": "Hamilton"
@@ -115,9 +79,9 @@
       "carrier": "Air Canada",
       "flight": "AC2081",
       "expected": "12:00",
-      "actual": "12:08",
+      "actual": "12:15",
       "gate": "23",
-      "status": "ON TIME",
+      "status": "DELAYED",
       "from": "London (LHR)"
     },
     {
@@ -133,9 +97,9 @@
       "carrier": "Air Canada",
       "flight": "AC2058",
       "expected": "13:13",
-      "actual": "13:03",
+      "actual": "13:38",
       "gate": "22",
-      "status": "ON TIME",
+      "status": "DELAYED",
       "from": "Toronto (YYZ)"
     },
     {
@@ -196,9 +160,9 @@
       "carrier": "Porter",
       "flight": "PD2428",
       "expected": "16:59",
-      "actual": "16:59",
+      "actual": "17:48",
       "gate": "3",
-      "status": "ON TIME",
+      "status": "DELAYED",
       "from": "St. John's"
     },
     {
@@ -497,27 +461,36 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD2427",
+      "expected": "11:21",
+      "actual": "11:21",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Hamilton"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD2505",
+      "expected": "11:22",
+      "actual": "11:22",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Montreal (YHU)"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD241",
+      "expected": "11:35",
+      "actual": "11:35",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Ottawa"
     }
   ],
   "departures": [
-    {
-      "carrier": "Porter",
-      "flight": "PD2328",
-      "expected": "09:25",
-      "actual": "09:25",
-      "gate": "3",
-      "status": "DEPARTED",
-      "destination": "Montreal (YUL)"
-    },
-    {
-      "carrier": "Porter",
-      "flight": "PD2426",
-      "expected": "09:30",
-      "actual": "09:30",
-      "gate": "10",
-      "status": "DEPARTED",
-      "destination": "Hamilton"
-    },
     {
       "carrier": "Porter",
       "flight": "PD202",
@@ -533,7 +506,7 @@
       "expected": "10:15",
       "actual": "10:15",
       "gate": "57",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Newark"
     },
     {
@@ -542,16 +515,16 @@
       "expected": "10:25",
       "actual": "10:25",
       "gate": "22",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Toronto (YYZ)"
     },
     {
       "carrier": "Air Canada",
       "flight": "AC7674",
       "expected": "10:30",
-      "actual": "10:30",
+      "actual": "11:00",
       "gate": "2C",
-      "status": "ON TIME",
+      "status": "DELAYED",
       "destination": "St. John's"
     },
     {
@@ -585,9 +558,9 @@
       "carrier": "Porter",
       "flight": "PD2427",
       "expected": "12:15",
-      "actual": "12:15",
+      "actual": "13:15",
       "gate": "3",
-      "status": "ON TIME",
+      "status": "DELAYED",
       "destination": "St. John's"
     },
     {
@@ -711,9 +684,9 @@
       "carrier": "Porter",
       "flight": "PD2506",
       "expected": "17:40",
-      "actual": "17:40",
+      "actual": "18:25",
       "gate": "3",
-      "status": "ON TIME",
+      "status": "DELAYED",
       "destination": "Montreal (YHU)"
     },
     {
@@ -1012,6 +985,15 @@
       "gate": "-",
       "status": "ON TIME",
       "destination": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC663",
+      "expected": "11:25",
+      "actual": "11:25",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Montreal (YUL)"
     }
   ]
 }
