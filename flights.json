@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T10:00:20.446372Z",
+  "updated": "2026-11-27T10:15:15.967396Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -466,15 +466,6 @@
   "departures": [
     {
       "carrier": "Air Canada",
-      "flight": "AC601",
-      "expected": "05:00",
-      "actual": "05:00",
-      "gate": "18",
-      "status": "DEPARTED",
-      "destination": "Toronto (YYZ)"
-    },
-    {
-      "carrier": "Air Canada",
       "flight": "AC661",
       "expected": "05:10",
       "actual": "05:10",
@@ -488,7 +479,7 @@
       "expected": "06:00",
       "actual": "06:00",
       "gate": "22",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Toronto (YYZ)"
     },
     {
@@ -497,7 +488,7 @@
       "expected": "06:05",
       "actual": "06:05",
       "gate": "24",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Montreal (YUL)"
     },
     {
@@ -967,6 +958,24 @@
       "gate": "-",
       "status": "ON TIME",
       "destination": "Calgary"
+    },
+    {
+      "carrier": "WestJet",
+      "flight": "WS2174",
+      "expected": "07:00",
+      "actual": "07:00",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Cancun"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC605",
+      "expected": "07:10",
+      "actual": "07:10",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Toronto (YYZ)"
     }
   ]
 }
