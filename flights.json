@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T00:30:18.394979Z",
+  "updated": "2026-11-27T00:45:23.887479Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -27,7 +27,7 @@
       "expected": "20:20",
       "actual": "20:20",
       "gate": "3",
-      "status": "ON TIME",
+      "status": "ARRIVED",
       "from": "Ottawa"
     },
     {
@@ -470,6 +470,24 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Calgary"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7681",
+      "expected": "21:31",
+      "actual": "21:31",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "St. John's"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC668",
+      "expected": "21:35",
+      "actual": "21:35",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Montreal (YUL)"
     }
   ],
   "departures": [
