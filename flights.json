@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T00:10:54.931757Z",
+  "updated": "2026-11-27T00:15:14.237604Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -847,7 +847,7 @@
       "flight": "2T802",
       "expected": "19:00",
       "actual": "19:00",
-      "gate": "-",
+      "gate": "24",
       "status": "ON TIME",
       "destination": "Bermuda"
     },
@@ -856,7 +856,7 @@
       "flight": "PD210",
       "expected": "19:50",
       "actual": "19:50",
-      "gate": "-",
+      "gate": "12",
       "status": "ON TIME",
       "destination": "Toronto (YYZ)"
     },
