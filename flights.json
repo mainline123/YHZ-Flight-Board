@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T21:15:15.253204Z",
+  "updated": "2026-11-27T21:30:18.265171Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -25,7 +25,7 @@
       "carrier": "Porter",
       "flight": "PD245",
       "expected": "17:35",
-      "actual": "18:47",
+      "actual": "18:41",
       "gate": "10",
       "status": "DELAYED",
       "from": "Ottawa"
@@ -34,9 +34,9 @@
       "carrier": "Porter",
       "flight": "PD2196",
       "expected": "17:39",
-      "actual": "17:16",
+      "actual": "17:17",
       "gate": "3",
-      "status": "EARLY",
+      "status": "ARRIVED",
       "from": "Deer Lake"
     },
     {
@@ -79,9 +79,9 @@
       "carrier": "Flair Airlines",
       "flight": "F8408",
       "expected": "19:40",
-      "actual": "19:40",
+      "actual": "19:56",
       "gate": "16",
-      "status": "ON TIME",
+      "status": "DELAYED",
       "from": "Kitchener-Waterloo"
     },
     {
@@ -124,8 +124,8 @@
       "carrier": "Air Canada",
       "flight": "AC7668",
       "expected": "21:09",
-      "actual": "21:09",
-      "gate": "56",
+      "actual": "21:05",
+      "gate": "57",
       "status": "ON TIME",
       "from": "Boston"
     },
@@ -497,14 +497,14 @@
       "expected": "16:40",
       "actual": "16:40",
       "gate": "57",
-      "status": "ON TIME",
+      "status": "LATE",
       "destination": "Boston"
     },
     {
       "carrier": "Air Canada",
       "flight": "AC7678",
       "expected": "16:40",
-      "actual": "18:15",
+      "actual": "18:30",
       "gate": "2C",
       "status": "DELAYED",
       "destination": "St. John's"
