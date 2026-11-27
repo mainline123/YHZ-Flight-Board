@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T17:45:16.999950Z",
+  "updated": "2026-11-27T18:00:25.269261Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -18,7 +18,7 @@
       "expected": "13:13",
       "actual": "13:32",
       "gate": "22",
-      "status": "ARRIVED",
+      "status": "LATE",
       "from": "Toronto (YYZ)"
     },
     {
@@ -492,21 +492,12 @@
   ],
   "departures": [
     {
-      "carrier": "Air Canada",
-      "flight": "AC7696",
-      "expected": "12:35",
-      "actual": "13:30",
-      "gate": "2A",
-      "status": "DELAYED",
-      "destination": "Gander"
-    },
-    {
       "carrier": "Porter",
       "flight": "PD2195",
       "expected": "13:40",
       "actual": "13:40",
       "gate": "6",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Deer Lake"
     },
     {
