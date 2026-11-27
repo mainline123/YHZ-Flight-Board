@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T09:00:21.288190Z",
+  "updated": "2026-11-27T09:15:15.800554Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -44,7 +44,7 @@
       "flight": "AC7671",
       "expected": "09:26",
       "actual": "09:26",
-      "gate": "2A",
+      "gate": "2C",
       "status": "ON TIME",
       "from": "St. John's"
     },
@@ -142,7 +142,7 @@
       "carrier": "Air Canada",
       "flight": "AC2081",
       "expected": "12:00",
-      "actual": "11:51",
+      "actual": "12:01",
       "gate": "23",
       "status": "ON TIME",
       "from": "London (LHR)"
@@ -470,7 +470,7 @@
       "expected": "05:00",
       "actual": "05:00",
       "gate": "18",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Toronto (YYZ)"
     },
     {
@@ -883,6 +883,42 @@
       "flight": "AC661",
       "expected": "05:10",
       "actual": "05:10",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Montreal (YUL)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC601",
+      "expected": "06:00",
+      "actual": "06:00",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "WestJet",
+      "flight": "WS801",
+      "expected": "06:00",
+      "actual": "06:00",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC2061",
+      "expected": "06:00",
+      "actual": "06:00",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC2047",
+      "expected": "06:05",
+      "actual": "06:05",
       "gate": "-",
       "status": "ON TIME",
       "destination": "Montreal (YUL)"
