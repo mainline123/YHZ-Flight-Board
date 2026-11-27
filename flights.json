@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T11:00:23.128396Z",
+  "updated": "2026-11-27T11:15:24.287438Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -16,9 +16,9 @@
       "carrier": "Air Canada",
       "flight": "AC7707",
       "expected": "09:07",
-      "actual": "09:07",
+      "actual": "08:40",
       "gate": "27",
-      "status": "ON TIME",
+      "status": "EARLY",
       "from": "Goose Bay"
     },
     {
@@ -456,33 +456,6 @@
   ],
   "departures": [
     {
-      "carrier": "Air Canada",
-      "flight": "AC2059",
-      "expected": "06:00",
-      "actual": "06:00",
-      "gate": "22",
-      "status": "DEPARTED",
-      "destination": "Toronto (YYZ)"
-    },
-    {
-      "carrier": "Air Canada",
-      "flight": "AC2047",
-      "expected": "06:05",
-      "actual": "06:05",
-      "gate": "24",
-      "status": "DEPARTED",
-      "destination": "Montreal (YUL)"
-    },
-    {
-      "carrier": "Porter",
-      "flight": "PD200",
-      "expected": "06:30",
-      "actual": "06:30",
-      "gate": "10",
-      "status": "DEPARTED",
-      "destination": "Toronto (YYZ)"
-    },
-    {
       "carrier": "Porter",
       "flight": "PD240",
       "expected": "06:30",
@@ -495,9 +468,9 @@
       "carrier": "Porter",
       "flight": "PD490",
       "expected": "06:30",
-      "actual": "06:30",
+      "actual": "07:30",
       "gate": "16",
-      "status": "ON TIME",
+      "status": "DELAYED",
       "destination": "Montreal (YHU)"
     },
     {
@@ -508,6 +481,15 @@
       "gate": "18",
       "status": "DEPARTED",
       "destination": "Calgary"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD200",
+      "expected": "06:30",
+      "actual": "06:30",
+      "gate": "10",
+      "status": "DEPARTED",
+      "destination": "Toronto (YYZ)"
     },
     {
       "carrier": "Air Canada",
@@ -967,6 +949,15 @@
       "gate": "-",
       "status": "ON TIME",
       "destination": "Ottawa"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7672",
+      "expected": "08:05",
+      "actual": "08:05",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "St. John's"
     }
   ]
 }
