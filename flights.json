@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T10:30:19.638905Z",
+  "updated": "2026-11-27T10:45:22.418006Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -61,7 +61,7 @@
       "carrier": "Air Canada",
       "flight": "AC600",
       "expected": "09:32",
-      "actual": "09:32",
+      "actual": "09:35",
       "gate": "22",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
@@ -497,7 +497,7 @@
       "expected": "06:30",
       "actual": "06:30",
       "gate": "12",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Ottawa"
     },
     {
@@ -513,7 +513,7 @@
       "carrier": "WestJet",
       "flight": "WS671",
       "expected": "06:30",
-      "actual": "06:30",
+      "actual": "06:32",
       "gate": "18",
       "status": "ON TIME",
       "destination": "Calgary"
