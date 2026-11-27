@@ -1,17 +1,8 @@
 {
-  "updated": "2026-11-26T23:45:14.445166Z",
+  "updated": "2026-11-27T00:00:24.972523Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Porter",
-      "flight": "PD209",
-      "expected": "18:54",
-      "actual": "18:54",
-      "gate": "12",
-      "status": "ARRIVED",
-      "from": "Toronto (YYZ)"
-    },
     {
       "carrier": "Air Canada",
       "flight": "AC7692",
@@ -70,9 +61,9 @@
       "carrier": "Air Canada",
       "flight": "AC668",
       "expected": "21:35",
-      "actual": "21:32",
+      "actual": "21:57",
       "gate": "18",
-      "status": "ON TIME",
+      "status": "DELAYED",
       "from": "Montreal (YUL)"
     },
     {
@@ -455,15 +446,6 @@
     }
   ],
   "departures": [
-    {
-      "carrier": "Porter",
-      "flight": "PD2496",
-      "expected": "18:40",
-      "actual": "18:40",
-      "gate": "6",
-      "status": "DEPARTED",
-      "destination": "Ottawa"
-    },
     {
       "carrier": "Air Canada",
       "flight": "AC619",
