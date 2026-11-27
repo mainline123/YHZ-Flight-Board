@@ -1,26 +1,8 @@
 {
-  "updated": "2026-11-27T23:00:21.833298Z",
+  "updated": "2026-11-27T23:15:15.842570Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Air Canada",
-      "flight": "AC2060",
-      "expected": "17:58",
-      "actual": "17:55",
-      "gate": "22",
-      "status": "ARRIVED",
-      "from": "Toronto (YYZ)"
-    },
-    {
-      "carrier": "Bermuda Air",
-      "flight": "2T801",
-      "expected": "18:01",
-      "actual": "18:01",
-      "gate": "24",
-      "status": "ON TIME",
-      "from": "Bermuda"
-    },
     {
       "carrier": "Porter",
       "flight": "PD209",
@@ -70,7 +52,7 @@
       "carrier": "Air Canada",
       "flight": "AC2062",
       "expected": "20:58",
-      "actual": "20:52",
+      "actual": "20:55",
       "gate": "16",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
@@ -461,6 +443,24 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Ottawa"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7705",
+      "expected": "19:55",
+      "actual": "19:55",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Deer Lake"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD209",
+      "expected": "19:59",
+      "actual": "19:59",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Toronto (YYZ)"
     }
   ],
   "departures": [
