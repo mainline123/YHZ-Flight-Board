@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T03:00:21.119517Z",
+  "updated": "2026-11-27T03:15:15.464606Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -856,7 +856,7 @@
       "flight": "PD2429",
       "expected": "21:05",
       "actual": "21:05",
-      "gate": "-",
+      "gate": "6",
       "status": "ON TIME",
       "destination": "St. John's"
     }
