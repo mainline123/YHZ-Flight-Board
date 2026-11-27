@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T09:15:15.800554Z",
+  "updated": "2026-11-27T09:30:19.465662Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -7,7 +7,7 @@
       "carrier": "WestJet",
       "flight": "WS670",
       "expected": "05:40",
-      "actual": "05:39",
+      "actual": "05:34",
       "gate": "18",
       "status": "ON TIME",
       "from": "Calgary"
@@ -35,7 +35,7 @@
       "flight": "AC7201",
       "expected": "09:20",
       "actual": "09:20",
-      "gate": "-",
+      "gate": "2A",
       "status": "ON TIME",
       "from": "St. John's"
     },
@@ -152,7 +152,7 @@
       "flight": "AC7673",
       "expected": "13:01",
       "actual": "13:01",
-      "gate": "2C",
+      "gate": "2A",
       "status": "ON TIME",
       "from": "St. John's"
     },
@@ -404,7 +404,7 @@
       "flight": "PD2499",
       "expected": "23:50",
       "actual": "23:50",
-      "gate": "-",
+      "gate": "3",
       "status": "ON TIME",
       "from": "Ottawa"
     },
@@ -413,7 +413,7 @@
       "flight": "PD211",
       "expected": "23:54",
       "actual": "23:54",
-      "gate": "-",
+      "gate": "16",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
     },
@@ -479,7 +479,7 @@
       "expected": "05:10",
       "actual": "05:10",
       "gate": "20",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Montreal (YUL)"
     },
     {
@@ -613,7 +613,7 @@
       "flight": "AC7674",
       "expected": "10:30",
       "actual": "10:30",
-      "gate": "2A",
+      "gate": "2C",
       "status": "ON TIME",
       "destination": "St. John's"
     },
@@ -703,7 +703,7 @@
       "flight": "AC7689",
       "expected": "13:45",
       "actual": "13:45",
-      "gate": "2E",
+      "gate": "2A",
       "status": "ON TIME",
       "destination": "Ottawa"
     },
@@ -922,6 +922,15 @@
       "gate": "-",
       "status": "ON TIME",
       "destination": "Montreal (YUL)"
+    },
+    {
+      "carrier": "WestJet",
+      "flight": "WS577",
+      "expected": "06:15",
+      "actual": "06:15",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Edmonton"
     }
   ]
 }
