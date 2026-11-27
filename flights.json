@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T22:15:16.006318Z",
+  "updated": "2026-11-27T22:30:19.251698Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -61,7 +61,7 @@
       "carrier": "Flair Airlines",
       "flight": "F8408",
       "expected": "19:40",
-      "actual": "20:11",
+      "actual": "20:32",
       "gate": "22",
       "status": "DELAYED",
       "from": "Kitchener-Waterloo"
@@ -378,7 +378,7 @@
       "expected": "13:13",
       "actual": "13:13",
       "gate": "22",
-      "status": "ON TIME",
+      "status": "CANCELLED",
       "from": "Toronto (YYZ)"
     },
     {
@@ -875,7 +875,7 @@
       "expected": "15:05",
       "actual": "15:05",
       "gate": "22",
-      "status": "ON TIME",
+      "status": "CANCELLED",
       "destination": "Toronto (YYZ)"
     },
     {
@@ -958,6 +958,15 @@
       "gate": "-",
       "status": "ON TIME",
       "destination": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "WestJet",
+      "flight": "WS981",
+      "expected": "19:20",
+      "actual": "19:20",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Calgary"
     }
   ]
 }
