@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T21:30:18.265171Z",
+  "updated": "2026-11-27T21:45:15.104986Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -36,14 +36,14 @@
       "expected": "17:39",
       "actual": "17:17",
       "gate": "3",
-      "status": "ARRIVED",
+      "status": "EARLY",
       "from": "Deer Lake"
     },
     {
       "carrier": "Flair Airlines",
       "flight": "F8654",
       "expected": "17:40",
-      "actual": "17:57",
+      "actual": "17:56",
       "gate": "16",
       "status": "DELAYED",
       "from": "Toronto (YYZ)"
@@ -488,6 +488,15 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "WestJet",
+      "flight": "WS2175",
+      "expected": "18:30",
+      "actual": "18:30",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Cancun"
     }
   ],
   "departures": [
@@ -603,9 +612,9 @@
       "carrier": "Air Canada",
       "flight": "AC7708",
       "expected": "20:35",
-      "actual": "20:35",
-      "gate": "2A",
-      "status": "ON TIME",
+      "actual": "21:30",
+      "gate": "27",
+      "status": "DELAYED",
       "destination": "Goose Bay"
     },
     {
