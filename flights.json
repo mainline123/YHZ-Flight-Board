@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T18:45:15.345621Z",
+  "updated": "2026-11-27T19:00:22.375465Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -34,7 +34,7 @@
       "carrier": "Air Canada",
       "flight": "AC664",
       "expected": "15:55",
-      "actual": "15:58",
+      "actual": "15:57",
       "gate": "20",
       "status": "ON TIME",
       "from": "Montreal (YUL)"
@@ -70,7 +70,7 @@
       "carrier": "Porter",
       "flight": "PD245",
       "expected": "17:35",
-      "actual": "17:35",
+      "actual": "17:48",
       "gate": "10",
       "status": "ON TIME",
       "from": "Ottawa"
@@ -97,7 +97,7 @@
       "carrier": "Air Canada",
       "flight": "AC2060",
       "expected": "17:58",
-      "actual": "17:58",
+      "actual": "17:49",
       "gate": "22",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
@@ -479,27 +479,18 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Ottawa"
-    }
-  ],
-  "departures": [
-    {
-      "carrier": "Porter",
-      "flight": "PD2195",
-      "expected": "13:40",
-      "actual": "13:40",
-      "gate": "6",
-      "status": "DEPARTED",
-      "destination": "Deer Lake"
     },
     {
       "carrier": "Air Canada",
-      "flight": "AC7689",
-      "expected": "13:45",
-      "actual": "18:00",
-      "gate": "2A",
-      "status": "DELAYED",
-      "destination": "Ottawa"
-    },
+      "flight": "AC664",
+      "expected": "15:55",
+      "actual": "15:55",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Montreal (YUL)"
+    }
+  ],
+  "departures": [
     {
       "carrier": "United Airlines",
       "flight": "UA3471",
