@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T04:30:18.126180Z",
+  "updated": "2026-11-27T04:45:15.524519Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -9,7 +9,7 @@
       "expected": "23:50",
       "actual": "00:21",
       "gate": "3",
-      "status": "ARRIVED",
+      "status": "LATE",
       "from": "Ottawa"
     },
     {
