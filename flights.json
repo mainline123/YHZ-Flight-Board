@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T01:15:22.297234Z",
+  "updated": "2026-11-27T01:30:21.148783Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -43,7 +43,7 @@
       "carrier": "Air Canada",
       "flight": "AC668",
       "expected": "21:35",
-      "actual": "22:39",
+      "actual": "22:25",
       "gate": "18",
       "status": "DELAYED",
       "from": "Montreal (YUL)"
@@ -52,9 +52,9 @@
       "carrier": "Air Canada",
       "flight": "AC1726",
       "expected": "21:44",
-      "actual": "21:16",
+      "actual": "21:19",
       "gate": "56",
-      "status": "EARLY",
+      "status": "ARRIVED",
       "from": "Orlando"
     },
     {
@@ -506,7 +506,7 @@
       "expected": "21:05",
       "actual": "21:05",
       "gate": "3",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "St. John's"
     },
     {
