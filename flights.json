@@ -1,17 +1,8 @@
 {
-  "updated": "2026-11-27T01:00:20.328878Z",
+  "updated": "2026-11-27T01:15:22.297234Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Air Canada",
-      "flight": "AC7705",
-      "expected": "19:55",
-      "actual": "19:28",
-      "gate": "2C",
-      "status": "EARLY",
-      "from": "Deer Lake"
-    },
     {
       "carrier": "Porter",
       "flight": "PD2497",
@@ -25,34 +16,34 @@
       "carrier": "Air Canada",
       "flight": "AC2062",
       "expected": "20:58",
-      "actual": "21:00",
+      "actual": "20:57",
       "gate": "22",
-      "status": "ON TIME",
+      "status": "ARRIVED",
       "from": "Toronto (YYZ)"
     },
     {
       "carrier": "Air Canada",
       "flight": "AC7668",
       "expected": "21:09",
-      "actual": "20:57",
+      "actual": "20:59",
       "gate": "57",
-      "status": "ON TIME",
+      "status": "ARRIVED",
       "from": "Boston"
     },
     {
       "carrier": "Air Canada",
       "flight": "AC7681",
       "expected": "21:31",
-      "actual": "21:13",
+      "actual": "21:06",
       "gate": "2C",
-      "status": "EARLY",
+      "status": "ARRIVED",
       "from": "St. John's"
     },
     {
       "carrier": "Air Canada",
       "flight": "AC668",
       "expected": "21:35",
-      "actual": "21:57",
+      "actual": "22:39",
       "gate": "18",
       "status": "DELAYED",
       "from": "Montreal (YUL)"
@@ -440,7 +431,7 @@
       "flight": "AC2062",
       "expected": "20:58",
       "actual": "20:58",
-      "gate": "-",
+      "gate": "24",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
     },
@@ -491,15 +482,6 @@
     }
   ],
   "departures": [
-    {
-      "carrier": "Porter",
-      "flight": "PD210",
-      "expected": "19:50",
-      "actual": "19:50",
-      "gate": "12",
-      "status": "DEPARTED",
-      "destination": "Toronto (YYZ)"
-    },
     {
       "carrier": "Air Canada",
       "flight": "AC7682",
