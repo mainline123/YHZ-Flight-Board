@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T12:45:22.234949Z",
+  "updated": "2026-11-27T13:00:22.311174Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -9,7 +9,7 @@
       "expected": "08:44",
       "actual": "08:44",
       "gate": "10",
-      "status": "ON TIME",
+      "status": "ARRIVED",
       "from": "St. John's"
     },
     {
@@ -34,7 +34,7 @@
       "carrier": "Air Canada",
       "flight": "AC7671",
       "expected": "09:26",
-      "actual": "10:12",
+      "actual": "10:11",
       "gate": "2C",
       "status": "DELAYED",
       "from": "St. John's"
@@ -61,7 +61,7 @@
       "carrier": "Flair Airlines",
       "flight": "F8650",
       "expected": "10:15",
-      "actual": "10:15",
+      "actual": "10:14",
       "gate": "16",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
