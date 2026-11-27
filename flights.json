@@ -1,26 +1,8 @@
 {
-  "updated": "2026-11-27T16:30:19.982474Z",
+  "updated": "2026-11-27T16:45:20.954875Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Porter",
-      "flight": "PD2427",
-      "expected": "11:21",
-      "actual": "12:41",
-      "gate": "3",
-      "status": "DELAYED",
-      "from": "Hamilton"
-    },
-    {
-      "carrier": "Porter",
-      "flight": "PD2505",
-      "expected": "11:22",
-      "actual": "11:09",
-      "gate": "6",
-      "status": "EARLY",
-      "from": "Montreal (YHU)"
-    },
     {
       "carrier": "Porter",
       "flight": "PD241",
@@ -524,18 +506,18 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "United Airlines",
+      "flight": "UA3531",
+      "expected": "13:24",
+      "actual": "13:24",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Newark"
     }
   ],
   "departures": [
-    {
-      "carrier": "Air Canada",
-      "flight": "AC663",
-      "expected": "11:25",
-      "actual": "11:25",
-      "gate": "20",
-      "status": "DEPARTED",
-      "destination": "Montreal (YUL)"
-    },
     {
       "carrier": "Porter",
       "flight": "PD2427",
@@ -551,7 +533,7 @@
       "expected": "12:15",
       "actual": "12:15",
       "gate": "22",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Toronto (YYZ)"
     },
     {
@@ -567,9 +549,9 @@
       "carrier": "Air St. Pierre",
       "flight": "PJ1122",
       "expected": "12:30",
-      "actual": "12:30",
+      "actual": "12:16",
       "gate": "7",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Saint Pierre"
     },
     {
