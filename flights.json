@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T05:45:19.946451Z",
+  "updated": "2026-11-27T06:00:24.386602Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -9,7 +9,7 @@
       "expected": "01:58",
       "actual": "01:50",
       "gate": "20",
-      "status": "ON TIME",
+      "status": "ARRIVED",
       "from": "Toronto (YYZ)"
     },
     {
@@ -38,6 +38,15 @@
       "gate": "27",
       "status": "ON TIME",
       "from": "Goose Bay"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7201",
+      "expected": "09:20",
+      "actual": "09:20",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "St. John's"
     },
     {
       "carrier": "Air Canada",
@@ -531,9 +540,9 @@
       "carrier": "Air Canada",
       "flight": "AC7685",
       "expected": "07:15",
-      "actual": "07:15",
+      "actual": "09:55",
       "gate": "2A",
-      "status": "ON TIME",
+      "status": "DELAYED",
       "destination": "Ottawa"
     },
     {
