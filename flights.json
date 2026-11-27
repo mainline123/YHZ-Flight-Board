@@ -1,26 +1,8 @@
 {
-  "updated": "2026-11-27T03:45:14.551384Z",
+  "updated": "2026-11-27T04:00:21.875509Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Air Canada",
-      "flight": "AC2066",
-      "expected": "22:38",
-      "actual": "22:29",
-      "gate": "23",
-      "status": "ARRIVED",
-      "from": "Toronto (YYZ)"
-    },
-    {
-      "carrier": "Air Canada",
-      "flight": "AC1781",
-      "expected": "22:50",
-      "actual": "22:19",
-      "gate": "24",
-      "status": "EARLY",
-      "from": "Punta Cana"
-    },
     {
       "carrier": "Porter",
       "flight": "PD2499",
