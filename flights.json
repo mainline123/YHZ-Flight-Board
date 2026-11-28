@@ -1,44 +1,8 @@
 {
-  "updated": "2026-11-28T18:15:15.025494Z",
+  "updated": "2026-11-28T18:30:29.195372Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Air Canada",
-      "flight": "AC2062",
-      "expected": "13:13",
-      "actual": "13:13",
-      "gate": "-",
-      "status": "ON TIME",
-      "from": "Toronto (YYZ)"
-    },
-    {
-      "carrier": "Air Canada",
-      "flight": "AC2072",
-      "expected": "13:13",
-      "actual": "12:53",
-      "gate": "20",
-      "status": "EARLY",
-      "from": "Toronto (YYZ)"
-    },
-    {
-      "carrier": "Air Canada",
-      "flight": "AC602",
-      "expected": "13:13",
-      "actual": "13:13",
-      "gate": "22",
-      "status": "CANCELLED",
-      "from": "Toronto (YYZ)"
-    },
-    {
-      "carrier": "United Airlines",
-      "flight": "UA3531",
-      "expected": "13:24",
-      "actual": "13:00",
-      "gate": "57",
-      "status": "EARLY",
-      "from": "Newark"
-    },
     {
       "carrier": "Porter",
       "flight": "PD2327",
@@ -133,9 +97,9 @@
       "carrier": "WestJet",
       "flight": "WS2175",
       "expected": "18:30",
-      "actual": "18:10",
+      "actual": "18:35",
       "gate": "24",
-      "status": "EARLY",
+      "status": "ON TIME",
       "from": "Cancun"
     },
     {
@@ -470,6 +434,24 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Montreal (YUL)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7677",
+      "expected": "15:21",
+      "actual": "15:21",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "St. John's"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7690",
+      "expected": "15:23",
+      "actual": "15:23",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Ottawa"
     }
   ],
   "departures": [
@@ -931,6 +913,24 @@
       "gate": "-",
       "status": "ON TIME",
       "destination": "Ottawa"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC2063",
+      "expected": "15:10",
+      "actual": "15:10",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC613",
+      "expected": "15:11",
+      "actual": "15:11",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Toronto (YYZ)"
     }
   ]
 }
