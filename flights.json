@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T10:00:23.324035Z",
+  "updated": "2026-11-28T10:15:14.861469Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -439,15 +439,6 @@
   "departures": [
     {
       "carrier": "Air Canada",
-      "flight": "AC2057",
-      "expected": "05:00",
-      "actual": "05:00",
-      "gate": "16",
-      "status": "DEPARTED",
-      "destination": "Toronto (YYZ)"
-    },
-    {
-      "carrier": "Air Canada",
       "flight": "AC661",
       "expected": "05:10",
       "actual": "05:10",
@@ -461,16 +452,16 @@
       "expected": "06:00",
       "actual": "06:00",
       "gate": "22",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Toronto (YYZ)"
     },
     {
       "carrier": "WestJet",
       "flight": "WS801",
       "expected": "06:00",
-      "actual": "06:00",
+      "actual": "05:57",
       "gate": "12",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Toronto (YYZ)"
     },
     {
@@ -488,7 +479,7 @@
       "expected": "06:05",
       "actual": "06:05",
       "gate": "23",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Montreal (YUL)"
     },
     {
@@ -558,9 +549,9 @@
       "carrier": "Air Canada",
       "flight": "AC7685",
       "expected": "07:15",
-      "actual": "07:15",
+      "actual": "07:30",
       "gate": "2A",
-      "status": "ON TIME",
+      "status": "DELAYED",
       "destination": "Ottawa"
     },
     {
