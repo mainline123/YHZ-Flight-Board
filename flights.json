@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T03:30:17.793334Z",
+  "updated": "2026-11-28T03:45:20.167367Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -25,7 +25,7 @@
       "carrier": "Porter",
       "flight": "PD2499",
       "expected": "23:50",
-      "actual": "01:00",
+      "actual": "01:40",
       "gate": "3",
       "status": "DELAYED",
       "from": "Ottawa"
@@ -52,7 +52,7 @@
       "carrier": "WestJet",
       "flight": "WS800",
       "expected": "01:55",
-      "actual": "02:07",
+      "actual": "01:59",
       "gate": "12",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
