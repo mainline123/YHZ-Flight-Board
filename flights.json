@@ -1,17 +1,8 @@
 {
-  "updated": "2026-11-28T14:15:15.165478Z",
+  "updated": "2026-11-28T14:30:19.607179Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Air Canada",
-      "flight": "AC7707",
-      "expected": "09:07",
-      "actual": "09:00",
-      "gate": "26",
-      "status": "ARRIVED",
-      "from": "Goose Bay"
-    },
     {
       "carrier": "Air Canada",
       "flight": "AC7671",
@@ -88,7 +79,7 @@
       "carrier": "Air Canada",
       "flight": "AC7688",
       "expected": "11:58",
-      "actual": "11:53",
+      "actual": "11:44",
       "gate": "2A",
       "status": "ON TIME",
       "from": "Ottawa"
@@ -151,9 +142,9 @@
       "carrier": "United Airlines",
       "flight": "UA3531",
       "expected": "13:24",
-      "actual": "13:24",
+      "actual": "13:00",
       "gate": "57",
-      "status": "ON TIME",
+      "status": "EARLY",
       "from": "Newark"
     },
     {
@@ -470,6 +461,24 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Montreal (YUL)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC602",
+      "expected": "11:13",
+      "actual": "11:13",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC2056",
+      "expected": "11:14",
+      "actual": "11:14",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Toronto (YYZ)"
     }
   ],
   "departures": [
@@ -515,7 +524,7 @@
       "expected": "10:25",
       "actual": "10:25",
       "gate": "22",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Toronto (YYZ)"
     },
     {
@@ -949,6 +958,15 @@
       "gate": "-",
       "status": "ON TIME",
       "destination": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC663",
+      "expected": "11:25",
+      "actual": "11:25",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Montreal (YUL)"
     }
   ]
 }
