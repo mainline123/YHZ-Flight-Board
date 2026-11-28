@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T08:45:14.570127Z",
+  "updated": "2026-11-28T09:00:22.815075Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -425,6 +425,15 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "WestJet",
+      "flight": "WS670",
+      "expected": "05:40",
+      "actual": "05:40",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Calgary"
     }
   ],
   "departures": [
