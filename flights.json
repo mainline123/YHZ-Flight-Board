@@ -1,17 +1,8 @@
 {
-  "updated": "2026-11-28T02:45:15.391641Z",
+  "updated": "2026-11-28T03:00:21.990514Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Air Canada",
-      "flight": "AC668",
-      "expected": "21:35",
-      "actual": "21:32",
-      "gate": "20",
-      "status": "ARRIVED",
-      "from": "Montreal (YUL)"
-    },
     {
       "carrier": "Porter",
       "flight": "PD493",
@@ -61,7 +52,7 @@
       "carrier": "Air Canada",
       "flight": "AC2050",
       "expected": "00:15",
-      "actual": "00:15",
+      "actual": "00:17",
       "gate": "23",
       "status": "ON TIME",
       "from": "Montreal (YUL)"
@@ -88,7 +79,7 @@
       "carrier": "WestJet",
       "flight": "WS576",
       "expected": "05:05",
-      "actual": "05:20",
+      "actual": "05:29",
       "gate": "26",
       "status": "DELAYED",
       "from": "Edmonton"
@@ -275,6 +266,15 @@
     },
     {
       "carrier": "Air Canada",
+      "flight": "AC7202",
+      "expected": "14:08",
+      "actual": "14:08",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Ottawa"
+    },
+    {
+      "carrier": "Air Canada",
       "flight": "AC7677",
       "expected": "15:21",
       "actual": "15:21",
@@ -443,6 +443,15 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD2499",
+      "expected": "23:50",
+      "actual": "23:50",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Ottawa"
     }
   ],
   "departures": [
