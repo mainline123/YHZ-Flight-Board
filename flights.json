@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T01:43:47.859939Z",
+  "updated": "2026-11-28T02:00:21.834404Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -18,7 +18,7 @@
       "expected": "21:09",
       "actual": "21:26",
       "gate": "57",
-      "status": "ARRIVED",
+      "status": "LATE",
       "from": "Boston"
     },
     {
@@ -124,9 +124,9 @@
       "carrier": "WestJet",
       "flight": "WS576",
       "expected": "05:05",
-      "actual": "05:05",
+      "actual": "05:20",
       "gate": "26",
-      "status": "ON TIME",
+      "status": "DELAYED",
       "from": "Edmonton"
     },
     {
@@ -470,18 +470,18 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Montreal (YHU)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC2066",
+      "expected": "22:38",
+      "actual": "22:38",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Toronto (YYZ)"
     }
   ],
   "departures": [
-    {
-      "carrier": "Air Canada",
-      "flight": "AC7708",
-      "expected": "20:35",
-      "actual": "22:05",
-      "gate": "27",
-      "status": "DELAYED",
-      "destination": "Goose Bay"
-    },
     {
       "carrier": "Porter",
       "flight": "PD2429",
