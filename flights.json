@@ -1,17 +1,8 @@
 {
-  "updated": "2026-11-28T18:00:21.198740Z",
+  "updated": "2026-11-28T18:15:15.025494Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Air Canada",
-      "flight": "AC7673",
-      "expected": "13:01",
-      "actual": "13:01",
-      "gate": "2C",
-      "status": "CANCELLED",
-      "from": "St. John's"
-    },
     {
       "carrier": "Air Canada",
       "flight": "AC2062",
@@ -54,16 +45,16 @@
       "expected": "13:58",
       "actual": "13:58",
       "gate": "3",
-      "status": "ON TIME",
+      "status": "ARRIVED",
       "from": "Montreal (YUL)"
     },
     {
       "carrier": "Air Canada",
       "flight": "AC7202",
       "expected": "14:08",
-      "actual": "13:52",
+      "actual": "13:51",
       "gate": "2A",
-      "status": "EARLY",
+      "status": "ARRIVED",
       "from": "Ottawa"
     },
     {
@@ -152,7 +143,7 @@
       "flight": "AC7692",
       "expected": "19:48",
       "actual": "19:48",
-      "gate": "2C",
+      "gate": "2A",
       "status": "ON TIME",
       "from": "Ottawa"
     },
@@ -161,7 +152,7 @@
       "flight": "AC7705",
       "expected": "19:55",
       "actual": "19:55",
-      "gate": "2A",
+      "gate": "2C",
       "status": "ON TIME",
       "from": "Deer Lake"
     },
@@ -206,7 +197,7 @@
       "flight": "AC7681",
       "expected": "21:31",
       "actual": "21:31",
-      "gate": "2A",
+      "gate": "2E",
       "status": "ON TIME",
       "from": "St. John's"
     },
@@ -259,7 +250,7 @@
       "carrier": "Air Canada",
       "flight": "AC1897",
       "expected": "00:10",
-      "actual": "00:10",
+      "actual": "00:20",
       "gate": "-",
       "status": "ON TIME",
       "from": "Cancun"
@@ -484,15 +475,6 @@
   "departures": [
     {
       "carrier": "Air Canada",
-      "flight": "AC1896",
-      "expected": "12:55",
-      "actual": "13:20",
-      "gate": "24",
-      "status": "LATE",
-      "destination": "Cancun"
-    },
-    {
-      "carrier": "Air Canada",
       "flight": "AC7689",
       "expected": "13:45",
       "actual": "15:55",
@@ -506,7 +488,7 @@
       "expected": "14:10",
       "actual": "14:10",
       "gate": "57",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Newark"
     },
     {
@@ -640,7 +622,7 @@
       "flight": "AC7708",
       "expected": "20:35",
       "actual": "20:35",
-      "gate": "2A",
+      "gate": "2C",
       "status": "ON TIME",
       "destination": "Goose Bay"
     },
@@ -766,7 +748,7 @@
       "flight": "AC7672",
       "expected": "08:05",
       "actual": "08:05",
-      "gate": "-",
+      "gate": "2A",
       "status": "ON TIME",
       "destination": "St. John's"
     },
