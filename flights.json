@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T18:45:14.746255Z",
+  "updated": "2026-11-28T19:00:27.444239Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -25,7 +25,7 @@
       "carrier": "Air Canada",
       "flight": "AC7677",
       "expected": "15:21",
-      "actual": "15:19",
+      "actual": "15:18",
       "gate": "12",
       "status": "ON TIME",
       "from": "St. John's"
@@ -43,7 +43,7 @@
       "carrier": "Air Canada",
       "flight": "AC664",
       "expected": "15:55",
-      "actual": "16:01",
+      "actual": "16:00",
       "gate": "24",
       "status": "ON TIME",
       "from": "Montreal (YUL)"
@@ -88,7 +88,7 @@
       "carrier": "Air Canada",
       "flight": "AC2060",
       "expected": "17:58",
-      "actual": "17:58",
+      "actual": "17:49",
       "gate": "22",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
@@ -455,15 +455,6 @@
     }
   ],
   "departures": [
-    {
-      "carrier": "Air Canada",
-      "flight": "AC7689",
-      "expected": "13:45",
-      "actual": "15:55",
-      "gate": "2C",
-      "status": "DELAYED",
-      "destination": "Ottawa"
-    },
     {
       "carrier": "United Airlines",
       "flight": "UA3471",
