@@ -1,26 +1,8 @@
 {
-  "updated": "2026-11-28T16:30:18.764277Z",
+  "updated": "2026-11-28T16:45:15.146810Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Porter",
-      "flight": "PD2427",
-      "expected": "11:21",
-      "actual": "13:38",
-      "gate": "6",
-      "status": "DELAYED",
-      "from": "Hamilton"
-    },
-    {
-      "carrier": "Porter",
-      "flight": "PD2505",
-      "expected": "11:22",
-      "actual": "11:22",
-      "gate": "6",
-      "status": "ARRIVED",
-      "from": "Montreal (YHU)"
-    },
     {
       "carrier": "Porter",
       "flight": "PD241",
@@ -115,9 +97,9 @@
       "carrier": "Air Canada",
       "flight": "AC7202",
       "expected": "14:08",
-      "actual": "14:08",
+      "actual": "13:52",
       "gate": "2A",
-      "status": "ON TIME",
+      "status": "EARLY",
       "from": "Ottawa"
     },
     {
@@ -515,18 +497,18 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "United Airlines",
+      "flight": "UA3531",
+      "expected": "13:24",
+      "actual": "13:24",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Newark"
     }
   ],
   "departures": [
-    {
-      "carrier": "Air Canada",
-      "flight": "AC663",
-      "expected": "11:25",
-      "actual": "11:25",
-      "gate": "20",
-      "status": "CANCELLED",
-      "destination": "Montreal (YUL)"
-    },
     {
       "carrier": "Porter",
       "flight": "PD2427",
@@ -542,7 +524,7 @@
       "expected": "12:15",
       "actual": "12:15",
       "gate": "22",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Toronto (YYZ)"
     },
     {
