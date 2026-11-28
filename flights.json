@@ -1,31 +1,13 @@
 {
-  "updated": "2026-11-28T03:45:20.167367Z",
+  "updated": "2026-11-28T04:00:23.034619Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
     {
-      "carrier": "Air Canada",
-      "flight": "AC618",
-      "expected": "22:38",
-      "actual": "23:00",
-      "gate": "22",
-      "status": "LATE",
-      "from": "Toronto (YYZ)"
-    },
-    {
-      "carrier": "Air Canada",
-      "flight": "AC2066",
-      "expected": "22:39",
-      "actual": "22:39",
-      "gate": "-",
-      "status": "ON TIME",
-      "from": "Toronto (YYZ)"
-    },
-    {
       "carrier": "Porter",
       "flight": "PD2499",
       "expected": "23:50",
-      "actual": "01:40",
+      "actual": "01:28",
       "gate": "3",
       "status": "DELAYED",
       "from": "Ottawa"
@@ -52,7 +34,7 @@
       "carrier": "WestJet",
       "flight": "WS800",
       "expected": "01:55",
-      "actual": "01:59",
+      "actual": "02:02",
       "gate": "12",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
@@ -221,20 +203,20 @@
     },
     {
       "carrier": "Air Canada",
+      "flight": "AC602",
+      "expected": "13:13",
+      "actual": "13:13",
+      "gate": "22",
+      "status": "CANCELLED",
+      "from": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
       "flight": "AC2062",
       "expected": "13:14",
       "actual": "13:14",
       "gate": "-",
       "status": "ON TIME",
-      "from": "Toronto (YYZ)"
-    },
-    {
-      "carrier": "Air Canada",
-      "flight": "AC602",
-      "expected": "13:14",
-      "actual": "13:14",
-      "gate": "22",
-      "status": "CANCELLED",
       "from": "Toronto (YYZ)"
     },
     {
@@ -764,8 +746,8 @@
     {
       "carrier": "Air Canada",
       "flight": "AC603",
-      "expected": "15:06",
-      "actual": "15:06",
+      "expected": "15:05",
+      "actual": "15:05",
       "gate": "22",
       "status": "CANCELLED",
       "destination": "Toronto (YYZ)"
