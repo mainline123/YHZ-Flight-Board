@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T03:15:16.555881Z",
+  "updated": "2026-11-28T03:30:17.793334Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -43,9 +43,9 @@
       "carrier": "Air Canada",
       "flight": "AC2050",
       "expected": "00:15",
-      "actual": "00:24",
+      "actual": "00:35",
       "gate": "23",
-      "status": "ON TIME",
+      "status": "DELAYED",
       "from": "Montreal (YUL)"
     },
     {
@@ -404,7 +404,7 @@
       "flight": "AC7681",
       "expected": "21:31",
       "actual": "21:31",
-      "gate": "-",
+      "gate": "2A",
       "status": "ON TIME",
       "from": "St. John's"
     },
@@ -413,7 +413,7 @@
       "flight": "AC668",
       "expected": "21:35",
       "actual": "21:35",
-      "gate": "-",
+      "gate": "20",
       "status": "ON TIME",
       "from": "Montreal (YUL)"
     },
@@ -422,7 +422,7 @@
       "flight": "PD493",
       "expected": "21:50",
       "actual": "21:50",
-      "gate": "-",
+      "gate": "10",
       "status": "ON TIME",
       "from": "Montreal (YHU)"
     },
@@ -431,7 +431,7 @@
       "flight": "AC2066",
       "expected": "22:38",
       "actual": "22:38",
-      "gate": "-",
+      "gate": "22",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
     },
@@ -461,6 +461,15 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Cancun"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC2050",
+      "expected": "00:15",
+      "actual": "00:15",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Montreal (YUL)"
     }
   ],
   "departures": [
@@ -784,7 +793,7 @@
       "flight": "AC7704",
       "expected": "16:00",
       "actual": "16:00",
-      "gate": "2A",
+      "gate": "2E",
       "status": "ON TIME",
       "destination": "Deer Lake"
     },
