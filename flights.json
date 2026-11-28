@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T17:45:15.773183Z",
+  "updated": "2026-11-28T17:52:14.842739Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -484,15 +484,6 @@
   "departures": [
     {
       "carrier": "Air Canada",
-      "flight": "AC7696",
-      "expected": "12:35",
-      "actual": "12:35",
-      "gate": "2A",
-      "status": "DEPARTED",
-      "destination": "Gander"
-    },
-    {
-      "carrier": "Air Canada",
       "flight": "AC1896",
       "expected": "12:55",
       "actual": "13:20",
@@ -949,6 +940,15 @@
       "gate": "-",
       "status": "ON TIME",
       "destination": "Newark"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD2494",
+      "expected": "14:40",
+      "actual": "14:40",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Ottawa"
     }
   ]
 }
