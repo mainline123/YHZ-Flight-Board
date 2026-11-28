@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T00:15:13.899987Z",
+  "updated": "2026-11-28T00:30:17.956948Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -7,18 +7,18 @@
       "carrier": "Flair Airlines",
       "flight": "F8408",
       "expected": "19:40",
-      "actual": "20:28",
+      "actual": "20:25",
       "gate": "22",
-      "status": "DELAYED",
+      "status": "ARRIVED",
       "from": "Kitchener-Waterloo"
     },
     {
       "carrier": "Air Canada",
       "flight": "AC7692",
       "expected": "19:48",
-      "actual": "20:11",
+      "actual": "20:08",
       "gate": "2C",
-      "status": "DELAYED",
+      "status": "LATE",
       "from": "Ottawa"
     },
     {
@@ -34,7 +34,7 @@
       "carrier": "Porter",
       "flight": "PD2497",
       "expected": "20:20",
-      "actual": "21:59",
+      "actual": "22:00",
       "gate": "6",
       "status": "DELAYED",
       "from": "Ottawa"
@@ -79,7 +79,7 @@
       "carrier": "Air Canada",
       "flight": "AC668",
       "expected": "21:35",
-      "actual": "21:35",
+      "actual": "21:36",
       "gate": "20",
       "status": "ON TIME",
       "from": "Montreal (YUL)"
@@ -470,6 +470,15 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7668",
+      "expected": "21:09",
+      "actual": "21:09",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Boston"
     }
   ],
   "departures": [
@@ -479,7 +488,7 @@
       "expected": "19:50",
       "actual": "19:50",
       "gate": "16",
-      "status": "ON TIME",
+      "status": "LATE",
       "destination": "Toronto (YYZ)"
     },
     {
