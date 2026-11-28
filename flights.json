@@ -1,22 +1,13 @@
 {
-  "updated": "2026-11-28T00:00:22.418555Z",
+  "updated": "2026-11-28T00:15:13.899987Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
     {
-      "carrier": "Porter",
-      "flight": "PD209",
-      "expected": "18:54",
-      "actual": "18:54",
-      "gate": "16",
-      "status": "ARRIVED",
-      "from": "Toronto (YYZ)"
-    },
-    {
       "carrier": "Flair Airlines",
       "flight": "F8408",
       "expected": "19:40",
-      "actual": "20:29",
+      "actual": "20:28",
       "gate": "22",
       "status": "DELAYED",
       "from": "Kitchener-Waterloo"
@@ -52,7 +43,7 @@
       "carrier": "Air Canada",
       "flight": "AC2062",
       "expected": "20:58",
-      "actual": "20:53",
+      "actual": "20:55",
       "gate": "16",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
@@ -461,27 +452,27 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC616",
+      "expected": "20:58",
+      "actual": "20:58",
+      "gate": "-",
+      "status": "CANCELLED",
+      "from": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC2068",
+      "expected": "20:58",
+      "actual": "20:58",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Toronto (YYZ)"
     }
   ],
   "departures": [
-    {
-      "carrier": "Air Canada",
-      "flight": "AC2065",
-      "expected": "18:55",
-      "actual": "18:55",
-      "gate": "22",
-      "status": "LATE",
-      "destination": "Toronto (YYZ)"
-    },
-    {
-      "carrier": "Bermuda Air",
-      "flight": "2T802",
-      "expected": "19:00",
-      "actual": "19:00",
-      "gate": "24",
-      "status": "ON TIME",
-      "destination": "Bermuda"
-    },
     {
       "carrier": "Porter",
       "flight": "PD210",
@@ -940,6 +931,15 @@
       "gate": "-",
       "status": "ON TIME",
       "destination": "Goose Bay"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD2429",
+      "expected": "21:05",
+      "actual": "21:05",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "St. John's"
     }
   ]
 }
