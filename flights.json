@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T09:15:19.046627Z",
+  "updated": "2026-11-28T09:30:19.859501Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -7,7 +7,7 @@
       "carrier": "WestJet",
       "flight": "WS576",
       "expected": "05:05",
-      "actual": "05:36",
+      "actual": "05:34",
       "gate": "26",
       "status": "DELAYED",
       "from": "Edmonton"
@@ -16,7 +16,7 @@
       "carrier": "WestJet",
       "flight": "WS670",
       "expected": "05:40",
-      "actual": "05:31",
+      "actual": "05:29",
       "gate": "20",
       "status": "ON TIME",
       "from": "Calgary"
@@ -43,7 +43,7 @@
       "carrier": "Air Canada",
       "flight": "AC7671",
       "expected": "09:26",
-      "actual": "09:26",
+      "actual": "09:30",
       "gate": "2A",
       "status": "ON TIME",
       "from": "St. John's"
@@ -124,7 +124,7 @@
       "carrier": "Air Canada",
       "flight": "AC2081",
       "expected": "12:00",
-      "actual": "11:50",
+      "actual": "11:52",
       "gate": "24",
       "status": "ON TIME",
       "from": "London (LHR)"
@@ -495,7 +495,7 @@
       "carrier": "WestJet",
       "flight": "WS577",
       "expected": "06:15",
-      "actual": "06:15",
+      "actual": "06:25",
       "gate": "26",
       "status": "ON TIME",
       "destination": "Edmonton"
@@ -904,6 +904,15 @@
       "gate": "-",
       "status": "ON TIME",
       "destination": "Montreal (YUL)"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD2490",
+      "expected": "06:20",
+      "actual": "06:20",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Ottawa"
     }
   ]
 }
