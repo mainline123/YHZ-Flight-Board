@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T14:45:15.200083Z",
+  "updated": "2026-11-28T15:00:20.373673Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -488,6 +488,15 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Ottawa"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD201",
+      "expected": "11:39",
+      "actual": "11:39",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Toronto (YYZ)"
     }
   ],
   "departures": [
@@ -524,7 +533,7 @@
       "expected": "10:30",
       "actual": "10:30",
       "gate": "2A",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "St. John's"
     },
     {
