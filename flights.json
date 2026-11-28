@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T17:52:14.842739Z",
+  "updated": "2026-11-28T18:00:21.198740Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -142,7 +142,7 @@
       "carrier": "WestJet",
       "flight": "WS2175",
       "expected": "18:30",
-      "actual": "18:11",
+      "actual": "18:10",
       "gate": "24",
       "status": "EARLY",
       "from": "Cancun"
