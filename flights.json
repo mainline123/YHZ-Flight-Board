@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T07:15:15.096564Z",
+  "updated": "2026-11-28T07:30:19.172194Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -88,9 +88,9 @@
       "carrier": "Porter",
       "flight": "PD2427",
       "expected": "11:21",
-      "actual": "11:21",
+      "actual": "12:46",
       "gate": "6",
-      "status": "ON TIME",
+      "status": "DELAYED",
       "from": "Hamilton"
     },
     {
