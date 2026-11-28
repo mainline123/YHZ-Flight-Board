@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T23:45:13.924533Z",
+  "updated": "2026-11-28T00:00:22.418555Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -79,7 +79,7 @@
       "carrier": "Air Canada",
       "flight": "AC7681",
       "expected": "21:31",
-      "actual": "23:16",
+      "actual": "23:41",
       "gate": "2A",
       "status": "DELAYED",
       "from": "St. John's"
@@ -464,15 +464,6 @@
     }
   ],
   "departures": [
-    {
-      "carrier": "Porter",
-      "flight": "PD2496",
-      "expected": "18:40",
-      "actual": "18:40",
-      "gate": "3",
-      "status": "DEPARTED",
-      "destination": "Ottawa"
-    },
     {
       "carrier": "Air Canada",
       "flight": "AC2065",
