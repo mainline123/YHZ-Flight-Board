@@ -1,17 +1,8 @@
 {
-  "updated": "2026-11-28T13:45:14.038690Z",
+  "updated": "2026-11-28T14:00:27.351963Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Porter",
-      "flight": "PD2426",
-      "expected": "08:44",
-      "actual": "08:44",
-      "gate": "6",
-      "status": "ARRIVED",
-      "from": "St. John's"
-    },
     {
       "carrier": "Air Canada",
       "flight": "AC7707",
@@ -43,9 +34,9 @@
       "carrier": "Flair Airlines",
       "flight": "F8650",
       "expected": "10:15",
-      "actual": "10:07",
+      "actual": "10:02",
       "gate": "16",
-      "status": "ON TIME",
+      "status": "ARRIVED",
       "from": "Toronto (YYZ)"
     },
     {
@@ -54,7 +45,7 @@
       "expected": "10:35",
       "actual": "10:48",
       "gate": "20",
-      "status": "ON TIME",
+      "status": "CANCELLED",
       "from": "Montreal (YUL)"
     },
     {
@@ -79,7 +70,7 @@
       "carrier": "Porter",
       "flight": "PD2505",
       "expected": "11:22",
-      "actual": "11:22",
+      "actual": "11:12",
       "gate": "3",
       "status": "ON TIME",
       "from": "Montreal (YHU)"
@@ -470,6 +461,15 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Montreal (YUL)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC2044",
+      "expected": "10:36",
+      "actual": "10:36",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Montreal (YUL)"
     }
   ],
   "departures": [
@@ -479,7 +479,7 @@
       "expected": "09:25",
       "actual": "09:25",
       "gate": "3",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Montreal (YUL)"
     },
     {
@@ -488,7 +488,7 @@
       "expected": "09:30",
       "actual": "09:30",
       "gate": "6",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Hamilton"
     },
     {
@@ -551,7 +551,7 @@
       "expected": "11:25",
       "actual": "11:25",
       "gate": "20",
-      "status": "ON TIME",
+      "status": "CANCELLED",
       "destination": "Montreal (YUL)"
     },
     {
@@ -603,9 +603,9 @@
       "carrier": "Air Canada",
       "flight": "AC7689",
       "expected": "13:45",
-      "actual": "13:45",
+      "actual": "15:55",
       "gate": "2C",
-      "status": "ON TIME",
+      "status": "DELAYED",
       "destination": "Ottawa"
     },
     {
