@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T11:30:18.239935Z",
+  "updated": "2026-11-28T11:45:15.997975Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -97,7 +97,7 @@
       "carrier": "Air Canada",
       "flight": "AC7688",
       "expected": "11:58",
-      "actual": "11:58",
+      "actual": "11:53",
       "gate": "2A",
       "status": "ON TIME",
       "from": "Ottawa"
@@ -419,42 +419,6 @@
     }
   ],
   "departures": [
-    {
-      "carrier": "Porter",
-      "flight": "PD240",
-      "expected": "06:30",
-      "actual": "06:30",
-      "gate": "16",
-      "status": "DEPARTED",
-      "destination": "Ottawa"
-    },
-    {
-      "carrier": "Porter",
-      "flight": "PD490",
-      "expected": "06:30",
-      "actual": "06:30",
-      "gate": "10",
-      "status": "DEPARTED",
-      "destination": "Montreal (YHU)"
-    },
-    {
-      "carrier": "WestJet",
-      "flight": "WS671",
-      "expected": "06:30",
-      "actual": "06:26",
-      "gate": "20",
-      "status": "DEPARTED",
-      "destination": "Calgary"
-    },
-    {
-      "carrier": "Porter",
-      "flight": "PD200",
-      "expected": "06:30",
-      "actual": "06:30",
-      "gate": "27",
-      "status": "DEPARTED",
-      "destination": "Toronto (YYZ)"
-    },
     {
       "carrier": "WestJet",
       "flight": "WS2174",
