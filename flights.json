@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T11:00:19.523222Z",
+  "updated": "2026-11-28T11:15:16.443793Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -106,7 +106,7 @@
       "carrier": "Air Canada",
       "flight": "AC2081",
       "expected": "12:00",
-      "actual": "11:55",
+      "actual": "11:50",
       "gate": "24",
       "status": "ON TIME",
       "from": "London (LHR)"
@@ -421,33 +421,6 @@
   "departures": [
     {
       "carrier": "Air Canada",
-      "flight": "AC601",
-      "expected": "06:00",
-      "actual": "06:00",
-      "gate": "22",
-      "status": "DEPARTED",
-      "destination": "Toronto (YYZ)"
-    },
-    {
-      "carrier": "WestJet",
-      "flight": "WS801",
-      "expected": "06:00",
-      "actual": "05:57",
-      "gate": "12",
-      "status": "DEPARTED",
-      "destination": "Toronto (YYZ)"
-    },
-    {
-      "carrier": "Air Canada",
-      "flight": "AC2061",
-      "expected": "06:00",
-      "actual": "06:00",
-      "gate": "-",
-      "status": "ON TIME",
-      "destination": "Toronto (YYZ)"
-    },
-    {
-      "carrier": "Air Canada",
       "flight": "AC2047",
       "expected": "06:05",
       "actual": "06:05",
@@ -463,15 +436,6 @@
       "gate": "26",
       "status": "LATE",
       "destination": "Edmonton"
-    },
-    {
-      "carrier": "Porter",
-      "flight": "PD200",
-      "expected": "06:30",
-      "actual": "06:30",
-      "gate": "27",
-      "status": "DEPARTED",
-      "destination": "Toronto (YYZ)"
     },
     {
       "carrier": "Porter",
@@ -501,12 +465,21 @@
       "destination": "Calgary"
     },
     {
+      "carrier": "Porter",
+      "flight": "PD200",
+      "expected": "06:30",
+      "actual": "06:30",
+      "gate": "27",
+      "status": "DEPARTED",
+      "destination": "Toronto (YYZ)"
+    },
+    {
       "carrier": "WestJet",
       "flight": "WS2174",
       "expected": "07:00",
       "actual": "07:00",
       "gate": "18",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Cancun"
     },
     {
@@ -931,6 +904,15 @@
       "gate": "-",
       "status": "ON TIME",
       "destination": "Ottawa"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7672",
+      "expected": "08:05",
+      "actual": "08:05",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "St. John's"
     }
   ]
 }
