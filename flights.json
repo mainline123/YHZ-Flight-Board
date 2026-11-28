@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T14:00:27.351963Z",
+  "updated": "2026-11-28T14:15:15.165478Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -122,19 +122,19 @@
     },
     {
       "carrier": "Air Canada",
-      "flight": "AC2072",
+      "flight": "AC2062",
       "expected": "13:13",
       "actual": "13:13",
-      "gate": "20",
+      "gate": "-",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
     },
     {
       "carrier": "Air Canada",
-      "flight": "AC2062",
+      "flight": "AC2072",
       "expected": "13:13",
-      "actual": "13:13",
-      "gate": "-",
+      "actual": "13:03",
+      "gate": "20",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
     },
@@ -497,7 +497,7 @@
       "expected": "10:00",
       "actual": "10:00",
       "gate": "10",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Toronto (YYZ)"
     },
     {
@@ -576,9 +576,9 @@
       "carrier": "Porter",
       "flight": "PD242",
       "expected": "12:30",
-      "actual": "12:30",
+      "actual": "13:00",
       "gate": "12",
-      "status": "ON TIME",
+      "status": "DELAYED",
       "destination": "Ottawa"
     },
     {
@@ -931,6 +931,24 @@
       "gate": "-",
       "status": "ON TIME",
       "destination": "St. John's"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC2080",
+      "expected": "11:00",
+      "actual": "11:00",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "London (LHR)"
+    },
+    {
+      "carrier": "Flair Airlines",
+      "flight": "F8651",
+      "expected": "11:00",
+      "actual": "11:00",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Toronto (YYZ)"
     }
   ]
 }
