@@ -1,24 +1,15 @@
 {
-  "updated": "2026-11-28T19:15:15.030522Z",
+  "updated": "2026-11-28T19:30:19.707987Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
     {
       "carrier": "Air Canada",
-      "flight": "AC7202",
-      "expected": "14:08",
-      "actual": "13:51",
-      "gate": "2A",
-      "status": "ARRIVED",
-      "from": "Ottawa"
-    },
-    {
-      "carrier": "Air Canada",
       "flight": "AC7677",
       "expected": "15:21",
-      "actual": "15:18",
+      "actual": "15:21",
       "gate": "12",
-      "status": "ON TIME",
+      "status": "ARRIVED",
       "from": "St. John's"
     },
     {
@@ -27,7 +18,7 @@
       "expected": "15:23",
       "actual": "15:05",
       "gate": "2E",
-      "status": "ARRIVED",
+      "status": "EARLY",
       "from": "Ottawa"
     },
     {
@@ -43,7 +34,7 @@
       "carrier": "Air Canada",
       "flight": "AC7664",
       "expected": "15:58",
-      "actual": "15:51",
+      "actual": "15:50",
       "gate": "57",
       "status": "ON TIME",
       "from": "Newark"
@@ -134,7 +125,7 @@
       "flight": "AC2068",
       "expected": "20:58",
       "actual": "20:58",
-      "gate": "18",
+      "gate": "24",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
     },
@@ -465,21 +456,12 @@
   ],
   "departures": [
     {
-      "carrier": "United Airlines",
-      "flight": "UA3471",
-      "expected": "14:10",
-      "actual": "14:10",
-      "gate": "57",
-      "status": "DEPARTED",
-      "destination": "Newark"
-    },
-    {
       "carrier": "Air Canada",
       "flight": "AC2051",
       "expected": "15:05",
       "actual": "15:05",
       "gate": "20",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Toronto (YYZ)"
     },
     {
@@ -506,7 +488,7 @@
       "expected": "15:15",
       "actual": "15:15",
       "gate": "6",
-      "status": "ON TIME",
+      "status": "EARLY",
       "destination": "Ottawa"
     },
     {
@@ -703,7 +685,7 @@
       "flight": "AC2061",
       "expected": "07:10",
       "actual": "07:10",
-      "gate": "-",
+      "gate": "24",
       "status": "ON TIME",
       "destination": "Toronto (YYZ)"
     },
