@@ -1,22 +1,13 @@
 {
-  "updated": "2026-11-28T10:45:15.320595Z",
+  "updated": "2026-11-28T11:00:19.523222Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
     {
-      "carrier": "WestJet",
-      "flight": "WS670",
-      "expected": "05:40",
-      "actual": "05:30",
-      "gate": "20",
-      "status": "ARRIVED",
-      "from": "Calgary"
-    },
-    {
       "carrier": "Porter",
       "flight": "PD2426",
       "expected": "08:44",
-      "actual": "08:44",
+      "actual": "08:30",
       "gate": "6",
       "status": "ON TIME",
       "from": "St. John's"
@@ -468,9 +459,9 @@
       "carrier": "WestJet",
       "flight": "WS577",
       "expected": "06:15",
-      "actual": "06:25",
+      "actual": "06:38",
       "gate": "26",
-      "status": "ON TIME",
+      "status": "LATE",
       "destination": "Edmonton"
     },
     {
@@ -479,7 +470,7 @@
       "expected": "06:30",
       "actual": "06:30",
       "gate": "27",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Toronto (YYZ)"
     },
     {
@@ -497,7 +488,7 @@
       "expected": "06:30",
       "actual": "06:30",
       "gate": "10",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Montreal (YHU)"
     },
     {
