@@ -1,17 +1,8 @@
 {
-  "updated": "2026-11-28T15:45:15.788062Z",
+  "updated": "2026-11-28T16:00:19.927816Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Air Canada",
-      "flight": "AC662",
-      "expected": "10:35",
-      "actual": "10:48",
-      "gate": "20",
-      "status": "CANCELLED",
-      "from": "Montreal (YUL)"
-    },
     {
       "carrier": "Air Canada",
       "flight": "AC2056",
@@ -26,7 +17,7 @@
       "flight": "PD2427",
       "expected": "11:21",
       "actual": "13:38",
-      "gate": "3",
+      "gate": "6",
       "status": "DELAYED",
       "from": "Hamilton"
     },
@@ -52,18 +43,18 @@
       "carrier": "Air Canada",
       "flight": "AC7688",
       "expected": "11:58",
-      "actual": "11:44",
+      "actual": "11:43",
       "gate": "2A",
-      "status": "ON TIME",
+      "status": "EARLY",
       "from": "Ottawa"
     },
     {
       "carrier": "Air Canada",
       "flight": "AC2081",
       "expected": "12:00",
-      "actual": "11:50",
+      "actual": "11:53",
       "gate": "24",
-      "status": "ON TIME",
+      "status": "ARRIVED",
       "from": "London (LHR)"
     },
     {
@@ -115,7 +106,7 @@
       "carrier": "United Airlines",
       "flight": "UA3531",
       "expected": "13:24",
-      "actual": "12:53",
+      "actual": "13:00",
       "gate": "57",
       "status": "EARLY",
       "from": "Newark"
@@ -125,7 +116,7 @@
       "flight": "PD2327",
       "expected": "13:58",
       "actual": "13:58",
-      "gate": "6",
+      "gate": "3",
       "status": "ON TIME",
       "from": "Montreal (YUL)"
     },
@@ -179,7 +170,7 @@
       "flight": "PD2428",
       "expected": "16:59",
       "actual": "16:59",
-      "gate": "6",
+      "gate": "16",
       "status": "ON TIME",
       "from": "St. John's"
     },
@@ -214,9 +205,9 @@
       "carrier": "WestJet",
       "flight": "WS2175",
       "expected": "18:30",
-      "actual": "18:30",
+      "actual": "18:11",
       "gate": "24",
-      "status": "ON TIME",
+      "status": "EARLY",
       "from": "Cancun"
     },
     {
@@ -631,7 +622,7 @@
       "flight": "PD2494",
       "expected": "15:15",
       "actual": "15:15",
-      "gate": "3",
+      "gate": "6",
       "status": "ON TIME",
       "destination": "Ottawa"
     },
@@ -676,7 +667,7 @@
       "flight": "PD2506",
       "expected": "17:40",
       "actual": "17:40",
-      "gate": "6",
+      "gate": "16",
       "status": "ON TIME",
       "destination": "Montreal (YHU)"
     },
