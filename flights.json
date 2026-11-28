@@ -1,26 +1,8 @@
 {
-  "updated": "2026-11-28T14:30:19.607179Z",
+  "updated": "2026-11-28T14:45:15.200083Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Air Canada",
-      "flight": "AC7671",
-      "expected": "09:26",
-      "actual": "09:31",
-      "gate": "2A",
-      "status": "ARRIVED",
-      "from": "St. John's"
-    },
-    {
-      "carrier": "Air Canada",
-      "flight": "AC600",
-      "expected": "09:32",
-      "actual": "09:26",
-      "gate": "22",
-      "status": "ARRIVED",
-      "from": "Toronto (YYZ)"
-    },
     {
       "carrier": "Flair Airlines",
       "flight": "F8650",
@@ -71,7 +53,7 @@
       "flight": "PD241",
       "expected": "11:35",
       "actual": "15:30",
-      "gate": "12",
+      "gate": "10",
       "status": "DELAYED",
       "from": "Ottawa"
     },
@@ -98,7 +80,7 @@
       "flight": "PD201",
       "expected": "12:09",
       "actual": "12:09",
-      "gate": "10",
+      "gate": "12",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
     },
@@ -479,27 +461,36 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD2427",
+      "expected": "11:21",
+      "actual": "11:21",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Hamilton"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD2505",
+      "expected": "11:22",
+      "actual": "11:22",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Montreal (YHU)"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD241",
+      "expected": "11:35",
+      "actual": "11:35",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Ottawa"
     }
   ],
   "departures": [
-    {
-      "carrier": "Porter",
-      "flight": "PD2328",
-      "expected": "09:25",
-      "actual": "09:25",
-      "gate": "3",
-      "status": "DEPARTED",
-      "destination": "Montreal (YUL)"
-    },
-    {
-      "carrier": "Porter",
-      "flight": "PD2426",
-      "expected": "09:30",
-      "actual": "09:30",
-      "gate": "6",
-      "status": "DEPARTED",
-      "destination": "Hamilton"
-    },
     {
       "carrier": "Porter",
       "flight": "PD202",
@@ -964,6 +955,15 @@
       "flight": "AC663",
       "expected": "11:25",
       "actual": "11:25",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Montreal (YUL)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC2049",
+      "expected": "11:26",
+      "actual": "11:26",
       "gate": "-",
       "status": "ON TIME",
       "destination": "Montreal (YUL)"
