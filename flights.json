@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T15:30:17.439518Z",
+  "updated": "2026-11-28T15:45:15.788062Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -25,7 +25,7 @@
       "carrier": "Porter",
       "flight": "PD2427",
       "expected": "11:21",
-      "actual": "13:35",
+      "actual": "13:38",
       "gate": "3",
       "status": "DELAYED",
       "from": "Hamilton"
@@ -43,7 +43,7 @@
       "carrier": "Porter",
       "flight": "PD241",
       "expected": "11:35",
-      "actual": "15:30",
+      "actual": "16:59",
       "gate": "10",
       "status": "DELAYED",
       "from": "Ottawa"
@@ -115,7 +115,7 @@
       "carrier": "United Airlines",
       "flight": "UA3531",
       "expected": "13:24",
-      "actual": "12:55",
+      "actual": "12:53",
       "gate": "57",
       "status": "EARLY",
       "from": "Newark"
@@ -509,24 +509,6 @@
     }
   ],
   "departures": [
-    {
-      "carrier": "Air Canada",
-      "flight": "AC607",
-      "expected": "10:25",
-      "actual": "10:25",
-      "gate": "22",
-      "status": "DEPARTED",
-      "destination": "Toronto (YYZ)"
-    },
-    {
-      "carrier": "Air Canada",
-      "flight": "AC7674",
-      "expected": "10:30",
-      "actual": "10:30",
-      "gate": "2A",
-      "status": "DEPARTED",
-      "destination": "St. John's"
-    },
     {
       "carrier": "Flair Airlines",
       "flight": "F8651",
@@ -994,6 +976,24 @@
       "gate": "-",
       "status": "ON TIME",
       "destination": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD242",
+      "expected": "12:30",
+      "actual": "12:30",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Ottawa"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7696",
+      "expected": "12:35",
+      "actual": "12:35",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Gander"
     }
   ]
 }
