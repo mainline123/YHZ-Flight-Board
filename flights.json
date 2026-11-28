@@ -1,17 +1,8 @@
 {
-  "updated": "2026-11-28T15:15:16.500899Z",
+  "updated": "2026-11-28T15:30:17.439518Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Flair Airlines",
-      "flight": "F8650",
-      "expected": "10:15",
-      "actual": "10:02",
-      "gate": "16",
-      "status": "ARRIVED",
-      "from": "Toronto (YYZ)"
-    },
     {
       "carrier": "Air Canada",
       "flight": "AC662",
@@ -43,9 +34,9 @@
       "carrier": "Porter",
       "flight": "PD2505",
       "expected": "11:22",
-      "actual": "11:12",
+      "actual": "11:22",
       "gate": "6",
-      "status": "ON TIME",
+      "status": "ARRIVED",
       "from": "Montreal (YHU)"
     },
     {
@@ -520,15 +511,6 @@
   "departures": [
     {
       "carrier": "Air Canada",
-      "flight": "AC7665",
-      "expected": "10:15",
-      "actual": "10:15",
-      "gate": "56",
-      "status": "ON TIME",
-      "destination": "Newark"
-    },
-    {
-      "carrier": "Air Canada",
       "flight": "AC607",
       "expected": "10:25",
       "actual": "10:25",
@@ -546,6 +528,15 @@
       "destination": "St. John's"
     },
     {
+      "carrier": "Flair Airlines",
+      "flight": "F8651",
+      "expected": "11:00",
+      "actual": "11:00",
+      "gate": "16",
+      "status": "DEPARTED",
+      "destination": "Toronto (YYZ)"
+    },
+    {
       "carrier": "Air Canada",
       "flight": "AC2080",
       "expected": "11:00",
@@ -553,15 +544,6 @@
       "gate": "23",
       "status": "DEPARTED",
       "destination": "London (LHR)"
-    },
-    {
-      "carrier": "Flair Airlines",
-      "flight": "F8651",
-      "expected": "11:00",
-      "actual": "11:00",
-      "gate": "16",
-      "status": "ON TIME",
-      "destination": "Toronto (YYZ)"
     },
     {
       "carrier": "Air Canada",
@@ -985,6 +967,33 @@
       "gate": "-",
       "status": "ON TIME",
       "destination": "Montreal (YUL)"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD2427",
+      "expected": "12:15",
+      "actual": "12:15",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "St. John's"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC601",
+      "expected": "12:15",
+      "actual": "12:15",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC2067",
+      "expected": "12:16",
+      "actual": "12:16",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Toronto (YYZ)"
     }
   ]
 }
