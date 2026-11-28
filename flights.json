@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T06:00:23.289579Z",
+  "updated": "2026-11-28T06:15:15.292821Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -7,9 +7,9 @@
       "carrier": "WestJet",
       "flight": "WS800",
       "expected": "01:55",
-      "actual": "02:05",
+      "actual": "02:06",
       "gate": "12",
-      "status": "ON TIME",
+      "status": "ARRIVED",
       "from": "Toronto (YYZ)"
     },
     {
