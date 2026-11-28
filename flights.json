@@ -1,17 +1,8 @@
 {
-  "updated": "2026-11-28T05:15:14.497688Z",
+  "updated": "2026-11-28T05:30:19.221714Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Air Canada",
-      "flight": "AC2050",
-      "expected": "00:15",
-      "actual": "00:31",
-      "gate": "23",
-      "status": "LATE",
-      "from": "Montreal (YUL)"
-    },
     {
       "carrier": "WestJet",
       "flight": "WS800",
