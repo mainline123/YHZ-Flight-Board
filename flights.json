@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T16:00:19.927816Z",
+  "updated": "2026-11-28T16:15:16.517612Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -497,27 +497,18 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "London (LHR)"
-    }
-  ],
-  "departures": [
-    {
-      "carrier": "Flair Airlines",
-      "flight": "F8651",
-      "expected": "11:00",
-      "actual": "11:00",
-      "gate": "16",
-      "status": "DEPARTED",
-      "destination": "Toronto (YYZ)"
     },
     {
       "carrier": "Air Canada",
-      "flight": "AC2080",
-      "expected": "11:00",
-      "actual": "11:00",
-      "gate": "23",
-      "status": "DEPARTED",
-      "destination": "London (LHR)"
-    },
+      "flight": "AC7673",
+      "expected": "13:01",
+      "actual": "13:01",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "St. John's"
+    }
+  ],
+  "departures": [
     {
       "carrier": "Air Canada",
       "flight": "AC663",
@@ -985,6 +976,15 @@
       "gate": "-",
       "status": "ON TIME",
       "destination": "Gander"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC1780",
+      "expected": "13:05",
+      "actual": "13:05",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Punta Cana"
     }
   ]
 }
