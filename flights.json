@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T15:00:20.373673Z",
+  "updated": "2026-11-28T15:15:16.500899Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -25,9 +25,9 @@
       "carrier": "Air Canada",
       "flight": "AC2056",
       "expected": "11:13",
-      "actual": "11:04",
+      "actual": "11:00",
       "gate": "22",
-      "status": "ON TIME",
+      "status": "ARRIVED",
       "from": "Toronto (YYZ)"
     },
     {
@@ -35,7 +35,7 @@
       "flight": "PD2427",
       "expected": "11:21",
       "actual": "13:35",
-      "gate": "6",
+      "gate": "3",
       "status": "DELAYED",
       "from": "Hamilton"
     },
@@ -44,7 +44,7 @@
       "flight": "PD2505",
       "expected": "11:22",
       "actual": "11:12",
-      "gate": "3",
+      "gate": "6",
       "status": "ON TIME",
       "from": "Montreal (YHU)"
     },
@@ -106,7 +106,7 @@
       "carrier": "Air Canada",
       "flight": "AC2072",
       "expected": "13:13",
-      "actual": "13:03",
+      "actual": "12:59",
       "gate": "20",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
@@ -124,7 +124,7 @@
       "carrier": "United Airlines",
       "flight": "UA3531",
       "expected": "13:24",
-      "actual": "13:00",
+      "actual": "12:55",
       "gate": "57",
       "status": "EARLY",
       "from": "Newark"
@@ -152,7 +152,7 @@
       "flight": "AC7677",
       "expected": "15:21",
       "actual": "15:21",
-      "gate": "2C",
+      "gate": "12",
       "status": "ON TIME",
       "from": "St. John's"
     },
@@ -170,7 +170,7 @@
       "flight": "AC664",
       "expected": "15:55",
       "actual": "15:55",
-      "gate": "20",
+      "gate": "24",
       "status": "ON TIME",
       "from": "Montreal (YUL)"
     },
@@ -497,18 +497,27 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7688",
+      "expected": "11:58",
+      "actual": "11:58",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Ottawa"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC2081",
+      "expected": "12:00",
+      "actual": "12:00",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "London (LHR)"
     }
   ],
   "departures": [
-    {
-      "carrier": "Porter",
-      "flight": "PD202",
-      "expected": "10:00",
-      "actual": "10:00",
-      "gate": "10",
-      "status": "DEPARTED",
-      "destination": "Toronto (YYZ)"
-    },
     {
       "carrier": "Air Canada",
       "flight": "AC7665",
@@ -542,7 +551,7 @@
       "expected": "11:00",
       "actual": "11:00",
       "gate": "23",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "London (LHR)"
     },
     {
@@ -685,7 +694,7 @@
       "flight": "AC7678",
       "expected": "16:40",
       "actual": "16:40",
-      "gate": "2C",
+      "gate": "12",
       "status": "ON TIME",
       "destination": "St. John's"
     },
@@ -694,7 +703,7 @@
       "flight": "AC667",
       "expected": "17:00",
       "actual": "17:00",
-      "gate": "20",
+      "gate": "24",
       "status": "ON TIME",
       "destination": "Montreal (YUL)"
     },
