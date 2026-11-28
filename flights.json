@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T12:00:20.869726Z",
+  "updated": "2026-11-28T12:15:16.219540Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -43,7 +43,7 @@
       "carrier": "Flair Airlines",
       "flight": "F8650",
       "expected": "10:15",
-      "actual": "10:15",
+      "actual": "10:10",
       "gate": "16",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
@@ -52,7 +52,7 @@
       "carrier": "Air Canada",
       "flight": "AC662",
       "expected": "10:35",
-      "actual": "10:35",
+      "actual": "10:28",
       "gate": "20",
       "status": "ON TIME",
       "from": "Montreal (YUL)"
@@ -61,7 +61,7 @@
       "carrier": "Air Canada",
       "flight": "AC2056",
       "expected": "11:13",
-      "actual": "11:13",
+      "actual": "11:08",
       "gate": "22",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
@@ -428,15 +428,6 @@
     }
   ],
   "departures": [
-    {
-      "carrier": "WestJet",
-      "flight": "WS2174",
-      "expected": "07:00",
-      "actual": "07:00",
-      "gate": "18",
-      "status": "DEPARTED",
-      "destination": "Cancun"
-    },
     {
       "carrier": "Air Canada",
       "flight": "AC605",
