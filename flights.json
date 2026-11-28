@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T05:00:19.661778Z",
+  "updated": "2026-11-28T05:15:14.497688Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -25,7 +25,7 @@
       "carrier": "Air Canada",
       "flight": "AC620",
       "expected": "01:58",
-      "actual": "01:53",
+      "actual": "01:47",
       "gate": "24",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
@@ -440,6 +440,15 @@
       "flight": "WS800",
       "expected": "01:55",
       "actual": "01:55",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC2064",
+      "expected": "01:58",
+      "actual": "01:58",
       "gate": "-",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
