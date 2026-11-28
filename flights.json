@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T08:00:21.169174Z",
+  "updated": "2026-11-28T08:15:14.143976Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -850,6 +850,15 @@
       "gate": "3",
       "status": "ON TIME",
       "destination": "St. John's"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC2057",
+      "expected": "05:00",
+      "actual": "05:00",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Toronto (YYZ)"
     }
   ]
 }
