@@ -1,17 +1,8 @@
 {
-  "updated": "2026-11-28T01:30:17.693309Z",
+  "updated": "2026-11-28T01:43:47.859939Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Porter",
-      "flight": "PD2497",
-      "expected": "20:20",
-      "actual": "22:00",
-      "gate": "6",
-      "status": "DELAYED",
-      "from": "Ottawa"
-    },
     {
       "carrier": "Air Canada",
       "flight": "AC2062",
@@ -25,9 +16,9 @@
       "carrier": "Air Canada",
       "flight": "AC7668",
       "expected": "21:09",
-      "actual": "21:30",
+      "actual": "21:26",
       "gate": "57",
-      "status": "DELAYED",
+      "status": "ARRIVED",
       "from": "Boston"
     },
     {
@@ -52,9 +43,9 @@
       "carrier": "Air Canada",
       "flight": "AC668",
       "expected": "21:35",
-      "actual": "21:36",
+      "actual": "21:32",
       "gate": "20",
-      "status": "ON TIME",
+      "status": "ARRIVED",
       "from": "Montreal (YUL)"
     },
     {
@@ -482,24 +473,6 @@
     }
   ],
   "departures": [
-    {
-      "carrier": "Flair Airlines",
-      "flight": "F8409",
-      "expected": "20:25",
-      "actual": "21:00",
-      "gate": "22",
-      "status": "DELAYED",
-      "destination": "Kitchener-Waterloo"
-    },
-    {
-      "carrier": "Air Canada",
-      "flight": "AC7682",
-      "expected": "20:30",
-      "actual": "20:30",
-      "gate": "2C",
-      "status": "DEPARTED",
-      "destination": "St. John's"
-    },
     {
       "carrier": "Air Canada",
       "flight": "AC7708",
