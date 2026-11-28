@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T13:30:22.276604Z",
+  "updated": "2026-11-28T13:45:14.038690Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -25,9 +25,9 @@
       "carrier": "Air Canada",
       "flight": "AC7671",
       "expected": "09:26",
-      "actual": "09:28",
+      "actual": "09:31",
       "gate": "2A",
-      "status": "ON TIME",
+      "status": "ARRIVED",
       "from": "St. John's"
     },
     {
@@ -36,7 +36,7 @@
       "expected": "09:32",
       "actual": "09:26",
       "gate": "22",
-      "status": "ON TIME",
+      "status": "ARRIVED",
       "from": "Toronto (YYZ)"
     },
     {
@@ -88,9 +88,9 @@
       "carrier": "Porter",
       "flight": "PD241",
       "expected": "11:35",
-      "actual": "11:35",
+      "actual": "15:30",
       "gate": "12",
-      "status": "ON TIME",
+      "status": "DELAYED",
       "from": "Ottawa"
     },
     {
@@ -461,6 +461,15 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC662",
+      "expected": "10:35",
+      "actual": "10:35",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Montreal (YUL)"
     }
   ],
   "departures": [
@@ -904,6 +913,24 @@
       "gate": "-",
       "status": "ON TIME",
       "destination": "Newark"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC607",
+      "expected": "10:25",
+      "actual": "10:25",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7674",
+      "expected": "10:30",
+      "actual": "10:30",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "St. John's"
     }
   ]
 }
