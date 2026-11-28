@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T08:15:14.143976Z",
+  "updated": "2026-11-28T08:30:17.441584Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -158,20 +158,20 @@
     },
     {
       "carrier": "Air Canada",
+      "flight": "AC2062",
+      "expected": "13:13",
+      "actual": "13:13",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
       "flight": "AC602",
       "expected": "13:13",
       "actual": "13:13",
       "gate": "22",
       "status": "CANCELLED",
-      "from": "Toronto (YYZ)"
-    },
-    {
-      "carrier": "Air Canada",
-      "flight": "AC2062",
-      "expected": "13:14",
-      "actual": "13:14",
-      "gate": "-",
-      "status": "ON TIME",
       "from": "Toronto (YYZ)"
     },
     {
@@ -467,8 +467,8 @@
     {
       "carrier": "Air Canada",
       "flight": "AC2061",
-      "expected": "06:01",
-      "actual": "06:01",
+      "expected": "06:00",
+      "actual": "06:00",
       "gate": "-",
       "status": "ON TIME",
       "destination": "Toronto (YYZ)"
@@ -728,8 +728,8 @@
     {
       "carrier": "Air Canada",
       "flight": "AC2059",
-      "expected": "15:06",
-      "actual": "15:06",
+      "expected": "15:05",
+      "actual": "15:05",
       "gate": "-",
       "status": "ON TIME",
       "destination": "Toronto (YYZ)"
@@ -859,6 +859,15 @@
       "gate": "-",
       "status": "ON TIME",
       "destination": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC661",
+      "expected": "05:10",
+      "actual": "05:10",
+      "gate": "-",
+      "status": "ON TIME",
+      "destination": "Montreal (YUL)"
     }
   ]
 }
