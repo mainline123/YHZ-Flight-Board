@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T12:45:14.685400Z",
+  "updated": "2026-11-28T13:00:26.050931Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -52,7 +52,7 @@
       "carrier": "Air Canada",
       "flight": "AC662",
       "expected": "10:35",
-      "actual": "10:28",
+      "actual": "10:48",
       "gate": "20",
       "status": "ON TIME",
       "from": "Montreal (YUL)"
