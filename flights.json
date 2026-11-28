@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T11:15:16.443793Z",
+  "updated": "2026-11-28T11:30:18.239935Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -16,7 +16,7 @@
       "carrier": "Air Canada",
       "flight": "AC7707",
       "expected": "09:07",
-      "actual": "09:07",
+      "actual": "09:04",
       "gate": "26",
       "status": "ON TIME",
       "from": "Goose Bay"
@@ -420,24 +420,6 @@
   ],
   "departures": [
     {
-      "carrier": "Air Canada",
-      "flight": "AC2047",
-      "expected": "06:05",
-      "actual": "06:05",
-      "gate": "23",
-      "status": "DEPARTED",
-      "destination": "Montreal (YUL)"
-    },
-    {
-      "carrier": "WestJet",
-      "flight": "WS577",
-      "expected": "06:15",
-      "actual": "06:38",
-      "gate": "26",
-      "status": "LATE",
-      "destination": "Edmonton"
-    },
-    {
       "carrier": "Porter",
       "flight": "PD240",
       "expected": "06:30",
@@ -488,7 +470,7 @@
       "expected": "07:10",
       "actual": "07:10",
       "gate": "24",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "Toronto (YYZ)"
     },
     {
@@ -890,8 +872,8 @@
     {
       "carrier": "Air Canada",
       "flight": "AC605",
-      "expected": "07:10",
-      "actual": "07:10",
+      "expected": "07:11",
+      "actual": "07:11",
       "gate": "-",
       "status": "ON TIME",
       "destination": "Toronto (YYZ)"
