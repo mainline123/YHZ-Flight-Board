@@ -1,22 +1,13 @@
 {
-  "updated": "2026-11-28T02:15:14.507100Z",
+  "updated": "2026-11-28T02:30:19.695657Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
     {
-      "carrier": "WestJet",
-      "flight": "WS980",
-      "expected": "21:10",
-      "actual": "21:05",
-      "gate": "18",
-      "status": "ARRIVED",
-      "from": "Calgary"
-    },
-    {
       "carrier": "Air Canada",
       "flight": "AC7681",
       "expected": "21:31",
-      "actual": "23:41",
+      "actual": "00:16",
       "gate": "2A",
       "status": "DELAYED",
       "from": "St. John's"
@@ -34,9 +25,9 @@
       "carrier": "Porter",
       "flight": "PD493",
       "expected": "21:50",
-      "actual": "22:13",
+      "actual": "22:14",
       "gate": "12",
-      "status": "DELAYED",
+      "status": "LATE",
       "from": "Montreal (YHU)"
     },
     {
@@ -88,7 +79,7 @@
       "carrier": "WestJet",
       "flight": "WS800",
       "expected": "01:55",
-      "actual": "01:55",
+      "actual": "02:07",
       "gate": "12",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
@@ -464,15 +455,6 @@
     }
   ],
   "departures": [
-    {
-      "carrier": "Porter",
-      "flight": "PD2429",
-      "expected": "21:05",
-      "actual": "22:29",
-      "gate": "6",
-      "status": "DELAYED",
-      "destination": "St. John's"
-    },
     {
       "carrier": "Air Canada",
       "flight": "AC2057",
