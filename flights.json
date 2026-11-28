@@ -1,17 +1,8 @@
 {
-  "updated": "2026-11-28T01:00:19.370734Z",
+  "updated": "2026-11-28T01:15:14.303321Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Air Canada",
-      "flight": "AC7705",
-      "expected": "19:55",
-      "actual": "19:55",
-      "gate": "2A",
-      "status": "CANCELLED",
-      "from": "Deer Lake"
-    },
     {
       "carrier": "Porter",
       "flight": "PD2497",
@@ -43,9 +34,9 @@
       "carrier": "WestJet",
       "flight": "WS980",
       "expected": "21:10",
-      "actual": "21:04",
+      "actual": "21:05",
       "gate": "18",
-      "status": "ON TIME",
+      "status": "ARRIVED",
       "from": "Calgary"
     },
     {
@@ -506,7 +497,7 @@
       "expected": "20:30",
       "actual": "20:30",
       "gate": "2C",
-      "status": "ON TIME",
+      "status": "DEPARTED",
       "destination": "St. John's"
     },
     {
