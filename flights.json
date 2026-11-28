@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T00:30:17.956948Z",
+  "updated": "2026-11-28T00:45:14.788758Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
@@ -9,7 +9,7 @@
       "expected": "19:40",
       "actual": "20:25",
       "gate": "22",
-      "status": "ARRIVED",
+      "status": "LATE",
       "from": "Kitchener-Waterloo"
     },
     {
@@ -106,7 +106,7 @@
       "carrier": "Air Canada",
       "flight": "AC618",
       "expected": "22:38",
-      "actual": "22:29",
+      "actual": "22:35",
       "gate": "22",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
@@ -479,6 +479,24 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Boston"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC7681",
+      "expected": "21:31",
+      "actual": "21:31",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "St. John's"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC668",
+      "expected": "21:35",
+      "actual": "21:35",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Montreal (YUL)"
     }
   ],
   "departures": [
