@@ -1,24 +1,15 @@
 {
-  "updated": "2026-11-28T03:00:21.990514Z",
+  "updated": "2026-11-28T03:15:16.555881Z",
   "airport": "YHZ",
   "source": "Halifax Stanfield public flight pages",
   "arrivals": [
-    {
-      "carrier": "Porter",
-      "flight": "PD493",
-      "expected": "21:50",
-      "actual": "22:14",
-      "gate": "12",
-      "status": "LATE",
-      "from": "Montreal (YHU)"
-    },
     {
       "carrier": "Air Canada",
       "flight": "AC618",
       "expected": "22:38",
       "actual": "23:00",
       "gate": "22",
-      "status": "DELAYED",
+      "status": "LATE",
       "from": "Toronto (YYZ)"
     },
     {
@@ -52,7 +43,7 @@
       "carrier": "Air Canada",
       "flight": "AC2050",
       "expected": "00:15",
-      "actual": "00:17",
+      "actual": "00:24",
       "gate": "23",
       "status": "ON TIME",
       "from": "Montreal (YUL)"
@@ -70,7 +61,7 @@
       "carrier": "Air Canada",
       "flight": "AC620",
       "expected": "01:58",
-      "actual": "01:58",
+      "actual": "01:48",
       "gate": "24",
       "status": "ON TIME",
       "from": "Toronto (YYZ)"
@@ -269,7 +260,7 @@
       "flight": "AC7202",
       "expected": "14:08",
       "actual": "14:08",
-      "gate": "-",
+      "gate": "2A",
       "status": "ON TIME",
       "from": "Ottawa"
     },
@@ -287,7 +278,7 @@
       "flight": "AC7690",
       "expected": "15:23",
       "actual": "15:23",
-      "gate": "2A",
+      "gate": "2E",
       "status": "ON TIME",
       "from": "Ottawa"
     },
@@ -452,6 +443,24 @@
       "gate": "-",
       "status": "ON TIME",
       "from": "Ottawa"
+    },
+    {
+      "carrier": "Porter",
+      "flight": "PD211",
+      "expected": "23:54",
+      "actual": "23:54",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Toronto (YYZ)"
+    },
+    {
+      "carrier": "Air Canada",
+      "flight": "AC1897",
+      "expected": "00:10",
+      "actual": "00:10",
+      "gate": "-",
+      "status": "ON TIME",
+      "from": "Cancun"
     }
   ],
   "departures": [
